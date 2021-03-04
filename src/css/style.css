@@ -14183,7 +14183,7 @@ ol.commentlist li .star-rating {
 
 
     .home-top-cities {
-        padding-top: 50px !important;
+        padding-top: 0px !important;
         padding-bottom: 50px !important;
     }
     
@@ -14296,8 +14296,12 @@ a.custom-btn:hover {
 }
 
 .inner-banner {
-    padding: 200px 0 100px 0px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .inner-banner .bnr-content h2 a {
     color: #fff;
@@ -14585,9 +14589,10 @@ section.quote-contact-box {
 
 .services-main .services-content a {
     color: #ab8b64;
-    font-weight: 500;
 }
-
+.services-main .services-content a:hover {
+    color: #333;
+}
 .services-main .services-content ul li {
     padding-left: 20px;
     position: relative;
@@ -14604,10 +14609,12 @@ section.quote-contact-box {
 }
 
 
-.premium-luxury {
+.premium-luxury,
+.car-services {
     margin-top: 70px;
 }
-.premium-luxury .col-md-4 {
+.premium-luxury .col-md-4,
+.car-services .col-md-4 {
     text-align: center;
 }
 
@@ -14665,7 +14672,7 @@ a.anchor {
 a.anchor:hover {
     color: #15141a;
 }
-section.section-full.wine-tour {
+section.section-full.services-main {
     margin-bottom: 70px;
 }
 .booknowtable {
@@ -14677,7 +14684,7 @@ section.section-full.wine-tour {
 }
 
 .booknowtable table td {
-    border: 1px solid #ddd;
+    border: 1px solid #3e3e3e;
 }
 
 .booknowtable table td, 
@@ -14686,7 +14693,11 @@ section.section-full.wine-tour {
     font-weight: 600;
 }
 
-
+section.section-full.booking-form iframe {
+    padding: 10px;
+    background: #fff;
+    border: 3px solid #ab8b64;
+}
 
 
 
@@ -14694,3 +14705,43 @@ section.section-full.wine-tour {
         SERVICES PAGE CSS END HERE
 =========================================**/
 
+/**======================================
+        TOP CITIES PAGE CSS START HERE
+=========================================**/
+
+
+.cities-content ul li a {font-weight: 400;color: #ab8b64;}
+
+.cities-content ul li a:hover {
+    color: #15141a;
+}
+.car-services {
+    margin-bottom: 70px;
+}
+ul.atlanta-serivces {
+    list-style: decimal;
+    padding-left: 20px;
+}
+.atlanta-one {
+    margin-bottom: 30px !important;
+}
+.atlanta-one .inside-banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**======================================
+        TOP CITIES PAGE CSS END HERE
+=========================================**/

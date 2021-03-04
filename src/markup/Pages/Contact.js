@@ -4,6 +4,7 @@ import Header from './../Layout/Header';
 import Footer from './../Layout/Footer';
 import GoogleMaps from "simple-react-google-maps";
 import Contactus from './../Element/Contactus';
+import InnerBanner from '../Element/Innerbanner';
 
 class Contact extends Component{
 	render(){
@@ -16,7 +17,8 @@ class Contact extends Component{
 				
 				<div className="page-content bg-white">
 				
-					<Contactus />
+					<InnerBanner />
+					
 					
 					<section className="section-full content-inner">
 						<div className="container">

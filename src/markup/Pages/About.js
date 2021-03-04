@@ -5,8 +5,9 @@ import Footer from './../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
 
-var aboutimg1 = require('./../../images/about/AboutLimo1.jpg');
-var aboutimg2 = require('./../../images/about/AboutLimo2.jpg');
+// var aboutimg3 = require('./../../images/services/Grand-Limousine-MKT.jpg');
+
+
 
 class About extends Component{
 	render(){
@@ -20,7 +21,7 @@ class About extends Component{
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
-                            <h2 className="box-title">About Us – Grand Limousine Private Transportation</h2>
+                            <h2 className="box-title">About Us – Grand Limousine</h2>
                             <div className="dlab-separator bg-primary"></div>
                             <p>Grand Limousine – " Trusted Quality Dependable Service Since 2007 "</p>
                         </div>
@@ -30,17 +31,13 @@ class About extends Component{
                 <section className="about-content heading pb-5">
                     <div className="container">
 
-                        <div className="aboutlimo1 text-center m-5">
-                        <img src={aboutimg1}></img>
-                        </div>
+                        {/* <div className="aboutlimo1 text-center m-5">
+                        <img src={aboutimg3}></img>
+                        </div> */}
 
                         <p><strong>About Us </strong> – Are you looking for a reliable limousine Service near you? If yes, then we are here to help. Grand Limousine is one of the best companies specializing in offering chauffeur-driven Car and Limousine services in Georgia, Florida, New York, California, and Texas. Our exclusive car services are available at competitive rates. We are presenting high-end limousine and luxury transportation. Also, we have been in this town car service business for more than 15 years. That is why you can entirely rely on us. It is a sincere, custom limousine service.</p>
                         <p>Here at Grand Limousine, we have designed our limousine and car services with great care and attention. Our professional chauffeurs always strive to meet your transport needs. We do our level best to make your transportation safer, more satisfactory, and hassle-free. Whether you need our service for an airport transfer, private tour, particular event transfer, or limousine tour, we are here to help you out. You call us on (404) 424-4499.</p>
                         <p>With Grand Limousine, you can enjoy reliable transport that is both safe and affordable. The professional and knowledgeable chauffeurs operate all our cars. Also, our friendly staff offers you the best customer support. We provide you with the advanced facilities so you can enjoy the ride to the fullest.</p>
-                   
-                        <div className="aboutlimo2 text-center m-5">
-                        <img src={aboutimg2}></img>
-                        </div>
                    
                         <h4>No compromise with quality customer service</h4>
                         <p>Our group of staff strives to provide the best customer care. From the business to the individual transport need, we try our best to exceed your expectations. It is our commitment to meet clients’ needs that makes Grand Limousine one of the most excellent limousine service providers in the industry. Whether you need an airport chauffeur transfer, corporate transportation, or wedding limousine, we are here to serve you. We take pride in our record of many satisfied customers.</p>

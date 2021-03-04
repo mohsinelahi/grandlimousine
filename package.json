@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "jquery": "^3.6.0",
     "react": "^16.14.0",
     "react-animated-slider": "^1.1.4",
     "react-bootstrap": "^1.4.0",

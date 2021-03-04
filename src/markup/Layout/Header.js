@@ -67,11 +67,19 @@ class Header extends Component{
 											<li><Link to={"/wedding-transportation"}>Wedding Limousine Service<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/airport-car-service"}>Airport Car Service<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/wine-tour"}>Wine Tour<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/transportation-coordinator"}>Transportation Coordinator<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/church-limo"}>Church Limo<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/casino-trips"}>Casino Trips<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/party-limo"}>Party Limo<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/bachelor-party"}>Bachelor Party<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/bachelorette-party"}>Bachelorette Party<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/graduation-limo"}>Graduation Limo<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/concert-limo"}>Concert Limo<span className="tag-new">New</span></Link></li>
 										</ul>
 									</li>
 									<li className="down"><Link to={"/top-cities"}>Top Cities <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
-											<li><Link to={"#"}>San Francisco, CA</Link></li>
+											<li><Link to={"/atlanta"}>Atlanta, GA</Link></li>
 											<li><Link to={"#"}>Los Angeles, CA<span className="tag-new">New</span></Link></li>
 											<li><Link to={"#"}>Houston, TX<span className="tag-new">New</span></Link></li>
 											<li><Link to={"#"}>Chicago, IL<span className="tag-new">New</span></Link></li>

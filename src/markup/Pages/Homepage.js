@@ -11,6 +11,7 @@ import Userowl from './../Element/Userowl';
 import Fromblog from './../Element/Fromblog';
 
 import Tabcontent from './../Element/Tabcontent';
+import InnerBanner from '../Element/Innerbanner';
 
 var bnr = require('./../../images/main-slider/banner-image.jpg');
 
@@ -27,79 +28,7 @@ class Homepage extends Component{
 
 				<div className="page-content bg-white">
 
-					<div className="dlab-bnr-inr dlab-bnr-inr-md main-home-banner" style={{backgroundImage:"url(" + bnr + ")", backgroundSize: "cover"}}>
-			            <div className="container">
-						<div className="row">
-    
-
-						<div className="col-md-4 banner-c-table left">
-							<div className="cont"> 
-							<form action="#">
-							<input  type="text" className="validate" placeholder="Pickup Addres or Airport" />
-
-							<input  type="text" className="validate"  placeholder="Drop-off Addres or Airport"/>
-
-							<div>
-							<input  type="text" className="validate"  placeholder="Day"/>
-							<input  type="text" className="validate"  placeholder="Time"/>
-
-							</div>
-							<input  type="submit" className="validate" />
-							</form>
-							</div>
-						</div>
-
-						<div className="col-md-8">
-    
-	
-						<div className="dlab-bnr-inr-entry align-m dlab-home right">
-								<div className="bnr-content">
-									<h2><strong>BOOK YOUR RIDE INSTANTLY</strong> TRAVEL IN CONFORT. ALWAYS ON TIME </h2>
-									<h5>Call <a href="tel:(404) 424-4499">(404) 424-4499</a></h5>
-							
-								</div>
-								
-								<div className="dlab-tabs search-filter">
-									<Tabcontent />
-								</div>
-								
-								{/* <div className="category-bx">
-									<Link to={"./listing-left-sidebar"} className="category">
-										<i className="flaticon-cart-of-ecommerce"></i>
-										<p>carts</p>
-									</Link>
-									<Link to={"/listing-left-sidebar"} className="category">
-										<i className="flaticon-carrot"></i>
-										<p>foods</p>
-									</Link>
-									<Link to={"/listing-left-sidebar"} className="category">
-										<i className="flaticon-hockey"></i>
-										<p>candy</p>
-									</Link>
-									<Link to={"/listing-left-sidebar"} className="category">
-										<i className="flaticon-pill-capsule"></i>
-										<p>medicine</p>
-									</Link>
-									<Link to={"/listing-left-sidebar"} className="category">
-										<i className="flaticon-birthday-cake"></i>
-										<p>cake</p>
-									</Link>
-									<Link to={"/listing-left-sidebar"} className="category">
-										<i className="flaticon-place"></i>
-										<p>place</p>
-									</Link>
-								</div> */}
-							</div>
-	</div>
-
-
-
-							</div>
-			            </div>
-			        </div>
-
-
-
+					<InnerBanner />
 
 					<div className="content-block">
 						
@@ -109,17 +38,7 @@ class Homepage extends Component{
 
 
 
-						<div className="section-full home-top-cities bg-white content-inner">
-							<div className="container">
-								<div className="section-head text-black text-center">
-									<h2 className="box-title">Top Cities</h2>
-									<div className="dlab-separator bg-primary"></div>
-								</div>
-								
-								<Popcity />
-								
-							</div>
-						</div>
+						
 
 
 
@@ -226,6 +145,18 @@ class Homepage extends Component{
 							</div>
 						</div>		
 						
+
+						<div className="section-full home-top-cities bg-white content-inner">
+							<div className="container">
+								<div className="section-head text-black text-center">
+									<h2 className="box-title">Top Cities</h2>
+									<div className="dlab-separator bg-primary"></div>
+								</div>
+								
+								<Popcity />
+								
+							</div>
+						</div>
 					</div>	
 				
 

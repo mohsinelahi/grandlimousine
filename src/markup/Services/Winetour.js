@@ -27,7 +27,7 @@ class Winetour extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="section-full wine-tour">
+                <section className="section-full services-main">
                     <div className="services-content heading">
                         <div className="container">
                            <p><strong>Wine Tour – </strong> Enjoy a beautiful day trip to Georgia‘s best wineries. We’ll chauffeur you from Atlanta to your choice of wineries: Frogtown, Wolf Mountain Vineyard, Three Sisters Mountain, Montaluce, Yonah Mountain, Cavender Creek, The Cottage, and Habersham just past Dahlonega in north Georgia. Breathtaking views, live entertainment, special events, all just an hour from Atlanta.</p>
