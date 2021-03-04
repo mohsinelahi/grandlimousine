@@ -14719,9 +14719,27 @@ section.section-full.booking-form iframe {
     margin-bottom: 70px;
 }
 ul.atlanta-serivces {
-    list-style: decimal;
-    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0px;
+    border: 1px solid #ccc;
+    margin: 50px 0px;
 }
+ul.atlanta-serivces li {
+    position: relative;
+}
+
+ul.atlanta-serivces li:not(:last-child):before {
+    position: absolute;
+    content: '';
+    background: #ccc;
+    width: 1px;
+    height: 40px;
+    top: -7px;
+    right: -90px;
+}
+
 .atlanta-one {
     margin-bottom: 30px !important;
 }

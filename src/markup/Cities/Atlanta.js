@@ -111,7 +111,7 @@ class Atlanta extends Component {
                         </div>
                     </div>
                 </section>
-                <Toplimousine /> </div>
+                 </div>
             <Footer /> </div>
         )
     }
