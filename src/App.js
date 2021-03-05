@@ -31,6 +31,14 @@ import Atlanta from './markup/Cities/Atlanta';
 import Atlantacarservices from './markup/Cities/Atlantacarservices';
 import Atlantalimousine from './markup/Cities/Atlantalimousine';
 import Atlantapartybus from './markup/Cities/Atlantapartybus';
+import Losangeles from './markup/Cities/Losangeles';
+import Losangelescarservices from './markup/Cities/Losangelescarservice';
+import Losangeleslimousine from './markup/Cities/Losangeleslimousine';
+import Losangelespartybus from './markup/Cities/Losangelespartybus';
+import Houston from './markup/Cities/Houston';
+import Houstoncarservice from './markup/Cities/Houstoncarservice';
+import Houstonlimousine from './markup/Cities/Houstonlimousine';
+import Houstonpartybus from './markup/Cities/Houstonpartybus';
 
 
 function App() {
@@ -61,6 +69,16 @@ function App() {
           <Route path="/atlanta-car-services" component={Atlantacarservices} />
           <Route path="/atlanta-limousine" component={Atlantalimousine} />
           <Route path="/atlanta-party-bus" component={Atlantapartybus} />
+          <Route path="/los-angeles" component={Losangeles} />
+          <Route path="/los-angeles-car-service" component={Losangelescarservices} />
+          <Route path="/los-angeles-limousine" component={Losangeleslimousine} />
+          <Route path="/los-angeles-party-bus" component={Losangelespartybus} />
+          <Route path="/houston" component={Houston} />
+          <Route path="/houston-car-service" component={Houstoncarservice} />
+          <Route path="/houston-limousine" component={Houstonlimousine} />
+          <Route path="/houston-party-bus" component={Houstonpartybus} />
+
+
         </Switch>
       </div>
     </Router>

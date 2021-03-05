@@ -79,9 +79,9 @@ class Header extends Component{
 									</li>
 									<li className="down"><Link to={"/top-cities"}>Top Cities <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
-											<li><Link to={"/atlanta"}>Atlanta, GA</Link></li>
-											<li><Link to={"#"}>Los Angeles, CA<span className="tag-new">New</span></Link></li>
-											<li><Link to={"#"}>Houston, TX<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/atlanta"}>Atlanta, GA <span className="tag-new">New</span></Link></li>
+											<li><Link to={"/los-angeles"}>Los Angeles, CA <span className="tag-new">New</span></Link></li>
+											<li><Link to={"/houston"}>Houston, TX<span className="tag-new">New</span></Link></li>
 											<li><Link to={"#"}>Chicago, IL<span className="tag-new">New</span></Link></li>
 											
 											

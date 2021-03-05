@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-var allegiantstadiumimg1 = require('./../../images/allegiantstadium/Allegiant-Stadium-1.jpg');
 
 
 class Carservices extends Component{

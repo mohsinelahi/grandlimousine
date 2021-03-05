@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
-import InnerBanner from '../Element/Innerbanner';
+import Atlantabanner from '../Element/Atlantabanner';
 
 var atlantalimousineimg1 = require ('./../../images/cities/atlanta-limousine.jpg');
 
@@ -13,7 +13,7 @@ class Atlantalimousine extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Atlantabanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -24,21 +24,39 @@ class Atlantalimousine extends Component {
                     </div>
                 </section>
 
+
                 <section className="section-full atlanta-one">
                     <div className="atlanta-content heading">
                         <div className="container">
-                            <div className="inside-banner">
-                                <img src={atlantalimousineimg1} />
-                            </div>
+                            <div className="row">
+                                <div className="col-md-7">
+                                    <div className="left">
+                                    <p> <strong> Atlanta Limousine – </strong> Booking an Airport limousine in Atlanta that is reliable and classy will be a good fit for you and your group to reach your destination on time. We have extra facilities than other limo or car services like Uber or Lyft while you are booking a stretch limousine service in Atlanta.</p>
+                                    <p>You may feel frustrated when you book different taxis before going out with a large group. So, don’t worry about traffic. So, relax and enjoy a piece of great music with cold beverages in stock.</p>
+                                    <p>We provide our limousine service at a reasonable price than other car service companies. When you are booking an Airport Chauffeur Service, you need not worry about driving. It will help you focus on your event and guests. These make our Airport Service so incredible among other service providers.</p>
+                                
+                                    </div>
+                                </div>
+                                <div className="col-md-5">
+                                    <div className="right">
+                                        <div className="allegiant-stadium text-center">
+                                            <img src={atlantalimousineimg1}></img>
+                                            <div className="allegiant-stadium-btn custom-btn">
+                                                <a href="/contact-us">Contact Us</a>
+                                                <a href="tel:4044244499"> Call (404) 424-4499  </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </section>
 
-                            <div className="allegiant-stadium-btn custom-btn pb-5">
-                                <a href="/contact-us">Contact Us</a>
-                                <a href="tel:4044244499"> Call (404) 424-4499  </a>
-                            </div>
-                            <p> <strong> Atlanta Limousine – </strong> Booking an Airport limousine in Atlanta that is reliable and classy will be a good fit for you and your group to reach your destination on time. We have extra facilities than other limo or car services like Uber or Lyft while you are booking a stretch limousine service in Atlanta.</p>
-                            <p>You may feel frustrated when you book different taxis before going out with a large group. So, don’t worry about traffic. So, relax and enjoy a piece of great music with cold beverages in stock.</p>
-                            <p>We provide our limousine service at a reasonable price than other car service companies. When you are booking an Airport Chauffeur Service, you need not worry about driving. It will help you focus on your event and guests. These make our Airport Service so incredible among other service providers.</p>
-                        
+                <section className="section-full atlanta-two">
+                    <div className="atlanta-content heading">
+                        <div className="container">
+                   
                             <h4>Locations – Atlanta Limousine Metro</h4>
                             <p>When you need to book a reliable Airport Car Service in Atlanta. Our goal is to provide their customers with a reliable Airport Limousine at the best competitive rates. You can get here a wide range of limousine designs on rent. Among these, taking the Hummer Limo will be a perfect option for any occasion such as Wedding, Birthday Celebrations, Prom & Homecoming, Sporting Events & Concerts, Bachelor/Bachelorette limousine, Corporate Events and so many.</p>
                        
@@ -84,7 +102,7 @@ class Atlantalimousine extends Component {
                 </section>
 
 
-                <section className="section-full cities-two">
+                <section className="section-full cities-three">
                     <div className="cities-content heading">
                         <div className="container">
                             <div className="contact-local-teams">

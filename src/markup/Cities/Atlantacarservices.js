@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
-import InnerBanner from '../Element/Innerbanner';
 import Atlantatable from '../Element/Atlantatable';
+import Atlantabanner from '../Element/Atlantabanner';
 
 
 class Atlantacarservices extends Component {
@@ -12,7 +12,7 @@ class Atlantacarservices extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Atlantabanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">

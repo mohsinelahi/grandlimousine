@@ -3,9 +3,8 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
-import Toplimousine from '../Element/Toplimousine';
-import Booknowtable from '../Element/Booknowtable';
 import Carservices from '../Element/Carservices';
+import Atlantabanner from '../Element/Atlantabanner';
 
 
 var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
@@ -17,7 +16,7 @@ class Atlanta extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Atlantabanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -27,21 +26,43 @@ class Atlanta extends Component {
                         </div>
                     </div>
                 </section>
+
+
+
                 <section className="section-full cities-sec-one">
                     <div className="cities-content heading">
                         <div className="container">
-                        <div className="inside-banner">
-                           <img src={atlantaimg1} />
-                           </div>
-                           <div className="allegiant-stadium-btn custom-btn pb-5">
-                                <a href="/contact-us">Contact Us</a>
-                                <a href="tel:4044244499"> Call (404) 424-4499  </a>
-                            </div>
+                            <div className="row">
+                                <div className="col-md-7">
+                                    <div className="left">
+                                    <p>Atlanta, GA – Grand Limousine is now one of the nation’s fastest-growing Limousine and car service providers. We are one of the leading chauffeur companies that take pride in our professional service. We will be on the INC 5000ѕ list of fastest-growing private companies. We offer our customers the most diverse and impressive range of cars. Also, we offer the best chauffeurs in the business. One of our chauffeurs had the prestigious award of ‘Chauffeur of the year.’</p>
+                                    <p>We have been the “Best Transportation Provider.” Atlanta Limousine owns and operates multiple new vehicles. We have a versatile range of vehicles from Sedans and Hybrids to 56 passenger Motor Coaches, including SUV s, limousines, executive vans, luxury busses for up to 39 passengers, and party buses for 12-15 passengers.</p>
+                                    <p>One of the most talented management teams in the industry leads the Atlanta limousine. Thus, we assure you that you will get the best car and limousine service. We have been introducing an innovative range of town car services so you can enjoy a better transport experience.</p>
 
-                            <p>Atlanta, GA – Grand Limousine is now one of the nation’s fastest-growing Limousine and car service providers. We are one of the leading chauffeur companies that take pride in our professional service. We will be on the INC 5000ѕ list of fastest-growing private companies. We offer our customers the most diverse and impressive range of cars. Also, we offer the best chauffeurs in the business. One of our chauffeurs had the prestigious award of ‘Chauffeur of the year.’</p>
-                            <p>We have been the “Best Transportation Provider.” Atlanta Limousine owns and operates multiple new vehicles. We have a versatile range of vehicles from Sedans and Hybrids to 56 passenger Motor Coaches, including SUV s, limousines, executive vans, luxury busses for up to 39 passengers, and party buses for 12-15 passengers.</p>
-                            <p>One of the most talented management teams in the industry leads the Atlanta limousine. Thus, we assure you that you will get the best car and limousine service. We have been introducing an innovative range of town car services so you can enjoy a better transport experience.</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-5">
+                                    <div className="right">
+                                        <div className="allegiant-stadium text-center">
+                                            <img src={atlantaimg1}></img>
+                                            <div className="allegiant-stadium-btn custom-btn">
+                                                <a href="/contact-us">Contact Us</a>
+                                                <a href="tel:4044244499"> Call (404) 424-4499  </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </section>
 
+
+
+                <section className="section-full cities-sec-two">
+                    <div className="cities-content heading">
+                        <div className="container">
+       
                             <ul className="atlanta-serivces">
                                 <li> <Link to={"/atlanta-car-services"}> Atlanta Car Service </Link> </li>
                                 <li> <Link to={"/atlanta-limousine"}> Atlanta Limousine </Link> </li>
@@ -69,7 +90,7 @@ class Atlanta extends Component {
                     </div>
                 </section>
 
-                <section className="section-full cities-sec-two">
+                <section className="section-full cities-sec-three">
                     <div className="cities-content heading">
                         <div className="container">
                             <div className="car-services">
@@ -85,7 +106,7 @@ class Atlanta extends Component {
                 </section>
 
                 
-                <section className="section-full cities-sec-three">
+                <section className="section-full cities-sec-four">
                     <div className="cities-content heading">
                         <div className="container">
                             <div className="contact-local-teams">
