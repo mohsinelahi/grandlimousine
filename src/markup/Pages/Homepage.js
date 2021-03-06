@@ -45,24 +45,24 @@ class Homepage extends Component{
 
 						
 						
-						<div className="section-full home-about bg-img-fix most-visited content-inner overlay-primary-dark" style={{backgroundImage:"url(" + img1 + " )" }}>
+						<div className="section-full home-about bg-img-fix most-visited content-inner" >
 							<div className="container">
-								<div className="section-head text-white text-center">
+								<div className="section-head text-center">
 									<h2 className="box-title">GRAND LIMOUSINE – OFFICIAL WEBSITE</h2>
 									<div className="dlab-separator bg-white"></div>
 									<p>THE WORLD’S LEADING PROVIDER OF HIGH-QUALITY CHAUFFEURED CAR & LIMOUSINE SERVICES</p>
 								</div>
 								<div className="row">
 
-								<div className="col-md-6"> 
-									<div className="left"> 
+								<div className="col-md-12"> 
+									<div className="left pb-4"> 
 									<img src={require('./../../images/about-limo.jpg')} />
 								
 									</div>
 								</div>
 
 
-								<div className="col-md-6"> 
+								<div className="col-md-12"> 
 									<div className="right"> 
 									<h4>GRAND LIMOUSINE</h4>
 									<h2>BOOK DIRECT SINCE 2007</h2>
@@ -70,9 +70,7 @@ class Homepage extends Component{
 
 									<p>If you require an Airport Car – SUV, Wedding, Bachelor Parties, Bachelorette Parties, Proms, Hotel pick up, Corporate transfer. Take a look at our fleet and let us know how we can help you with your special occasion. Our Luxury Mercedes Sprinter Limousine & Private Airport Car Service has Exceptional Trusted Professionalism. We serve a level of premium quality in the convenience of 5 Markets.</p>
 									<a target="_blank" href="./" >Learn More</a>
-									<span>
-									<img src={require('./../../images/limo-pic.png')} />
-									</span>
+
 									</div>
 								</div>
 

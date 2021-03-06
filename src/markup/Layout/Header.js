@@ -82,9 +82,8 @@ class Header extends Component{
 											<li><Link to={"/atlanta"}>Atlanta, GA <span className="tag-new">New</span></Link></li>
 											<li><Link to={"/los-angeles"}>Los Angeles, CA <span className="tag-new">New</span></Link></li>
 											<li><Link to={"/houston"}>Houston, TX<span className="tag-new">New</span></Link></li>
-											<li><Link to={"#"}>Chicago, IL<span className="tag-new">New</span></Link></li>
-											
-											
+											<li><Link to={"/san-francisco"}>San Francisco, CA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/new-york"}>New York<span className="tag-new">New</span></Link></li>
 
 											
 										</ul>

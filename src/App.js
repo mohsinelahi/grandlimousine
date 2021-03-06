@@ -39,6 +39,14 @@ import Houston from './markup/Cities/Houston';
 import Houstoncarservice from './markup/Cities/Houstoncarservice';
 import Houstonlimousine from './markup/Cities/Houstonlimousine';
 import Houstonpartybus from './markup/Cities/Houstonpartybus';
+import Sanfrancisco from './markup/Cities/Sanfrancisco';
+import Sanfranciscocarservices from './markup/Cities/Sanfranciscocarservice';
+import Sanfranciscolimousine from './markup/Cities/Sanfranciscolimousine';
+import Sanfranciscopartybus from './markup/Cities/Sanfranciscopartybus';
+import Newyork from './markup/Element/Newyork';
+import Newyorkcarservice from './markup/Cities/Newyorkcarservice';
+import Newyorklimousine from './markup/Cities/Newyorklimousine';
+import Newyorkpartybus from './markup/Cities/Newyorkpartybus';
 
 
 function App() {
@@ -66,7 +74,7 @@ function App() {
           <Route path="/graduation-limo" component={Graduationlimo} />
           <Route path="/concert-limo" component={Concertlimo} />
           <Route path="/atlanta" component={Atlanta} />
-          <Route path="/atlanta-car-services" component={Atlantacarservices} />
+          <Route path="/atlanta-car-service" component={Atlantacarservices} />
           <Route path="/atlanta-limousine" component={Atlantalimousine} />
           <Route path="/atlanta-party-bus" component={Atlantapartybus} />
           <Route path="/los-angeles" component={Losangeles} />
@@ -77,8 +85,16 @@ function App() {
           <Route path="/houston-car-service" component={Houstoncarservice} />
           <Route path="/houston-limousine" component={Houstonlimousine} />
           <Route path="/houston-party-bus" component={Houstonpartybus} />
+          <Route path="/san-francisco" component={Sanfrancisco} />
+          <Route path="/san-francisco-car-service" component={Sanfranciscocarservices} />
+          <Route path="/san-francisco-limousine" component={Sanfranciscolimousine} />
+          <Route path="/san-francisco-party-bus" component={Sanfranciscopartybus} />
+          <Route path="/new-york" component={Newyork} />
+          <Route path="/new-york-car-service" component={Newyorkcarservice} />
+          <Route path="/new-york-limousine" component={Newyorklimousine} />
+          <Route path="/new-york-party-bus" component={Newyorkpartybus} />
 
-
+          
         </Switch>
       </div>
     </Router>

@@ -11008,14 +11008,14 @@ footer .widget_services ul li:hover {
 }
 /*widget Getintuch*/
 .footer-top {
-    background: #15141b;
-    background-size: cover;
-    background-position: center;
+    background: #0c0e1a;
+    /* background-size: cover;
+    background-position: center; */
     padding: 80px 0 50px;
-	background-image: url(../images/background/bg6.jpg);
+	/* background-image: url(../images/background/bg6.jpg);
 	background-size: 100%;
 	background-position: bottom;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 }
 .footer-bottom {
     background-color:#15141a;
@@ -11218,9 +11218,9 @@ footer.footer-white .footer-bottom a {
 .section-full {
     position: relative;
 }
-.section-full:last-child {
+/* .section-full:last-child {
     margin-bottom: -50px;
-}
+} */
 /*= Section Head Part =*/
 
 .section-head {
@@ -12641,9 +12641,9 @@ ol.commentlist li .star-rating {
 	.site-footer .widget{
 		margin-bottom:40px;
 	}
-	.section-full:last-child {
+	/* .section-full:last-child {
 		margin-bottom: -30px;
-	}
+	} */
 	.content-inner {
 		padding-bottom: 10px;
 		padding-top: 30px;
@@ -14113,7 +14113,7 @@ ol.commentlist li .star-rating {
 }
 
 .home-about .right h4, .home-about .right h2, .home-about .right p {
-    color: #fff;
+    color: #0c0e1a;
 }
 
 .home-about .right h4 {
@@ -14130,16 +14130,21 @@ ol.commentlist li .star-rating {
 }
 
 .home-about .right a {
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #ab8b64;
+    color: #ab8b64;
     padding: 8px 15px;
+    display: inline-block;
 }
 
 .home-about .right a:hover {
-    background: #fff;
-    color: #252525;
+    background: #ab8b64;
+    color: #fff;
 }
-
+.most-visited img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
 
 
 
@@ -14297,6 +14302,7 @@ a.custom-btn:hover {
 
 .inner-banner {
     min-height: 600px;
+    padding-top: 60px;
     display: flex;
     align-items: center;
     background-position: center center;
@@ -14463,13 +14469,11 @@ section.sb-lasvegas-content .left {
     display: flex;
     justify-content: space-between;
 }
-.allegiant-stadium {
-    height: 300px;
-}
+
 
 .allegiant-stadium img {
     width: 100%;
-    height: 100%;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -14719,7 +14723,7 @@ section.section-full.booking-form iframe {
 =========================================**/
 
 
-.cities-content ul li a {font-weight: 400;color: #ab8b64;}
+.cities-content ul li a {font-weight: 500;color: #ab8b64; }
 
 .cities-content ul li a:hover {
     color: #15141a;

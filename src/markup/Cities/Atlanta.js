@@ -64,7 +64,7 @@ class Atlanta extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/atlanta-car-services"}> Atlanta Car Service </Link> </li>
+                                <li> <Link to={"/atlanta-car-service"}> Atlanta Car Service </Link> </li>
                                 <li> <Link to={"/atlanta-limousine"}> Atlanta Limousine </Link> </li>
                                 <li> <Link to={"/atlanta-party-bus"}> Atlanta Party Bus </Link> </li>
                             </ul>
