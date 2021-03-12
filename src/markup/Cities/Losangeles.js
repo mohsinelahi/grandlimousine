@@ -61,9 +61,9 @@ class Losangeles extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/los-angeles-car-service"}> Los Angeles Car Service </Link> </li>
-                                <li> <Link to={"/los-angeles-limousine"}> Los Angeles Limousine </Link> </li>
-                                <li> <Link to={"/los-angeles-party-bus"}> Los Angeles Party Bus </Link> </li>
+                                <li> <Link to={"/locations/los-angeles-car-service/"}> Los Angeles Car Service </Link> </li>
+                                <li> <Link to={"/locations/los-angeles-limousine/"}> Los Angeles Limousine </Link> </li>
+                                <li> <Link to={"/locations/los-angeles-party-bus/"}> Los Angeles Party Bus </Link> </li>
                             </ul>
                         
                             <h4>Limousine service in Los Angeles</h4>

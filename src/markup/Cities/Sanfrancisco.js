@@ -62,9 +62,9 @@ class Sanfrancisco extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/san-francisco-car-service"}> San Francisco Car Service </Link> </li>
-                                <li> <Link to={"/san-francisco-limousine"}> San Francisco Limousine </Link> </li>
-                                <li> <Link to={"/san-francisco-party-bus"}> San Francisco Party Bus </Link> </li>
+                                <li> <Link to={"/locations/san-francisco-car-service/"}> San Francisco Car Service </Link> </li>
+                                <li> <Link to={"/locations/san-francisco-limousine/"}> San Francisco Limousine </Link> </li>
+                                <li> <Link to={"/locations/san-francisco-party-bus/"}> San Francisco Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most beautiful places in Chicago. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support along with Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion.</p>

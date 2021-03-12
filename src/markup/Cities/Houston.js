@@ -64,9 +64,9 @@ class Houston extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/houston-car-service"}> Houston Car Service </Link> </li>
-                                <li> <Link to={"/houston-limousine"}> Houston Limousine </Link> </li>
-                                <li> <Link to={"/houston-party-bus "}> Houston Party Bus </Link> </li>
+                                <li> <Link to={"/locations/houston-car-service/"}> Houston Car Service </Link> </li>
+                                <li> <Link to={"/locations/houston-limousine/"}> Houston Limousine </Link> </li>
+                                <li> <Link to={"/locations/houston-party-bus/"}> Houston Party Bus </Link> </li>
                             </ul>
                         
                             <h4>Airport Car SUV near You</h4>

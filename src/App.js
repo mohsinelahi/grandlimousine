@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import './css/plugins.css';
 import './css/style.css';
 import './css/templete.css';
@@ -18,7 +20,6 @@ import Corporatetransportation from './markup/Services/Corporatetransportation';
 import Weddingtransportation from './markup/Services/Weddingtransportation';
 import Airportcarservice from './markup/Services/Airportcarservice';
 import Winetour from './markup/Services/Winetour';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Transportationcoordinator from './markup/Services/Transportationcoordinator';
 import Churchlimo from './markup/Services/Churchlimo';
 import Casinotrips from './markup/Services/Casinotrips';
@@ -47,6 +48,26 @@ import Newyork from './markup/Element/Newyork';
 import Newyorkcarservice from './markup/Cities/Newyorkcarservice';
 import Newyorklimousine from './markup/Cities/Newyorklimousine';
 import Newyorkpartybus from './markup/Cities/Newyorkpartybus';
+import Savannah from './markup/Cities/Savannah';
+import Savannahcarservice from './markup/Cities/Savannahcarservice';
+import Savannahlimousine from './markup/Cities/Savannahlimousine';
+import Savannahpartybus from './markup/Cities/Savannahpartybus';
+import Jacksonville from './markup/Cities/jacksonville';
+import jacksonvillecarservice from './markup/Cities/jacksonvillecarservice';
+import Jacksonvillelimousine from './markup/Cities/Jacksonvillelimousine';
+import Jacksonvillepartybus from './markup/Cities/Jacksonvillepartybus';
+import Dallasservice from './markup/Cities/Dallas';
+import Nashville from './markup/Cities/Nashville';
+import Phoenix from './markup/Cities/Phoenix';
+import Macon from './markup/Cities/Macon';
+import Maconcarservices from './markup/Cities/Maconcarservice';
+import Maconlimousine from './markup/Cities/Maconimousine';
+import Maconpartybus from './markup/Cities/Maconpartybus';
+import Locations from './markup/Pages/Topcities';
+import Augusta from './markup/Cities/Augusta';
+import Augustacarservice from './markup/Cities/Augustacarservice';
+import Augustalimousine from './markup/Cities/Augustalimousine';
+import Augustapartybus from './markup/Cities/Augustapartybus';
 
 
 function App() {
@@ -59,7 +80,7 @@ function App() {
           <Route path="/about-us" component={About} />
           <Route path="/posts" component={Post} /> 
           <Route path="/contact-us" component={Contact} /> 
-          <Route path="/top-cities" component={Topcities} />
+          <Route exact path="/locations/" component={Locations} />
           <Route path="/limousine-service" component={Limousineservice} />
           <Route path="/corporate-transportation" component={Corporatetransportation} />
           <Route path="/wedding-transportation" component={Weddingtransportation} />
@@ -73,28 +94,46 @@ function App() {
           <Route path="/bachelorette-party" component={Bacheloretteparty} />
           <Route path="/graduation-limo" component={Graduationlimo} />
           <Route path="/concert-limo" component={Concertlimo} />
-          <Route path="/atlanta" component={Atlanta} />
-          <Route path="/atlanta-car-service" component={Atlantacarservices} />
-          <Route path="/atlanta-limousine" component={Atlantalimousine} />
-          <Route path="/atlanta-party-bus" component={Atlantapartybus} />
-          <Route path="/los-angeles" component={Losangeles} />
-          <Route path="/los-angeles-car-service" component={Losangelescarservices} />
-          <Route path="/los-angeles-limousine" component={Losangeleslimousine} />
-          <Route path="/los-angeles-party-bus" component={Losangelespartybus} />
-          <Route path="/houston" component={Houston} />
-          <Route path="/houston-car-service" component={Houstoncarservice} />
-          <Route path="/houston-limousine" component={Houstonlimousine} />
-          <Route path="/houston-party-bus" component={Houstonpartybus} />
-          <Route path="/san-francisco" component={Sanfrancisco} />
-          <Route path="/san-francisco-car-service" component={Sanfranciscocarservices} />
-          <Route path="/san-francisco-limousine" component={Sanfranciscolimousine} />
-          <Route path="/san-francisco-party-bus" component={Sanfranciscopartybus} />
-          <Route path="/new-york" component={Newyork} />
-          <Route path="/new-york-car-service" component={Newyorkcarservice} />
-          <Route path="/new-york-limousine" component={Newyorklimousine} />
-          <Route path="/new-york-party-bus" component={Newyorkpartybus} />
+          <Route path="/locations/atlanta/" component={Atlanta} />
+          <Route path="/locations/atlanta-car-service/" component={Atlantacarservices} />
+          <Route path="/locations/atlanta-limousine/" component={Atlantalimousine} />
+          <Route path="/locations/atlanta-party-bus/" component={Atlantapartybus} />
+          <Route path="/locations/los-angeles/" component={Losangeles} />
+          <Route path="/locations/los-angeles-car-service/" component={Losangelescarservices} />
+          <Route path="/locations/los-angeles-limousine/" component={Losangeleslimousine} />
+          <Route path="/locations/los-angeles-party-bus/" component={Losangelespartybus} />
+          <Route path="/locations/houston/" component={Houston} />
+          <Route path="/locations/houston-car-service/" component={Houstoncarservice} />
+          <Route path="/locations/houston-limousine/" component={Houstonlimousine} />
+          <Route path="/locations/houston-party-bus/" component={Houstonpartybus} />
+          <Route path="/locations/san-francisco/" component={Sanfrancisco} />
+          <Route path="/locations/san-francisco-car-service/" component={Sanfranciscocarservices} />
+          <Route path="/locations/san-francisco-limousine/" component={Sanfranciscolimousine} />
+          <Route path="/locations/san-francisco-party-bus/" component={Sanfranciscopartybus} />
+          <Route path="/locations/new-york/" component={Newyork} />
+          <Route path="/locations/new-york-car-service/" component={Newyorkcarservice} />
+          <Route path="/locations/new-york-limousine/" component={Newyorklimousine} />
+          <Route path="/locations/new-york-party-bus/" component={Newyorkpartybus} />
+          <Route path="/locations/savannah/" component={Savannah} />
+          <Route path="/locations/savannah-car-service/" component={Savannahcarservice} />
+          <Route path="/locations/savannah-limousine/" component={Savannahlimousine} />
+          <Route path="/locations/savannah-party-bus/" component={Savannahpartybus} />
+          <Route path="/locations/jacksonville/" component={Jacksonville} />
+          <Route path="/locations/jacksonville-car-service/" component={jacksonvillecarservice} />
+          <Route path="/locations/jacksonville-limousine/" component={Jacksonvillelimousine} />
+          <Route path="/locations/jacksonville-party-bus/" component={Jacksonvillepartybus} />
+          <Route path="/dallas-airport-car-service-dallas-grand-limousine-corporate-transportation/" component={Dallasservice} />
+          <Route path="/nashville-car-service-nashville-bna-airport/" component={Nashville} />
+          <Route path="/phoenix-car-service-phx-airport/" component={Phoenix} />
+          <Route path="/locations/macon/" component={Macon} />
+          <Route path="/locations/macon-car-service/" component={Maconcarservices} />
+          <Route path="/locations/macon-limousine/" component={Maconlimousine} />
+          <Route path="/locations/macon-party-bus/" component={Maconpartybus} />
+          <Route path="/locations/augusta/" component={Augusta} />
+          <Route path="/locations/augusta-car-service/" component={Augustacarservice} />
+          <Route path="/locations/augusta-limousine/" component={Augustalimousine} />
+          <Route path="/locations/augusta-party-bus/" component={Augustapartybus} />
 
-          
         </Switch>
       </div>
     </Router>

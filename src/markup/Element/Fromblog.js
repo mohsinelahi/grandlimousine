@@ -92,9 +92,9 @@ class Fromblog extends Component {
                     {aboutBlog.map((item, index) => (
                         <div className="item p-3" key={index}>
 							<div className="blog-post dez-blog">
-								<div className="dlab-post-media"> 
+								{/* <div className="dlab-post-media"> 
 									<Link to={"./"}><img src={item.image} alt=""/></Link> 
-								</div>
+								</div> */}
 								<div className="dlab-info">
 									{/* <div className="category-tag">
 										<Link to={"/blog-details"}>Tarvel</Link>

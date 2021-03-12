@@ -1,6 +1,6 @@
 {
-  "name": "bizmap",
-  "homepage": "http://52.86.219.102:8094/",
+  "name": "react-app",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

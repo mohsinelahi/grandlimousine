@@ -32,19 +32,6 @@ class Homepage extends Component{
 
 					<div className="content-block">
 						
-
-						
-						{/* <Topplacesowl /> */}
-
-
-
-						
-
-
-
-
-						
-						
 						<div className="section-full home-about bg-img-fix most-visited content-inner" >
 							<div className="container">
 								<div className="section-head text-center">
@@ -54,22 +41,22 @@ class Homepage extends Component{
 								</div>
 								<div className="row">
 
-								<div className="col-md-12"> 
-									<div className="left pb-4"> 
-									<img src={require('./../../images/about-limo.jpg')} />
-								
-									</div>
-								</div>
-
-
-								<div className="col-md-12"> 
-									<div className="right"> 
+								<div className="col-md-7"> 
+									<div className="left"> 
 									<h4>GRAND LIMOUSINE</h4>
 									<h2>BOOK DIRECT SINCE 2007</h2>
 									<p>	Now, you can book Limousine or Airport Car Service Direct with us. Fast Booking Curbside Assist and Escort Chauffeurs from The Most Trusted Worldwide Name In Travel. Providing Direct Destination Ready Limousine and Airport Car Service. The World’s Leading Provider of High-Quality Chauffeur & Limousine Services. Car Service, and Party Bus. Book Direct Premium Limousine Service Since 2007.</p>
 
 									<p>If you require an Airport Car – SUV, Wedding, Bachelor Parties, Bachelorette Parties, Proms, Hotel pick up, Corporate transfer. Take a look at our fleet and let us know how we can help you with your special occasion. Our Luxury Mercedes Sprinter Limousine & Private Airport Car Service has Exceptional Trusted Professionalism. We serve a level of premium quality in the convenience of 5 Markets.</p>
-									<a target="_blank" href="./" >Learn More</a>
+									<a href="/about-us" >Learn More</a>
+									</div>
+								</div>
+
+
+								<div className="col-md-5"> 
+									<div className="right"> 
+								
+									<img src={require('./../../images/about-limo.jpg')} />
 
 									</div>
 								</div>

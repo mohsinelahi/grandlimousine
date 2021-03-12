@@ -11011,7 +11011,7 @@ footer .widget_services ul li:hover {
     background: #0c0e1a;
     /* background-size: cover;
     background-position: center; */
-    padding: 80px 0 50px;
+    padding: 50px 0 10px;
 	/* background-image: url(../images/background/bg6.jpg);
 	background-size: 100%;
 	background-position: bottom;
@@ -14112,31 +14112,31 @@ ol.commentlist li .star-rating {
     background: #252525 !important;
 }
 
-.home-about .right h4, .home-about .right h2, .home-about .right p {
+.home-about .left h4, .home-about .left h2, .home-about .left p {
     color: #0c0e1a;
 }
 
-.home-about .right h4 {
+.home-about .left h4 {
     margin-bottom: 0;
 }
 
-.home-about .right h2 {
+.home-about .left h2 {
     margin-bottom: 5px;
 }
 
-.home-about .right p {
+.home-about .left p {
     font-size: 14px;
     line-height: 1.8;
 }
 
-.home-about .right a {
+.home-about .left a {
     border: 1px solid #ab8b64;
     color: #ab8b64;
     padding: 8px 15px;
     display: inline-block;
 }
 
-.home-about .right a:hover {
+.home-about .left a:hover {
     background: #ab8b64;
     color: #fff;
 }
@@ -14145,9 +14145,18 @@ ol.commentlist li .star-rating {
     height: 450px;
     object-fit: cover;
 }
+.home-about .row {
+    align-items: center;
+}
 
+.home-about .right {
+    height: 310px;
+}
 
-
+.home-about .right img {
+    height: 100%;
+    object-fit: cover;
+}
 .slick-next:before, .slick-prev:before {  
     color: #ab8b64; 
     font-family: "FontAwesome";
@@ -14762,7 +14771,9 @@ ul.atlanta-serivces li:not(:last-child):before {
     object-fit: cover;
 }
 
-
+/* section.section-full.cities-sec-one {
+    margin-bottom: 30px;
+} */
 
 
 

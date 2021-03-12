@@ -64,9 +64,9 @@ class Atlanta extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/atlanta-car-service"}> Atlanta Car Service </Link> </li>
-                                <li> <Link to={"/atlanta-limousine"}> Atlanta Limousine </Link> </li>
-                                <li> <Link to={"/atlanta-party-bus"}> Atlanta Party Bus </Link> </li>
+                                <li> <Link to={"/locations/atlanta-car-service/"}> Atlanta Car Service </Link> </li>
+                                <li> <Link to={"/locations/atlanta-limousine/"}> Atlanta Limousine </Link> </li>
+                                <li> <Link to={"/locations/atlanta-party-bus/"}> Atlanta Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most exotic places in Atlanta. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support in Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion.</p>

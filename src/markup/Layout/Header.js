@@ -77,15 +77,19 @@ class Header extends Component{
 											<li><Link to={"/concert-limo"}>Concert Limo<span className="tag-new">New</span></Link></li>
 										</ul>
 									</li>
-									<li className="down"><Link to={"/top-cities"}>Top Cities <i className="fa fa-chevron-down"></i></Link>
+									<li className="down"><Link exact to={"/locations/"}>Top Cities <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
-											<li><Link to={"/atlanta"}>Atlanta, GA <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/los-angeles"}>Los Angeles, CA <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/houston"}>Houston, TX<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/san-francisco"}>San Francisco, CA<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/new-york"}>New York<span className="tag-new">New</span></Link></li>
-
+											<li><Link to={"/locations/atlanta/"}>Atlanta, GA <span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/los-angeles/"}>Los Angeles, CA <span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/houston/"}>Houston, TX<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/san-francisco/"}>San Francisco, CA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/new-york/"}>New York<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/savannah/"}>Savannah, GA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/jacksonville/"}>Jacksonville, FL<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/macon/"}>Macon, GA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/augusta/"}>Augusta, Georgia<span className="tag-new">New</span></Link></li>
 											
+
 										</ul>
 									</li>
 									<li className=""><Link to={"/posts"}>Posts</Link></li>
