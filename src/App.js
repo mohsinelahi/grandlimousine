@@ -68,6 +68,10 @@ import Augusta from './markup/Cities/Augusta';
 import Augustacarservice from './markup/Cities/Augustacarservice';
 import Augustalimousine from './markup/Cities/Augustalimousine';
 import Augustapartybus from './markup/Cities/Augustapartybus';
+import Chicago from './markup/Cities/Chicago';
+import Chicagocarservice from './markup/Cities/Chicagocarservice';
+import Chicagolimousine from './markup/Cities/Chicagolimousine';
+import Chicagopartybus from './markup/Cities/Chicagopartybus';
 
 
 function App() {
@@ -76,24 +80,24 @@ function App() {
       <div className="App">
         <Switch>
           <Route path='/' exact component={Homepage} />
-          <Route path="/super-bowl" component={Superbowl} />
-          <Route path="/about-us" component={About} />
-          <Route path="/posts" component={Post} /> 
-          <Route path="/contact-us" component={Contact} /> 
+          <Route path="/super-bowl/" component={Superbowl} />
+          <Route path="/about-us/" component={About} />
+          <Route path="/posts/" component={Post} /> 
+          <Route path="/contact-us/" component={Contact} /> 
           <Route exact path="/locations/" component={Locations} />
-          <Route path="/limousine-service" component={Limousineservice} />
-          <Route path="/corporate-transportation" component={Corporatetransportation} />
-          <Route path="/wedding-transportation" component={Weddingtransportation} />
-          <Route path="/airport-car-service" component={Airportcarservice} />
-          <Route path="/wine-tour" component={Winetour} />
-          <Route path="/Transportation-coordinator" component={Transportationcoordinator} />
-          <Route path="/church-limo" component={Churchlimo} />
-          <Route path="/casino-trips" component={Casinotrips} />
-          <Route path="/party-limo" component={Partylimo} />
-          <Route path="/bachelor-party" component={Bachelorparty} />
-          <Route path="/bachelorette-party" component={Bacheloretteparty} />
-          <Route path="/graduation-limo" component={Graduationlimo} />
-          <Route path="/concert-limo" component={Concertlimo} />
+          <Route path="/limousine-service/" component={Limousineservice} />
+          <Route path="/corporate-transportation/" component={Corporatetransportation} />
+          <Route path="/wedding-transportation/" component={Weddingtransportation} />
+          <Route path="/airport-car-service/" component={Airportcarservice} />
+          <Route path="/wine-tour/" component={Winetour} />
+          <Route path="/Transportation-coordinator/" component={Transportationcoordinator} />
+          <Route path="/church-limo/" component={Churchlimo} />
+          <Route path="/casino-trips/" component={Casinotrips} />
+          <Route path="/party-limo/" component={Partylimo} />
+          <Route path="/bachelor-party/" component={Bachelorparty} />
+          <Route path="/bachelorette-party/" component={Bacheloretteparty} />
+          <Route path="/graduation-limo/" component={Graduationlimo} />
+          <Route path="/concert-limo/" component={Concertlimo} />
           <Route path="/locations/atlanta/" component={Atlanta} />
           <Route path="/locations/atlanta-car-service/" component={Atlantacarservices} />
           <Route path="/locations/atlanta-limousine/" component={Atlantalimousine} />
@@ -133,6 +137,12 @@ function App() {
           <Route path="/locations/augusta-car-service/" component={Augustacarservice} />
           <Route path="/locations/augusta-limousine/" component={Augustalimousine} />
           <Route path="/locations/augusta-party-bus/" component={Augustapartybus} />
+          <Route path="/locations/chicago/" component={Chicago} />
+          <Route path="/locations/chicago-car-service/" component={Chicagocarservice} />
+          <Route path="/locations/chicago-limousine/" component={Chicagolimousine} />
+          <Route path="/locations/chicago-party-bus/" component={Chicagopartybus} />
+
+
 
         </Switch>
       </div>

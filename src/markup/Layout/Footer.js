@@ -37,12 +37,12 @@ class Footer extends Component{
 									<h5 className="m-b30 text-white">Navigation</h5>
 									<ul className="list-2 list-line">
 										<li><Link to={"/"}>Grand Limousine</Link></li>
-										<li><Link to={"/super-bowl"}>The Super Bowl</Link></li>
-										<li><Link to={"/about-us"}>About Us</Link></li>
+										<li><Link to={"/super-bowl/"}>The Super Bowl</Link></li>
+										<li><Link to={"/about-us/"}>About Us</Link></li>
 										<li><Link to={""}>Services & Beauty</Link></li>
 										<li><Link to={"/locations/"}>Top Cities</Link></li>
-										<li><Link to={"/posts"}>Posts</Link></li>
-										<li><Link to={"/contact-us"}>Contact Us</Link></li>
+										<li><Link to={"/posts/"}>Posts</Link></li>
+										<li><Link to={"/contact-us/"}>Contact Us</Link></li>
 										<li><a href="https://account.chauffeurbookingsoftware.com/account/login/?guid=123fd7f0-ff6c-4a9d-80fb-05c694c9ed03" target="_blank">My Account</a></li>
 									</ul>
 								</div>

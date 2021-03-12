@@ -89,7 +89,7 @@ class Augusta extends Component {
                         <div className="container">
                             <div className="car-services">
                                 <div className="section-head text-black text-center">
-                                    <h2 className="box-title">COur Car Services In Augusta Georgia</h2>
+                                    <h2 className="box-title">Our Car Services In Augusta Georgia</h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
                                 <Carservices />
