@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
-import InnerBanner from '../Element/Innerbanner';
+import Destinbanner from '../Element/Destinbaner';
 
 
 var Destinimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -15,7 +15,7 @@ class Destin extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Destinbanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -62,9 +62,9 @@ class Destin extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/destin/"}> Destin Car Service </Link> </li>
-                                <li> <Link to={"/locations/destin/"}> Destin Limousine </Link> </li>
-                                <li> <Link to={"/locations/destin/"}> Destin Party Bus </Link> </li>
+                                <li> <Link to={"/locations/destin-car-service/"}> Destin Car Service </Link> </li>
+                                <li> <Link to={"/locations/destin-limousine/"}> Destin Limousine </Link> </li>
+                                <li> <Link to={"/locations/destin-party-bus/"}> Destin Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most exotic places in Destin. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support in Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion.</p>

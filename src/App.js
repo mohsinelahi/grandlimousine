@@ -85,6 +85,9 @@ import Palmbeachcarservice from './markup/Cities/Palmbeachcarservice';
 import Palmbeachlimousine from './markup/Cities/Palmbeachlimousine';
 import Palmbeachpartybus from './markup/Cities/Palmbeachpartybus';
 import Destin from './markup/Cities/Destin';
+import Destincarservice from './markup/Cities/Destincarservice';
+import Destinlimousine from './markup/Cities/Destinlimousine';
+import Destinpartybus from './markup/Cities/Destinpartybus';
 
 
 function App() {
@@ -167,6 +170,9 @@ function App() {
           <Route path="/locations/palm-beach-limousine/" component={Palmbeachlimousine} />
           <Route path="/locations/palm-beach-party-bus/" component={Palmbeachpartybus} />
           <Route path="/locations/destin/" component={Destin} />
+          <Route path="/locations/destin-car-service/" component={Destincarservice} />
+          <Route path="/locations/destin-limousine/" component={Destinlimousine} />
+          <Route path="/locations/destin-party-bus/" component={Destinpartybus} />
 
 
         </Switch>

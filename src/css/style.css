@@ -14770,11 +14770,9 @@ ul.atlanta-serivces li:not(:last-child):before {
     height: 300px;
     object-fit: cover;
 }
-
-/* section.section-full.cities-sec-one {
+.cities-content.heading {
     margin-bottom: 30px;
-} */
-
+}
 
 
 
