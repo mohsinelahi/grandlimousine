@@ -72,21 +72,34 @@ import Chicago from './markup/Cities/Chicago';
 import Chicagocarservice from './markup/Cities/Chicagocarservice';
 import Chicagolimousine from './markup/Cities/Chicagolimousine';
 import Chicagopartybus from './markup/Cities/Chicagopartybus';
+import Miami from './markup/Cities/Miami';
+import Miamicarservice from './markup/Cities/Miamicarservice';
+import Miamilimousine from './markup/Cities/Miamilimousine';
+import Miamipartybus from './markup/Cities/Miamipartybus';
+import Orlando from './markup/Cities/Orlando';
+import Orlandocarservice from './markup/Cities/Orlandocarservice';
+import Orlandolimousine from './markup/Cities/Orlandolimousine';
+import Orlandopartybus from './markup/Cities/Orlandopartybus';
+import Palmbeach from './markup/Cities/Palmbeach';
+import Palmbeachcarservice from './markup/Cities/Palmbeachcarservice';
+import Palmbeachlimousine from './markup/Cities/Palmbeachlimousine';
+import Palmbeachpartybus from './markup/Cities/Palmbeachpartybus';
+import Destin from './markup/Cities/Destin';
 
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
         <Switch>
-          <Route path='/' exact component={Homepage} />
+          <Route exact path='/' component={Homepage} />
           <Route path="/super-bowl/" component={Superbowl} />
           <Route path="/about-us/" component={About} />
           <Route path="/posts/" component={Post} /> 
           <Route path="/contact-us/" component={Contact} /> 
           <Route exact path="/locations/" component={Locations} />
           <Route path="/limousine-service/" component={Limousineservice} />
-          <Route path="/corporate-transportation/" component={Corporatetransportation} />
+          <Route path="/corporate-transportation" component={Corporatetransportation} />
           <Route path="/wedding-transportation/" component={Weddingtransportation} />
           <Route path="/airport-car-service/" component={Airportcarservice} />
           <Route path="/wine-tour/" component={Winetour} />
@@ -141,7 +154,19 @@ function App() {
           <Route path="/locations/chicago-car-service/" component={Chicagocarservice} />
           <Route path="/locations/chicago-limousine/" component={Chicagolimousine} />
           <Route path="/locations/chicago-party-bus/" component={Chicagopartybus} />
-
+          <Route path="/locations/miami/" component={Miami} />
+          <Route path="/locations/miami-car-service/" component={Miamicarservice} />
+          <Route path="/locations/miami-limousine/" component={Miamilimousine} />
+          <Route path="/locations/miami-party-bus/" component={Miamipartybus} />
+          <Route path="/locations/orlando/" component={Orlando} />
+          <Route path="/locations/orlando-car-service/" component={Orlandocarservice} />
+          <Route path="/locations/orlando-limousine/" component={Orlandolimousine} />
+          <Route path="/locations/orlando-party-bus/" component={Orlandopartybus} />
+          <Route path="/locations/palm-beach/" component={Palmbeach} />
+          <Route path="/locations/palm-beach/" component={Palmbeachcarservice} />
+          <Route path="/locations/palm-beach-limousine/" component={Palmbeachlimousine} />
+          <Route path="/locations/palm-beach-party-bus/" component={Palmbeachpartybus} />
+          <Route path="/locations/destin/" component={Destin} />
 
 
         </Switch>
