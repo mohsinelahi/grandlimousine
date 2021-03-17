@@ -31,23 +31,23 @@ class Locations extends Component {
                     <div className="container">
                         <h4 className="heading pt-4">North America</h4>
                             <ul>
-                                <li> <Link to={"/locations/san-francisco"}> San Francisco, California </Link> </li>
-                                <li> <Link to={"/locations/los-angeles"}> Los Angeles, California</Link> </li>
-                                <li> <Link to={"/locations/houston"}> Houston, Texas </Link> </li>
-                                <li><a href="#">Chicago, Illinois</a></li>
-                                <li> <Link to={"/locations/new-york"}> New York </Link> </li>
-                                <li><a href="#">Orlando, Florida</a></li>
-                                <li><a href="#">Miami, Florida</a></li>
-                                <li><a href="#">Destin, Florida</a></li>
-                                <li> <Link to={"/locations/jacksonville"}> Jacksonville, Florida </Link> </li>
-                                <li> <Link to={"/locations/atlanta"}> Atlanta, Georgia </Link> </li>
-                                <li><a href="#">Columbus, Georgia</a></li>
-                                <li> <Link to={"/locations/augusta"}> Augusta, Georgia </Link> </li>
-                                <li> <Link to={"/locations/macon"}> Macon, Georgia </Link> </li>
-                                <li> <Link to={"/locations/savannah"}> Savannah, Georgia </Link> </li>
-                                <li><a href="#">Gray, Georgia</a></li>
-                                <li><a href="#">Palm Beach, FL</a></li>
-                                <li><a href="#">Kentucky</a></li>
+                                <li> <Link to={"/locations/san-francisco/"}> San Francisco, California </Link> </li>
+                                <li> <Link to={"/locations/los-angeles/"}> Los Angeles, California</Link> </li>
+                                <li> <Link to={"/locations/houston/"}> Houston, Texas </Link> </li>
+                                <li> <Link to={"/locations/chicago/"}>Chicago, Illinois</Link></li>
+                                <li> <Link to={"/locations/new-york/"}> New York </Link> </li>
+                                <li> <Link to={"/locations/orlando/"}> Orlando, Florida </Link> </li>
+                                <li> <Link to={"/locations/miami/"}> Miami, Florida </Link> </li>
+                                <li> <Link to={"/locations/destin/"}> Destin, Florida </Link> </li>
+                                <li> <Link to={"/locations/jacksonville/"}> Jacksonville, Florida </Link> </li>
+                                <li> <Link to={"/locations/atlanta/"}> Atlanta, Georgia </Link> </li>
+                                <li> <Link to={"/locations/columbus/"}> Columbus, Georgia </Link> </li>
+                                <li> <Link to={"/locations/augusta/"}> Augusta, Georgia </Link> </li>
+                                <li> <Link to={"/locations/macon/"}> Macon, Georgia </Link> </li>
+                                <li> <Link to={"/locations/savannah/"}> Savannah, Georgia </Link> </li>
+                                <li> <Link to={"/locations/gray/"}> Gray, Georgia </Link> </li>
+                                <li> <Link to={"/locations/palm-beach/"}> Palm Beach, FL </Link> </li>
+                                <li> <Link to={"/locations/kentucky-car-service/"}> Kentucky </Link> </li>
                             </ul>
                     </div>
                 </section>
@@ -86,7 +86,6 @@ class Locations extends Component {
                             <li> <Link to={"/dallas-airport-car-service-dallas-grand-limousine-corporate-transportation"}> Dallas Car Service Dallas Fort Worth (DFW) Airport Limousine </Link> </li>
                             <li><a href="#">Flowery Branch Car Service Atlanta (ATL) Book Direct Since 2007</a></li>
                             <li><a href="#">Corpus Christi Car Service Houston (IAH) Airport Limousine</a></li>
-                            <li><a href="#">Phoenix Car Service Phoenix (PHX) Book Direct Since 2007</a></li>
                             <li>  <Link to={"/phoenix-car-service-phx-airport"} > Phoenix Car Service Phoenix (PHX) Book Direct Since 2007 </Link> </li>
                             <li><a href="#">Hampton Car Service Atlanta (ATL) Airport Limousine</a></li>
                             <li><a href="#">West University Place Car Service Houston (IAH) Airport</a></li>

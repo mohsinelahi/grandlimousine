@@ -14747,9 +14747,11 @@ ul.atlanta-serivces {
     padding: 20px 0px;
     border: 1px solid #ccc;
     margin: 50px 0px;
+    text-align: center;
 }
 ul.atlanta-serivces li {
     position: relative;
+    width: 100%;
 }
 
 ul.atlanta-serivces li:not(:last-child):before {
@@ -14759,7 +14761,7 @@ ul.atlanta-serivces li:not(:last-child):before {
     width: 1px;
     height: 40px;
     top: -7px;
-    right: -90px;
+    right: 0px;
 }
 
 .atlanta-one {

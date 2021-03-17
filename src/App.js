@@ -88,6 +88,12 @@ import Destin from './markup/Cities/Destin';
 import Destincarservice from './markup/Cities/Destincarservice';
 import Destinlimousine from './markup/Cities/Destinlimousine';
 import Destinpartybus from './markup/Cities/Destinpartybus';
+import Columbus from './markup/Cities/Columbus';
+import Columbuscarservice from './markup/Cities/Columbuscarservice';
+import Gray from './markup/Cities/Gray';
+import Graycarservice from './markup/Cities/Graycarservice';
+import Graylimousine from './markup/Cities/Graylimousine';
+import Louisville from './markup/Cities/Louisville';
 
 
 function App() {
@@ -173,6 +179,12 @@ function App() {
           <Route path="/locations/destin-car-service/" component={Destincarservice} />
           <Route path="/locations/destin-limousine/" component={Destinlimousine} />
           <Route path="/locations/destin-party-bus/" component={Destinpartybus} />
+          <Route path="/locations/columbus/" component={Columbus} />
+          <Route path="/locations/columbus-car-service/" component={Columbuscarservice} />
+          <Route path="/locations/gray/" component={Gray} />
+          <Route path="/locations/gray-car-service/" component={Graycarservice} />
+          <Route path="/locations/gray-limousine/" component={Graylimousine} />
+          <Route path="/locations/kentucky-car-service/" component={Louisville} />
 
 
         </Switch>

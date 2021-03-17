@@ -81,11 +81,14 @@ class Header extends Component{
 										<ul className="sub-menu">
 											<li><Link to={"/locations/atlanta/"}>Atlanta, GA <span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/augusta/"}>Augusta, GA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/columbus/"}>Columbus, GA<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/chicago/"}>Chicago, IL<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/destin/"}>Destin, FL<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/gray/"}>Gray, GA<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/houston/"}>Houston, TX<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/jacksonville/"}>Jacksonville, FL<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/los-angeles/"}>Los Angeles, CA <span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/kentucky-car-service/"}> Louisville, KY <span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/macon/"}>Macon, GA<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/miami/"}>Miami, FL<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/new-york/"}>New York<span className="tag-new">New</span></Link></li>
@@ -93,7 +96,8 @@ class Header extends Component{
 											<li><Link to={"/locations/palm-beach/"}>Palm Beach, FL<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/san-francisco/"}>San Francisco, CA<span className="tag-new">New</span></Link></li>
 											<li><Link to={"/locations/savannah/"}>Savannah, GA<span className="tag-new">New</span></Link></li>
-											
+											<li><Link exact to={"/locations/"}>All Locations & Services<span className="tag-new">New</span></Link></li>
+										
 										</ul>
 									</li>
 									<li className=""><Link to={"/posts/"}>Posts</Link></li>
