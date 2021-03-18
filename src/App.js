@@ -94,6 +94,17 @@ import Gray from './markup/Cities/Gray';
 import Graycarservice from './markup/Cities/Graycarservice';
 import Graylimousine from './markup/Cities/Graylimousine';
 import Louisville from './markup/Cities/Louisville';
+import Alpharetta from './markup/Carservices/Alpharetta';
+import Athens from './markup/Carservices/Athens';
+import Atlantaairport from './markup/Carservices/Atlantaairport';
+import Auburn from './markup/Carservices/Auburn';
+import Buford from './markup/Carservices/Buford';
+import Austin from './markup/Carservices/Austin';
+import Buckhead from './markup/Carservices/Buckhead';
+import Cordele from './markup/Carservices/Cordele';
+import Corpuschristi from './markup/Carservices/Corpuschristi';
+import Dublin from './markup/Carservices/Dublin';
+import Dunwoody from './markup/Carservices/Dunwoody';
 
 
 function App() {
@@ -185,6 +196,18 @@ function App() {
           <Route path="/locations/gray-car-service/" component={Graycarservice} />
           <Route path="/locations/gray-limousine/" component={Graylimousine} />
           <Route path="/locations/kentucky-car-service/" component={Louisville} />
+          <Route path="/alpharetta-car-service-atlanta-atl-airport/" component={Alpharetta} />
+          <Route path="/athens-car-service-atlanta-atl-airport/" component={Athens} />
+          <Route path="/car-service-atlanta-airport/" component={Atlantaairport} />
+          <Route path="/auburn-car-service/" component={Auburn} />
+          <Route path="/buford-car-service/" component={Buford} />
+          <Route path="/Austin-car-service/" component={Austin} />
+          <Route path="/buckhead-car-service-atlanta-atl-airport/" component={Buckhead} />
+          <Route path="/cordele-car-service-atlanta-atl-airport/" component={Cordele} />
+          <Route path="/corpus-christi-car-service/" component={Corpuschristi} />
+          <Route path="/dublin-car-service-atlanta-atl/" component={Dublin} />
+          <Route path="/dunwoody-car-service-atlanta-atl-airport-limousine/" component={Dunwoody} />
+
 
 
         </Switch>
