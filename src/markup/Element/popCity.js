@@ -6,18 +6,22 @@ const cityBlog = [
 	{
 		image: require('./../../images/destinations/pic3.jpg'),
 		title: 'San Francisco, CA',
+		Link: '/locations/san-francisco/',
 	},
 	{
 		image: require('./../../images/destinations/pic4.jpg'),
 		title: 'Los Angeles, CA',
+		Link: '/locations/los-angeles/',
 	},
 	{
 		image: require('./../../images/destinations/pic3.jpg'),
 		title: 'Houston, TX',
+		Link: '/locations/houston/',
 	},
 	{
 		image: require('./../../images/destinations/pic4.jpg'),
 		title: 'Chicago, IL',
+		Link: '/locations/chicago/',
 	},
 ];
 
@@ -35,7 +39,8 @@ class popCity extends Component{
 					
 						<div className="featured-bx m-b30">
 							<div className="featured-media">
-								<img src={item.image} alt=""/>
+								<Link to={item.Link}> <img src={item.image} alt=""/> </Link>
+								
 							</div>	
 							<div className="featured-info">
 								<ul className="featured-star">

@@ -105,6 +105,10 @@ import Cordele from './markup/Carservices/Cordele';
 import Corpuschristi from './markup/Carservices/Corpuschristi';
 import Dublin from './markup/Carservices/Dublin';
 import Dunwoody from './markup/Carservices/Dunwoody';
+import Elpaso from './markup/Carservices/Elpaso';
+import Flowerybranch from './markup/Carservices/Flowerybranch';
+import Garland from './markup/Carservices/Garland';
+import Hiram from './markup/Carservices/Hiram';
 
 
 function App() {
@@ -159,7 +163,7 @@ function App() {
           <Route path="/locations/jacksonville-car-service/" component={jacksonvillecarservice} />
           <Route path="/locations/jacksonville-limousine/" component={Jacksonvillelimousine} />
           <Route path="/locations/jacksonville-party-bus/" component={Jacksonvillepartybus} />
-          <Route path="/dallas-airport-car-service-dallas-grand-limousine-corporate-transportation/" component={Dallasservice} />
+          <Route path="/dallas-car-service/" component={Dallasservice} />
           <Route path="/nashville-car-service-nashville-bna-airport/" component={Nashville} />
           <Route path="/phoenix-car-service-phx-airport/" component={Phoenix} />
           <Route path="/locations/macon/" component={Macon} />
@@ -207,8 +211,12 @@ function App() {
           <Route path="/corpus-christi-car-service/" component={Corpuschristi} />
           <Route path="/dublin-car-service-atlanta-atl/" component={Dublin} />
           <Route path="/dunwoody-car-service-atlanta-atl-airport-limousine/" component={Dunwoody} />
+          <Route path="/car-service-elp-el-paso-airport/" component={Elpaso} />
+          <Route path="/flowery-branch-car-service-atlanta-atl/" component={Flowerybranch} />
+          <Route path="/garland-car-service-dallas-fort-worth-dfw/" component={Garland} />
+          <Route path="/Hiram-car-service/" component={Hiram} />
 
-
+          
 
         </Switch>
       </div>

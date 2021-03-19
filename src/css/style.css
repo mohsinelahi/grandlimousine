@@ -2948,6 +2948,9 @@ blockquote:before {
     margin-top: -3px;
     vertical-align: middle;
 }
+.my-account i {
+    font-size: 16px !important;
+}
 .header-nav .nav > li {
     margin: 0px;
     font-weight: 400;
@@ -3433,7 +3436,7 @@ blockquote:before {
     }
     .header-nav .nav > li > a {
         padding: 10px 15px;
-        border-top: 1px solid #E9E9E9;
+        border-bottom: 1px solid #E9E9E9;
 		display:block;
     }
     .header-nav .nav i {
@@ -14776,8 +14779,12 @@ ul.atlanta-serivces li:not(:last-child):before {
     margin-bottom: 30px;
 }
 
-
-
+.featured-bx:after {
+    pointer-events: none;
+}
+.featured-info {
+    pointer-events: none;
+}
 
 
 

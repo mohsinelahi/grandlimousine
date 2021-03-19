@@ -38,8 +38,8 @@ class Header extends Component{
 						<div className="container clearfix">
 							
 							<div className="logo-header mostion">
-								<Link to={"./"} className="logo-1"><img src={require("../../images/logo-grand.png")} alt="" /></Link>
-								<Link to={"./"} className="logo-2"><img src={require("./../../images/logo-grand.png")} alt="" /></Link> 
+								<Link to={"/"} className="logo-1"><img src={require("../../images/logo-grand.png")} alt="" /></Link>
+								<Link to={"/"} className="logo-2"><img src={require("./../../images/logo-grand.png")} alt="" /></Link> 
 							</div>
 							
 							<button className="navbar-toggler collapsed navicon  justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,15 +48,10 @@ class Header extends Component{
 								<span></span>
 							</button>
 							
-							<div className="extra-nav">
-								<div className="extra-cell">
-									<a href="https://account.chauffeurbookingsoftware.com/account/login/?guid=123fd7f0-ff6c-4a9d-80fb-05c694c9ed03" target="_blank" className="site-button-link white head-myacc">My Account<i className="ti-import m-r5 rotate90"></i></a>
-								</div>
-							</div>
+						
 							
 							<div className="header-nav navbar-collapse collapse myNavbar justify-content-end" id="navbarNavDropdown">
 								<ul className="nav navbar-nav">              
-									<li className=" active"><Link to={"/"}>Grand Limousine</Link></li>
 										
 									<li className=""><Link to={"/super-bowl/"}>The Super Bowl</Link></li>
 									<li className=""><Link to={"/about-us/"} >About Us</Link></li>
@@ -102,6 +97,7 @@ class Header extends Component{
 									</li>
 									<li className=""><Link to={"/posts/"}>Posts</Link></li>
 									<li><Link to={"/contact-us/"}>Contact Us</Link></li>
+									<li className="my-account"><a href="https://account.chauffeurbookingsoftware.com/account/login/?guid=123fd7f0-ff6c-4a9d-80fb-05c694c9ed03">My Account <i className="ti-import m-r5 rotate90"></i> </a></li>
 								</ul>		
 							</div>
 						</div>

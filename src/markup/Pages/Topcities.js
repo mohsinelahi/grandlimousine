@@ -65,14 +65,14 @@ class Locations extends Component {
                             <li> <Link to={"/Austin-car-service/"} > Austin </Link> </li>
                             <li> <Link to={"/buckhead-car-service-atlanta-atl-airport/"} > Buckhead </Link> </li>                           
                             <li> <Link to={"/cordele-car-service-atlanta-atl-airport/"} > Cordele </Link> </li>                          
-                            <li> <Link to={"/dallas-airport-car-service-dallas-grand-limousine-corporate-transportation"} >Dallas</Link> </li>
+                            <li> <Link to={"/dallas-car-service/"} >Dallas</Link> </li>
                             <li> <Link to={"/corpus-christi-car-service/"} > Corpus Christi </Link> </li>         
                             <li> <Link to={"/dublin-car-service-atlanta-atl/"} > Dublin </Link> </li>      
-                            <li> <Link to={"/dunwoody-car-service-atlanta-atl-airport-limousine/"} > Dunwoody </Link> </li>                                                                                
-                            <li><a href="#">El Paso</a></li>
-                            <li><a href="#">Flowery Branch</a></li>
-                            <li><a href="#">Garland</a></li>
-                            <li><a href="#">Hiram</a></li>
+                            <li> <Link to={"/dunwoody-car-service-atlanta-atl-airport-limousine/"} > Dunwoody </Link> </li>
+                            <li> <Link to={"/car-service-elp-el-paso-airport/"} > El Paso </Link> </li>
+                            <li> <Link to={"/flowery-branch-car-service-atlanta-atl/"} > Flowery Branch </Link> </li>
+                            <li> <Link to={"/garland-car-service-dallas-fort-worth-dfw/"} > Garland </Link> </li>  
+                            <li> <Link to={"/Hiram-car-service/"} > Hiram </Link> </li>                                                                                                                                                                                                                                                                                                                              
                             <li><a href="#">Jonesboro</a></li>
                             <li><a href="#">Marietta</a></li>
                             <li><a href="#">Naples</a></li>
@@ -83,7 +83,6 @@ class Locations extends Component {
                         </ul>
                         <ul className="list-two">
                             <li><a href="#">Garland Car Service – Book Direct Since 2007</a></li>
-                            <li> <Link to={"/dallas-airport-car-service-dallas-grand-limousine-corporate-transportation"}> Dallas Car Service Dallas Fort Worth (DFW) Airport Limousine </Link> </li>
                             <li><a href="#">Flowery Branch Car Service Atlanta (ATL) Book Direct Since 2007</a></li>
                             <li><a href="#">Corpus Christi Car Service Houston (IAH) Airport Limousine</a></li>
                             <li>  <Link to={"/phoenix-car-service-phx-airport"} > Phoenix Car Service Phoenix (PHX) Book Direct Since 2007 </Link> </li>
