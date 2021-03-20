@@ -72,23 +72,18 @@ class Locations extends Component {
                             <li> <Link to={"/car-service-elp-el-paso-airport/"} > El Paso </Link> </li>
                             <li> <Link to={"/flowery-branch-car-service-atlanta-atl/"} > Flowery Branch </Link> </li>
                             <li> <Link to={"/garland-car-service-dallas-fort-worth-dfw/"} > Garland </Link> </li>  
-                            <li> <Link to={"/Hiram-car-service/"} > Hiram </Link> </li>                                                                                                                                                                                                                                                                                                                              
-                            <li><a href="#">Jonesboro</a></li>
-                            <li><a href="#">Marietta</a></li>
-                            <li><a href="#">Naples</a></li>
-                            <li> <Link to={"/phoenix-car-service-phx-airport"} > Phoenix </Link> </li>
-                            <li><a href="#">The Woodlands</a></li>
-                            <li><a href="#">Tomball</a></li>
-                            <li><a href="#">Tuscaloosa</a></li>
+                            <li> <Link to={"/Hiram-car-service/"} > Hiram </Link> </li>
+                            <li> <Link to={"/jonesboro-car-service-atlanta-atl-airport-limousine/"} > Jonesboro </Link> </li>
+                            <li> <Link to={"/marietta-car-service-atlanta-atl-airport/"} > Marietta </Link> </li> 
+                            <li> <Link to={"/naples-car-service-southwest-rsw/"} > Naples </Link> </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                            <li> <Link to={"/phoenix-car-service-phx-airport/"} > Phoenix </Link> </li>
+                            <li> <Link to={"/the-woodlands-car-service/"} > The Woodlands </Link> </li>
+                            <li> <Link to={"/tomball-car-service/"} > Tomball </Link> </li>
+                            <li> <Link to={"/tuscaloosa-car-service-birmingham-bhm/"} > Tuscaloosa </Link> </li>
                         </ul>
                         <ul className="list-two">
-                            <li><a href="#">Garland Car Service – Book Direct Since 2007</a></li>
-                            <li><a href="#">Flowery Branch Car Service Atlanta (ATL) Book Direct Since 2007</a></li>
-                            <li><a href="#">Corpus Christi Car Service Houston (IAH) Airport Limousine</a></li>
-                            <li>  <Link to={"/phoenix-car-service-phx-airport"} > Phoenix Car Service Phoenix (PHX) Book Direct Since 2007 </Link> </li>
                             <li><a href="#">Hampton Car Service Atlanta (ATL) Airport Limousine</a></li>
                             <li><a href="#">West University Place Car Service Houston (IAH) Airport</a></li>
-                            <li><a href="#">Athens Car Service Atlanta (ATL) Airport Limousine</a></li>
                             <li><a href="#">Charlotte Car Service (CLT) – Book Direct Since 2007</a></li>
                         </ul>
                     </div>

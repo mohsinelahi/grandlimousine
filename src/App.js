@@ -109,6 +109,12 @@ import Elpaso from './markup/Carservices/Elpaso';
 import Flowerybranch from './markup/Carservices/Flowerybranch';
 import Garland from './markup/Carservices/Garland';
 import Hiram from './markup/Carservices/Hiram';
+import Jonesboro from './markup/Carservices/Jonesboro';
+import Marietta from './markup/Carservices/Marietta';
+import Naples from './markup/Carservices/Naples';
+import Woodlands from './markup/Carservices/Woodlands';
+import Tomball from './markup/Carservices/Tomball';
+import Tuscaloosa from './markup/Carservices/Tuscaloosa';
 
 
 function App() {
@@ -215,6 +221,12 @@ function App() {
           <Route path="/flowery-branch-car-service-atlanta-atl/" component={Flowerybranch} />
           <Route path="/garland-car-service-dallas-fort-worth-dfw/" component={Garland} />
           <Route path="/Hiram-car-service/" component={Hiram} />
+          <Route path="/jonesboro-car-service-atlanta-atl-airport-limousine/" component={Jonesboro} />
+          <Route path="/marietta-car-service-atlanta-atl-airport/" component={Marietta} />
+          <Route path="/naples-car-service-southwest-rsw/" component={Naples} />
+          <Route path="/the-woodlands-car-service/" component={Woodlands} />
+          <Route path="/tomball-car-service/" component={Tomball} />
+          <Route path="/tuscaloosa-car-service-birmingham-bhm/" component={Tuscaloosa} />
 
           
 
