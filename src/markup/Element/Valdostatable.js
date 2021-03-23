@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
 
-var tofrom = require ('./../../images/services/Houstonairport.jpg');
+var tofrom = require ('./../../images/services/to-from.png');
 var sedans = require ('./../../images/services/sedans.png');
 var suvs = require ('./../../images/services/suvs.png');
 var vans = require ('./../../images/services/vans.png');
@@ -12,7 +12,7 @@ var titlevans = require ('./../../images/services/landing-title-vans.png');
 var landingphonebottom = require ('./../../images/services/landing-phone-bottom.png');
 var landingcarlimo = require ('./../../images/services/landing-car-limo.png');
 
-class Corpuschristitable extends Component {
+class Valdostatable extends Component {
     render() {
         return (
             <section className="section-full booknowtable">
@@ -34,15 +34,14 @@ class Corpuschristitable extends Component {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td> Corpus Christi	 </td>
-                                    <td> <strong>$314</strong> </td>
-                                    <td> <strong>$419</strong> </td>
-                                    <td> <strong>$879</strong> </td>
+                                    <td> Valdosta	</td>
+                                    <td> <strong>$174</strong> </td>
+                                    <td> <strong>$199</strong> </td>
+                                    <td> <strong>$244</strong> </td>
                                 </tr>
-                               
                                 <tr>
                                     <td valign="middle"> <img loading="lazy" title="Luxury/Space" src={landingcarlimo}></img> </td>
-                                    <td colspan="3" valign="middle"> <strong>BLACK CAR SERVICE IN HOUSTON</strong> </td>
+                                    <td colspan="3" valign="middle"> <strong>NEED MORE LUXURY/SPACE? CALL NOW</strong> </td>
                                 </tr>
                                 <tr style={{backgroundColor: '#3e3e3e'}}>
                                     <td colspan="4"> <img loading="lazy" class="alignnone" title="Book Now" src={landingphonebottom}></img> </td>
@@ -55,4 +54,4 @@ class Corpuschristitable extends Component {
 }
 
 
-export default Corpuschristitable;
+export default Valdostatable;

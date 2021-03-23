@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
 
-var tofrom = require ('./../../images/services/Houstonairport.jpg');
+var tofrom = require ('./../../images/services/Charlotte.png');
 var sedans = require ('./../../images/services/sedans.png');
 var suvs = require ('./../../images/services/suvs.png');
 var vans = require ('./../../images/services/vans.png');
@@ -12,7 +12,7 @@ var titlevans = require ('./../../images/services/landing-title-vans.png');
 var landingphonebottom = require ('./../../images/services/landing-phone-bottom.png');
 var landingcarlimo = require ('./../../images/services/landing-car-limo.png');
 
-class Corpuschristitable extends Component {
+class Charlottetable extends Component {
     render() {
         return (
             <section className="section-full booknowtable">
@@ -34,15 +34,38 @@ class Corpuschristitable extends Component {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td> Corpus Christi	 </td>
-                                    <td> <strong>$314</strong> </td>
-                                    <td> <strong>$419</strong> </td>
-                                    <td> <strong>$879</strong> </td>
+                                    <td> Charlotte	</td>
+                                    <td> <strong>$59</strong> </td>
+                                    <td> <strong>$79</strong> </td>
+                                    <td> <strong>$174</strong> </td>
                                 </tr>
-                               
+                                <tr>
+                                    <td> Gastonia	</td>
+                                    <td> <strong>$64</strong> </td>
+                                    <td> <strong>$89</strong> </td>
+                                    <td> <strong>$199</strong> </td>
+                                </tr>                                
+                                <tr>
+                                    <td> Lowell	</td>
+                                    <td> <strong>$59</strong> </td>
+                                    <td> <strong>$84</strong> </td>
+                                    <td> <strong>$184</strong> </td>
+                                </tr>                               
+                                <tr>
+                                    <td> Dallas	</td>
+                                    <td> <strong>$69</strong> </td>
+                                    <td> <strong>$89</strong> </td>
+                                    <td> <strong>$204</strong> </td>
+                                </tr>                                
+                                <tr>
+                                    <td> Clover	</td>
+                                    <td> <strong>$64</strong> </td>
+                                    <td> <strong>$84</strong> </td>
+                                    <td> <strong>$184</strong> </td>
+                                </tr>
                                 <tr>
                                     <td valign="middle"> <img loading="lazy" title="Luxury/Space" src={landingcarlimo}></img> </td>
-                                    <td colspan="3" valign="middle"> <strong>BLACK CAR SERVICE IN HOUSTON</strong> </td>
+                                    <td colspan="3" valign="middle"> <strong>NEED MORE LUXURY/SPACE? CALL NOW</strong> </td>
                                 </tr>
                                 <tr style={{backgroundColor: '#3e3e3e'}}>
                                     <td colspan="4"> <img loading="lazy" class="alignnone" title="Book Now" src={landingphonebottom}></img> </td>
@@ -55,4 +78,4 @@ class Corpuschristitable extends Component {
 }
 
 
-export default Corpuschristitable;
+export default Charlottetable;

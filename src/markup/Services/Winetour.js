@@ -34,11 +34,11 @@ class Winetour extends Component {
                             
                             <Booknowtable />
                        
-                            <p><strong>​​Atlanta Airport Car Service – </strong> We understand that our Chauffeurs are the face of our business. All of our Chauffeur trained traditionally with etiquette. New units of luxury will ensure the little touch of luxury that you so richly deserve.    All transportation staff is knowledgeable, skilled, conscientious, and friendly.  Tour Chauffeurs, in particular, are hand-picked for their exceptional driving skills, friendly and warm demeanor, and their comprehensive knowledge of the City.​​</p>
+                            <p><strong>​​Atlanta Airport Car Service – </strong> We understand that our Chauffeurs are the face of our business. All of <Link to={"/car-service-elp-el-paso-airport/"} className={"anchor"} rel="noopener noreferrer"> our Chauffeur </Link>  trained traditionally with etiquette. New units of luxury will ensure the little touch of luxury that you so richly deserve. All transportation staff is knowledgeable, skilled, conscientious, and friendly.  Tour Chauffeurs, in particular, are hand-picked for their exceptional driving skills, friendly and warm demeanor, and their comprehensive knowledge of the City.​​</p>
 
-                            <h4>WHAT DO YOU GET WITH THIS SERVICE?</h4>
+                            <h4>What Do You Get With This Service?</h4>
 
-                            <p>A professional uniformed driver/chauffeur will meet you at your doorstep or in the baggage claim area of the airport with your Ipad greeting sign. You will experience individual assistance with your luggage and personally escorted to your Taxi Sedan, Luxury Town Car, SUV, or Van. The airport meets ​& greet service is the perfect choice for guests traveling with small children or elderly passengers who need or want individual assistance. Free 15 Minute Grocery Stop.No Charge for the use of booster/car seat.No Charge for gate fees, tolls or traffic.NO HIDDEN FEES, NO GIMMICKS.</p>
+                            <p>A professional uniformed driver/chauffeur will meet you at your doorstep or in the baggage claim area of the airport with your Ipad greeting sign. You will experience individual assistance with your luggage and personally escorted to your Taxi Sedan, Luxury Town Car, SUV, or Van. The airport meets ​& greet service is the perfect choice for guests traveling with small children or elderly passengers who need or want individual assistance. Free 15 Minute Grocery Stop. No Charge for the use of booster/car seat. No Charge for gate fees, tolls or traffic. NO HIDDEN FEES, NO GIMMICKS.</p>
                         </div>
                     </div>
                 </section>

@@ -82,9 +82,10 @@ class Locations extends Component {
                             <li> <Link to={"/tuscaloosa-car-service-birmingham-bhm/"} > Tuscaloosa </Link> </li>
                         </ul>
                         <ul className="list-two">
-                            <li><a href="#">Hampton Car Service Atlanta (ATL) Airport Limousine</a></li>
-                            <li><a href="#">West University Place Car Service Houston (IAH) Airport</a></li>
-                            <li><a href="#">Charlotte Car Service (CLT) – Book Direct Since 2007</a></li>
+                        <li> <Link to={"/hampton-car-service-atlanta-atl-airport/"} > Hampton Car Service Atlanta (ATL) Airport Limousine </Link> </li>
+                        <li> <Link to={"/west-university-place-car-service-houston/"} > West University Place Car Service Houston (IAH) Airport </Link> </li>
+                        <li> <Link to={"/charlotte-car-service-charlotte-clt-airport/"} > Charlotte Car Service (CLT) – Book Direct Since 2007 </Link> </li>
+
                         </ul>
                     </div>
                 </section>

@@ -32,8 +32,8 @@ class Superbowl extends Component{
                             <div className="col-md-7">
                                 <div className="left">
                                     <h4>Las Vegas Super Bowl Transportation</h4>
-                                    <p><span>T </span> <strong> he Super Bowl </strong> Car Service Las Vegas – Grand Limousine Las Vegas, NV to Allegiant Stadium NFL’s Grand event in style. 2022 Super Bowl Las Vegas Limo Car Service & Party Bus. NFL’s Football Transportation Professionals. We encourage you to book and plan earlier for this Super Bowl event. Maybe this is the very first Super Bowl that you don’t want to miss. A game will likely seize the spotlight and set it into remembering. It is an on-time for organizers hosting the Super Bowl event.</p>
-                                    <p>You might not have seen the Super Bowl venue, and that is why you might want to set out for a trip to explore it before it starts. It’s the place to be for the NFL Football Grand Finally of Year. The Super Bowl venue is a real melting pot that amalgamates people with different cultures and <a href="#">backgrounds</a>.</p>
+                                    <p><span>T </span> <strong> he Super Bowl </strong> Car Service Las Vegas – Grand Limousine Las Vegas, NV to Allegiant Stadium NFL’s Grand event in style. 2022 Super Bowl Las Vegas Limo Car Service & Party Bus. NFL’s Football Transportation Professionals. We encourage you to book and plan earlier for this Super Bowl event. Maybe this is the very first Super Bowl that you don’t want to miss. A game will likely seize the spotlight and set it into remembering. It is an on-time for organizers hosting the Super Bowl <a href={"https://www.facebook.com/131499577506295/photos/a.162530297736556/503149197007996/?type=3&theater"} target={"_blank"} className={"anchor"} rel="noopener noreferrer"> event</a>.</p>
+                                    <p>You might not have seen the Super Bowl venue, and that is why you might want to set out for a trip to explore it before it starts. It’s the place to be for the NFL Football Grand Finally of Year. The Super Bowl venue is a real melting pot that amalgamates people with different cultures and <Link to={"/locations/palm-beach/"} className={"anchor"} rel="noopener noreferrer"> backgrounds</Link>.</p>
                                     <p>If you want to attend the Super Bowl, start planning and get your Airport Limo right now. Book your Luxury Car for that day ahead of time with Grand Limo. The Super Bowl, Dealing with just any provider, won’t be a good idea.</p>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ class Superbowl extends Component{
 
 <p>In every car service or party bus service, we add an extra touch of elegance and a class suitable for every special occasion. Each member of the staff at Grand Limousine commits to meet your Super Bowl Transportation needs. We are always available to solve any of your queries about our premium car services.</p>
 
-<h4 className="pt-4 pb-4">NFL Corporate <a href="#">Car Service Super Bowl Limo</a></h4>
+<h4 className="pt-4 pb-4">NFL Corporate <Link to={"/super-bowl/"} className={"anchor"} rel="noopener noreferrer">  Car Service Super Bowl Limo </Link></h4>
 
 <p>Super Bowl Car Service is what we do. Pioneering and accommodation most specialized clients for trusted, high-quality luxury sedans and SUV. We offer a versatile range of premium Services and exceptional Car Service near you. That is why if you need transport to attend the event, contact us.</p>
 
