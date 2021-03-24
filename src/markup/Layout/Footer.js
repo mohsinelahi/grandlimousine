@@ -23,10 +23,10 @@ class Footer extends Component{
 											</div>
 										</form>
 									</div>
-									<ul className="list-inline social-icon  m-a0">
-										<li><Link to ={""} className="site-button facebook circle "><i className="fa fa-facebook"></i></Link></li>
-										<li><Link to ={""} className="site-button twitter circle "><i className="fa fa-twitter"></i></Link></li>
-										<li><Link to ={""} className="site-button instagram circle "><i className="fa fa-instagram"></i></Link></li>
+									<ul className="list-inline social-icon m-a0">
+										<li><a href="https://www.facebook.com/grandlimousiness" target="_blank" className="site-button facebook circle"><i className="fa fa-facebook"></i></a></li>
+										<li><a href="https://twitter.com/grandlimousin" target="_blank" className="site-button twitter circle"><i className="fa fa-twitter"></i></a></li>
+										<li><a href="https://www.instagram.com/grandlimousine/" target="_blank" className="site-button instagram circle"><i className="fa fa-instagram"></i></a></li>
 									
 										
 									</ul>
@@ -52,7 +52,7 @@ class Footer extends Component{
 									<h5 className="m-b30 text-white">Contact us</h5>
 									<ul>
 										<li><i className="ti-location-pin"></i><strong>address</strong> <a target="_blank" href="https://goo.gl/maps/ob8TJNCTuX7d5RWG9" >houston, tx 77041, texas, usa</a></li>
-										<li><i className="ti-mobile"></i><strong>phone</strong><a href="tel:+1 (404) 424-4499" >+1 (404) 424-4499</a></li>
+										<li><i className="ti-mobile"></i><strong>phone</strong><a href="tel:+14044244499" >+1 (404) 424-4499</a></li>
 										<li><i className="ti-email"></i><strong>email</strong><a target="_blank" href="mailto:info@grandlimousine.com" >info@grandlimousine.com</a></li>
 									</ul>
 								</div>

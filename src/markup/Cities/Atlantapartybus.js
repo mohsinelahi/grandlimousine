@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Atlantabanner from '../Element/Atlantabanner';
+import Havequestion from '../Element/Havequestion';
 
 var atlantalimousineimg1 = require ('./../../images/cities/atlanta-limousine.jpg');
 
@@ -65,9 +66,9 @@ class Atlantapartybus extends Component {
                            
                            <h4>Parties</h4>
                            
-                           <p>It’s better to choose Atlanta Party Bus if you‘re throwing a crazy party tonight. In fact, for other family occasions, you may choose a Bus or Limousine service. You can enjoy your private party with your neighbors with no interference. It makes you feel a milestone achievement. Isn’t it amazing!  </p>
+                           <p>It’s better to choose Atlanta Party Bus if you‘re throwing a crazy party tonight. In fact, for other family occasions, you may choose a Bus or Limousine service. You can <Link to={"/san-antonio-airport-car-service-san-antonio-grand-limousine-corporate-transportation/"} className={"anchor"} rel="noopener noreferrer"> enjoy </Link> your private party with your <Link to={"/locations/jacksonville-car-service/"} className={"anchor"} rel="noopener noreferrer"> neighbors </Link> with no <Link to={"/car-service-atlanta-airport/"} className={"anchor"} rel="noopener noreferrer"> interference</Link>. It makes you feel a milestone achievement. Isn’t it amazing!  </p>
                            
-                           <p>Also, Atlanta party bus is an excellent option for making a memorable night on the town. The wheels will move around, and the music will play throughout the day trip and nightlife.</p>
+                           <p>Also, Atlanta party bus is an excellent option for making a <a href="https://www.facebook.com/carservicehouston/" target="_blank" className="anchor" rel="noopener noreferrer"> memorable </a> night on the town. The wheels will move around, and the <Link to={"/houston-executive-shuttle-service/"} className={"anchor"} rel="noopener noreferrer"> music </Link> will play throughout the day trip and <Link to={"/augusta-golf-transportation/"} className={"anchor"} rel="noopener noreferrer"> nightlife</Link>.</p>
 
                         
                            
@@ -91,8 +92,8 @@ class Atlantapartybus extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                            <Havequestion />
+                                        </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>

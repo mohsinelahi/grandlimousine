@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
-import InnerBanner from '../Element/Innerbanner';
 import Carservices from '../Element/Carservices';
 import Atlantabanner from '../Element/Atlantabanner';
+import Havequestion from '../Element/Havequestion';
 
 
 var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
@@ -84,7 +84,7 @@ class Atlanta extends Component {
                         
                             <p>With us, you will get shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have everything to meet your needs.</p>
                             <p>We offer our town car services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our services. It is a seamless transport solution that you can enjoy with our Grand Limousine. Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
-                            <p>Check out our entire website to unveil the secrets of why people in Atlanta and the <a href="https://www.augustacarservice.com/" target="_blank" rel="noopener">surrounding</a> area prefer us. Call us at (404) 424-4499 to contact us or if you have any <a href="https://www.grandlimousine.com/">queries</a> about our car and limousine services.</p>                        
+                            <p>Check out our entire website to unveil the secrets of why people in Atlanta and the <a href="https://www.augustacarservice.com/" target="_blank" className="anchor" rel="noopener">surrounding</a> area prefer us. Call us at <a href="tel:4044244499" target="_blank" className="anchor" rel="noopener"> (404) 424-4499 </a>  to contact us or if you have any <a href="https://www.grandlimousine.com/" target="_blank" className="anchor" rel="noopener">queries</a> about our car and limousine services.</p>                        
                         
                         </div>
                     </div>
@@ -98,7 +98,9 @@ class Atlanta extends Component {
                                     <h2 className="box-title">Check out our Car Services in Atlanta</h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
-                                <Carservices />
+                                
+                                    <Carservices />
+
                                 <h4 className="text-center p-3">Sugar Loaf – McDonough – Atlanta – Johns Creek – Alpharetta – Buford – Kennesaw – Buckhead – Marietta – Sandy Springs – Dunwoody – Athens</h4>
                             </div>
                         </div>
@@ -113,12 +115,12 @@ class Atlanta extends Component {
                                 <div className="section-head text-black text-center">
                                     <h2 className="box-title">Contact our local team in Atlanta</h2>
                                     <div className="dlab-separator bg-primary"></div>
-                                    <p>Destin, Florida |Grand Limousine | Official Website</p>
+                                    <p>Destin, Florida | Grand Limousine | Official Website</p>
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>

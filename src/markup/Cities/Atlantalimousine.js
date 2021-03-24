@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Atlantabanner from '../Element/Atlantabanner';
+import Havequestion from '../Element/Havequestion';
 
 var atlantalimousineimg1 = require ('./../../images/cities/atlanta-limousine.jpg');
 
@@ -60,9 +61,9 @@ class Atlantalimousine extends Component {
                             <h4>Locations – Atlanta Limousine Metro</h4>
                             <p>When you need to book a reliable Airport Car Service in Atlanta. Our goal is to provide their customers with a reliable Airport Limousine at the best competitive rates. You can get here a wide range of limousine designs on rent. Among these, taking the Hummer Limo will be a perfect option for any occasion such as Wedding, Birthday Celebrations, Prom & Homecoming, Sporting Events & Concerts, Bachelor/Bachelorette limousine, Corporate Events and so many.</p>
                        
-                            <h4>LIMO TOUR IN ATLANTA</h4>
+                            <h4>Limo Tour In Atlanta</h4>
                             <p>Try us out to explore the beautiful botanic garden that features a variety of plants, fountains, art exhibits, and more. Here, you may visit the Margaret Mitchell House and Museum. It will tell you about the ATL Journalist who lived here. Have you read her famous novel ‘Gone With the Wind’? She wrote it in this place.</p>
-                            <p>It can help make new and unforgettable memories for the modern bride and groom. We understand that the wedding is unique to everyone. Therefore, our excellent and professional team are here to meet your expectations. We are offering great pricing packages for Chauffeured Services. So, contact us to learn more <a href="#"> about </a> our packages.</p>
+                            <p>It can help make new and unforgettable memories for the modern bride and groom. We understand that the wedding is unique to everyone. Therefore, our excellent and professional team are here to meet your expectations. We are offering great pricing packages for Chauffeured Services. So, contact us to learn more <Link to={"/benefits-of-an-airport-car-service/"} className={"anchor"} rel="noopener noreferrer"> about </Link> our packages.</p>
 
                             <ul><li>What about the rent price of a limo?</li></ul>
 
@@ -70,8 +71,8 @@ class Atlantalimousine extends Component {
 
                             <p>If you are going to a party, We strongly advise you to book a party bus. It’s because it has an ample space that can accommodate many passengers in a limo. We also provide limousine service for eight passengers that have an hourly rate of $85-$120. And for ten passengers, it is $110-$145. The limo of 15 passenger ranges at $135-$165, and you can get the 20 passenger limo at $145-$165 price range.</p>
 
-                            <h4>ATLANTA LIMOUSINE NIGHT ON THE TOWN</h4>
-                            <p>If you are planning for a night out trip to ATL, you will find a reliable car service near you. You can call on us for limousine service night on the town to remember. We also provide party bus.</p>
+                            <h4>Atlanta Limousine Night On The Town</h4>
+                            <p>If you are planning for a night out trip to ATL, you will find a reliable car service near you. You can call on us for limousine service night on the town to remember. We also <a href="https://www.atlanta.net/" target="_blank" className="anchor" rel="noopener noreferrer"> provide </a> party bus.</p>
 
                             Have a look at the different limousines:
 
@@ -87,11 +88,11 @@ class Atlantalimousine extends Component {
 
                             <ul><li>Hummer Airport Limo</li></ul>
 
-                            <p>The SUV limo type is most famous for its full body. You will experience Atlanta in a comfy ride with your several guests. This vehicle has excellent interior furnishings. It offers almost 12 to 20 seats for passengers.</p>
+                            <p>The SUV limo type is most <Link to={"/locations/palm-beach/"} className={"anchor"} rel="noopener noreferrer"> </Link>famous for its full body. You will experience Atlanta in a comfy ride with your several <Link to={"/locations/palm-beach/"} className={"anchor"} rel="noopener noreferrer"> </Link>guests. This vehicle has excellent interior furnishings. It offers almost 12 to 20 seats for passengers.</p>
 
                             <ul><li>Cadillac Escalade Limo</li></ul>
 
-                            <p>If you are looking for transportation with beauty and style, Contacting online would be an ideal option. They offer you the Cadillac Escalade stretch limo. It comes with an elegant look. It is most famous for wedding celebrations. It contains seats of 12-20 passengers. You may find more airport vehicles for such purposes.</p>
+                            <p>If you are looking for transportation with beauty and style, Contacting online would be an <Link to={"/katy-car-service/"} className={"anchor"} rel="noopener noreferrer"> ideal </Link> option. They <Link to={"/locations/macon-party-bus/"} className={"anchor"} rel="noopener noreferrer"> offer </Link>  you the Cadillac Escalade stretch limo. It comes with an elegant look. It is most famous for <Link to={"/houston-thanksgiving-transportation/"} className={"anchor"} rel="noopener noreferrer"> wedding </Link>  celebrations. It contains seats of 12-20 <Link to={"/locations/chicago-limousine/"} className={"anchor"} rel="noopener noreferrer"> passengers</Link>. You may find more airport vehicles for such purposes.</p>
                        
                             <h4 className="text-center p-3">Buckhead – Virginia Highlands– Oakdale– Morningside-Lenox Park – Candler Park – Midtown</h4>
 
@@ -113,8 +114,8 @@ class Atlantalimousine extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />    
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
