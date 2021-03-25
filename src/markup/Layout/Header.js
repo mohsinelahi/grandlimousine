@@ -38,8 +38,8 @@ class Header extends Component{
 						<div className="container clearfix">
 							
 							<div className="logo-header mostion">
-								<Link to={"/"} className="logo-1"><img src={require("../../images/logo-grand.png")} alt="" /></Link>
-								<Link to={"/"} className="logo-2"><img src={require("./../../images/logo-grand.png")} alt="" /></Link> 
+								<Link to={"/"} className="logo-1"><img src={require("../../images/logo-grand.png")} alt="Logo Grand Limousine" /></Link>
+								<Link to={"/"} className="logo-2"><img src={require("./../../images/logo-grand.png")} alt="Logo Grand Limousine" /></Link> 
 							</div>
 							
 							<button className="navbar-toggler collapsed navicon  justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,51 +53,51 @@ class Header extends Component{
 							<div className="header-nav navbar-collapse collapse myNavbar justify-content-end" id="navbarNavDropdown">
 								<ul className="nav navbar-nav">              
 										
-									<li className=""><Link to={"/super-bowl/"}>The Super Bowl</Link></li>
-									<li className=""><Link to={"/about-us/"} >About Us</Link></li>
+									<li className=""><Link to={"/super-bowl/"} rel="noopener noreferrer">The Super Bowl</Link></li>
+									<li className=""><Link to={"/about-us/"} rel="noopener noreferrer">About Us</Link></li>
 									<li className="down"><Link to={"#"}>Services <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
-											<li><Link to={"/limousine-service/"}>Limousine Service</Link></li>
-											<li><Link to={"/corporate-transportation/"}>Corporate Transportation</Link></li>
-											<li><Link to={"/wedding-transportation/"}>Wedding Limousine Service<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/airport-car-service/"}>Airport Car Service<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/wine-tour/"}>Wine Tour<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/transportation-coordinator/"}>Transportation Coordinator<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/church-limo/"}>Church Limo<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/casino-trips/"}>Casino Trips<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/party-limo/"}>Party Limo<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/bachelor-party/"}>Bachelor Party<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/bachelorette-party/"}>Bachelorette Party<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/graduation-limo/"}>Graduation Limo<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/concert-limo/"}>Concert Limo<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/limousine-service/"} rel="noopener noreferrer">Limousine Service</Link></li>
+											<li><Link to={"/corporate-transportation/"} rel="noopener noreferrer">Corporate Transportation</Link></li>
+											<li><Link to={"/wedding-transportation/"} rel="noopener noreferrer">Wedding Limousine Service<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/airport-car-service/"} rel="noopener noreferrer">Airport Car Service<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/wine-tour/"} rel="noopener noreferrer">Wine Tour<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/transportation-coordinator/"} rel="noopener noreferrer"> Transportation Coordinator<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/church-limo/"} rel="noopener noreferrer">Church Limo<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/casino-trips/"} rel="noopener noreferrer">Casino Trips<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/party-limo/"} rel="noopener noreferrer">Party Limo<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/bachelor-party/"} rel="noopener noreferrer">Bachelor Party<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/bachelorette-party/"} rel="noopener noreferrer">Bachelorette Party<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/graduation-limo/"} rel="noopener noreferrer">Graduation Limo<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/concert-limo/"} rel="noopener noreferrer">Concert Limo<span className="tag-new">New</span></Link></li>
 										</ul>
 									</li>
-									<li className="down"><Link exact to={"/locations/"}>Top Cities <i className="fa fa-chevron-down"></i></Link>
+									<li className="down"><Link exact to={"/locations/"} rel="noopener noreferrer">Top Cities <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
-											<li><Link to={"/locations/atlanta/"}>Atlanta, GA <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/augusta/"}>Augusta, GA<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/columbus/"}>Columbus, GA<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/chicago/"}>Chicago, IL<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/destin/"}>Destin, FL<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/gray/"}>Gray, GA<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/houston/"}>Houston, TX<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/jacksonville/"}>Jacksonville, FL<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/los-angeles/"}>Los Angeles, CA <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/kentucky-car-service/"}> Louisville, KY <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/macon/"}>Macon, GA<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/miami/"}>Miami, FL<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/new-york/"}>New York<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/orlando/"}>Orlando, FL<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/palm-beach/"}>Palm Beach, FL<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/san-francisco/"}>San Francisco, CA<span className="tag-new">New</span></Link></li>
-											<li><Link to={"/locations/savannah/"}>Savannah, GA<span className="tag-new">New</span></Link></li>
-											<li><Link exact to={"/locations/"}>All Locations & Services<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/atlanta/"} rel="noopener noreferrer">Atlanta, GA <span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/augusta/"} rel="noopener noreferrer">Augusta, GA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/columbus/"} rel="noopener noreferrer">Columbus, GA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/chicago/"} rel="noopener noreferrer">Chicago, IL<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/destin/"} rel="noopener noreferrer">Destin, FL<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/gray/"} rel="noopener noreferrer">Gray, GA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/houston/"} rel="noopener noreferrer">Houston, TX<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/jacksonville/"} rel="noopener noreferrer">Jacksonville, FL<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/los-angeles/"} rel="noopener noreferrer">Los Angeles, CA <span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/kentucky-car-service/"} rel="noopener noreferrer"> Louisville, KY <span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/macon/"} rel="noopener noreferrer">Macon, GA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/miami/"} rel="noopener noreferrer">Miami, FL<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/new-york/"} rel="noopener noreferrer">New York<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/orlando/"} rel="noopener noreferrer">Orlando, FL<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/palm-beach/"} rel="noopener noreferrer">Palm Beach, FL<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/san-francisco/"} rel="noopener noreferrer">San Francisco, CA<span className="tag-new">New</span></Link></li>
+											<li><Link to={"/locations/savannah/"} rel="noopener noreferrer">Savannah, GA<span className="tag-new">New</span></Link></li>
+											<li><Link exact to={"/locations/"} rel="noopener noreferrer">All Locations & Services<span className="tag-new">New</span></Link></li>
 										
 										</ul>
 									</li>
-									<li className=""><Link to={"/posts/"}>Posts</Link></li>
-									<li><Link to={"/contact-us/"}>Contact Us</Link></li>
-									<li className="my-account"><a href="https://account.chauffeurbookingsoftware.com/account/login/?guid=123fd7f0-ff6c-4a9d-80fb-05c694c9ed03">My Account <i className="ti-import m-r5 rotate90"></i> </a></li>
+									<li className=""><Link to={"/posts/"} rel="noopener noreferrer">Posts</Link></li>
+									<li><Link to={"/contact-us/"} rel="noopener noreferrer">Contact Us</Link></li>
+									<li className="my-account" ><a href="https://account.chauffeurbookingsoftware.com/account/login/?guid=123fd7f0-ff6c-4a9d-80fb-05c694c9ed03" rel="noopener noreferrer" target="_blank">My Account <i className="ti-import m-r5 rotate90"></i> </a></li>
 								</ul>		
 							</div>
 						</div>

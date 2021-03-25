@@ -14794,3 +14794,130 @@ ul.atlanta-serivces li:not(:last-child):before {
 /**======================================
         TOP CITIES PAGE CSS END HERE
 =========================================**/
+
+/**======================================
+        404 PAGE CSS START HERE
+=========================================**/
+
+.error-404.not-found {
+text-align: center;
+height: 100vh;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100vw;
+left: 50%;
+margin-left: -50vw;
+position: relative;
+}
+
+.not_found_inner .cont {
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: center;
+align-items: center;
+width: 70%;
+}
+
+.not_found_inner {
+background-image: url(../images/404.jpg);
+background-size: cover;
+height: inherit;
+
+}
+
+.error404 .cont {
+max-width: 69.5%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.error404 #masthead, .error404 #colophon {
+display: none;
+}
+.error-404 .logo a {
+outline: 0 !important;
+}
+.error-404.not-found .logo {
+padding: 0;
+background-color: transparent;
+}
+
+
+
+.error-404.not-found h1 {
+font-size: 200px;
+line-height: 1;
+color: #0c0e1a;
+margin: 5px 0;;
+font-weight: 800;
+
+}
+.error-404.not-found h1 span{
+color: #ab8b64;
+}
+.error-404 .page-header h3 {
+color: #0c0e1a;
+font-weight: 700;
+margin-bottom: 10px;
+font-size: 40px;
+}
+.error-404 .page-header p {
+font-size: 22px !important;
+color: #0c0e1a;
+margin-bottom: 20px;
+}
+.error-404 .page-content .return_home {
+background-color: #093e96;
+color: #fff;
+padding: 12px 29px;
+display: inline-block;
+font-size: 20px;
+box-shadow: 0 2px 10px 0px rgb(0 0 0 / 50%);
+text-decoration: none;
+transition: all 0.5s ease-in-out;
+border: 2px solid #093e96;
+border-top-right-radius: 25px;
+}
+
+.error-404 .page-content .return_home:hover {
+background-color: #252525;
+border-color: #252525;
+}
+
+
+.error404 header, .error404 footer, .error404 .footer-newsletter, .error404 .copyrights {
+display: none;
+}
+
+.error-404.not-found header {
+display: block !important;
+}
+
+
+.page-404 header.page-header {
+display: block;
+}
+
+
+.error-404 .b-trans a {
+    border: 2px solid #AB8B65;
+    color: #ab8b64;
+    padding: 18px 30px;
+    display: block;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.error-404 .b-trans a:hover {
+    background: #ab8b64;
+    color: #fff;
+}
+
+/**======================================
+        404 PAGE CSS END HERE
+=========================================**/

@@ -4,6 +4,7 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Houstonbanner from './../Element/Houstonbanner';
 import Havequestion from '../Element/Havequestion';
+import DocumentMeta from 'react-document-meta';
 
 
 var Houstonimg = require('../../images/cities/Houston-NGR.jpg');
@@ -11,8 +12,20 @@ var Houstonimg = require('../../images/cities/Houston-NGR.jpg');
 
 class Houston extends Component {
     render() {
-        return (
-            <div className="page-wraper">
+        const meta = {
+            title: 'Houston, TX Limousine Luxury Car & Party Bus',
+            description: "Houston, TX Grand Limousine chauffeurs are always taught proper etiquette for use when they’re in the presence of each client. Each chauffeur has excellent community knowledge, so you will have the ability to show you the very best sights and most beautiful restaurants. ",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
 
@@ -45,9 +58,9 @@ class Houston extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Houstonimg}></img>
+                                            <img src={Houstonimg} alt="Houston, TX"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -65,9 +78,9 @@ class Houston extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/houston-car-service/"}> Houston Car Service </Link> </li>
-                                <li> <Link to={"/locations/houston-limousine/"}> Houston Limousine </Link> </li>
-                                <li> <Link to={"/locations/houston-party-bus/"}> Houston Party Bus </Link> </li>
+                                <li> <Link to={"/locations/houston-car-service/"} rel="noopener noreferrer"> Houston Car Service </Link> </li>
+                                <li> <Link to={"/locations/houston-limousine/"} rel="noopener noreferrer"> Houston Limousine </Link> </li>
+                                <li> <Link to={"/locations/houston-party-bus/"} rel="noopener noreferrer"> Houston Party Bus </Link> </li>
                             </ul>
                         
                             <h4>Airport Car SUV near You</h4>
@@ -77,14 +90,11 @@ class Houston extends Component {
                             <p>Our Party Bus is available seven days per week! What some individuals may not think about are the limousine services. Renting our <Link to={"/carolina-panthers-football-limo-service/"} className={"anchor"} rel="noopener noreferrer"> limo </Link> service will surely increase the grace and charm of the function. For corporate or private limousine assistance, you can <Link to={"/greater-houston/"} className={"anchor"} rel="noopener noreferrer"> depend </Link> on us.</p>
 
                             <h4>Dallas – Galveston</h4>
-                            <p>Are you employing a reasonably priced limousine service for even a decently sized group? You may discover that pooling money together will knock off an excellent quantity of the bill if you should seek the services of another transportation service or even use your vehicle. We have all extensive transportation end <Link to={"https://www.facebook.com/carservicehouston/"}> services </Link>.</p>
+                            <p>Are you <Link to={"/birthday-limo/"} className="anchor" rel="noopener noreferrer"> employing </Link> a reasonably priced limousine <Link to={"/dallas-car-service-dallas-fort-worth-dfw/"} className="anchor" rel="noopener noreferrer"> service </Link> for even a <Link to={"/locations/houston-limousine/"} className="anchor" rel="noopener noreferrer"> decently </Link> sized group? You may discover that pooling money together will knock off an excellent <Link to={"/locations/houston-car-service/"} className="anchor" rel="noopener noreferrer"> quantity </Link> of the bill if you <Link to={"/locations/savannah-car-service/"} className="anchor" rel="noopener noreferrer"> should </Link> seek the services of another <Link to={"/atlanta-events/"} className="anchor" rel="noopener noreferrer"> transportation </Link> service or even use your vehicle. We have all extensive transportation end <Link to={"www.facebook.com/carservicehouston/"} target="_blank" className={"anchor"} rel="noopener noreferrer"> services </Link>.</p>
                             <p>Moreover, every superior limousine contains a cleanliness check. Like our customers, our services are distinctive and exclusive. There are Car and Party/bus rental services offered in Houston. Party Bus Service in Houston with a chauffeur. Grand Limo chauffeur car may be an alternative for you whether you’re traveling in Dallas or Galveston.</p>
-                            <p>Grand Limousine Houston is among a kind Chauffeur Service in Texas that’s now fast becoming the favorite of a massive scale of clients across Texas due to the vast choices for luxury chauffeur cars.</p>
+                            <p>Grand Limousine Houston is among a kind Chauffeur Service in Texas that’s now fast becoming the favorite of a massive scale of clients across Texas due to the vast choices for luxury chauffeur <Link to={"/locations/palm-beach/"} className="anchor" rel="noopener noreferrer"> </Link>cars.</p>
 
-                            <h4 className="text-center">Houston – Galveston – Corpus Christi – River Oaks – League City – Greater Heights – Arlington – Austin – Garland –Tomball</h4>
-
-
-
+                            <h4 className="text-center"> <Link to={"/locations/houston-limousine/"} className="anchor" rel="noopener noreferrer"> Houston </Link> – <Link to={"/galveston-car-service-houston-iah-airport/"} className="anchor" rel="noopener noreferrer"> Galveston </Link> – <Link to={"/corpus-christi-car-service/"} className="anchor" rel="noopener noreferrer"> Corpus Christi </Link> – <Link to={"/river-oaks-car-service-houston-iah-airport/"} className="anchor" rel="noopener noreferrer"> River Oaks </Link> – <Link to={"/league-city-car-service-houston-iah-airport/"} className="anchor" rel="noopener noreferrer"> League City </Link> – <Link to={"/greater-heights-car-service-houston-iah/"} className="anchor" rel="noopener noreferrer"> Greater Heights  </Link>– <Link to={"/arlington-airport-car-service/"} className="anchor" rel="noopener noreferrer"> Arlington </Link> – <Link to={"/austin-car-service/"} className="anchor" rel="noopener noreferrer"> Austin </Link>  – <Link to={"/garland-car-service-dallas-fort-worth-dfw/"} className="anchor" rel="noopener noreferrer"> Garland </Link>  – <Link to={"/tomball-car-service/"} className="anchor" rel="noopener noreferrer"> Tomball </Link></h4>
 
                         </div>
                     </div>
@@ -113,7 +123,9 @@ class Houston extends Component {
                     </div>
                 </section>
                  </div>
-            <Footer /> </div>
+            <Footer /> 
+            </main>
+        </DocumentMeta>
         )
     }
 }

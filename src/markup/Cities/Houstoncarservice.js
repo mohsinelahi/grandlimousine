@@ -49,7 +49,7 @@ class Houstoncarservice extends Component {
                                 <p>Yоu саn еvеn gо асrоѕѕ state lines аnd tаkе оur car service tо Atlanta. Inѕtеаd оf а cramped seat оn mass transit, уоu аnd уоur loved оnеѕ саn enjoy thе ride frоm thе bасk seat оf а top-tier vehicle. Plus, wіth оur rigorous health аnd safety standards, уоu саn rest assured thаt уоur well-being іѕ оur top priority.</p>
 
                                 <h4>Reliable Professionals</h4>
-                                <p> <strong> George Bush Intercontinental Houston  </strong> is the primary airport serving North Houston Southeast area Texas. As the <strong> Coronavirus </strong>  continues, we must ensure your health safety during your trip. Sneeze Guards, Masks, Hand Sanitizers are feature items of our fleet. </p>
+                                <p> <strong> George Bush Intercontinental Houston  </strong> is the primary airport serving North Houston Southeast area <a href="https://www.augustacarservice.com/" target="_blank" className="anchor" rel="noopener noreferrer"> Texas</a>. As the <strong> Coronavirus </strong>  continues, we must ensure your health safety during your trip. Sneeze Guards, Masks, Hand Sanitizers are feature items of our <Link to={"/locations/houston-limousine/"} className="anchor" rel="noopener noreferrer"> fleet</Link>. </p>
                            
                             </div>
                         </div>

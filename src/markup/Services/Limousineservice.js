@@ -5,13 +5,26 @@ import Footer from './../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
 import Quotebox from '../Element/Quotebox';
+import DocumentMeta from 'react-document-meta';
 
 var limousineimg = require ('./../../images/services/grand_limousine_service.png');
 
 class Limousineservice extends Component {
     render() {
-        return (
-            <div className="page-wraper">
+        const meta = {
+            title: 'Limousine Service',
+            description: "Limousine Service - When it is about the limousine services, Grand Limousine is the right option for you. Whether you want to make your entry at any special event attractive or want to enjoy a luxury limo ride, we are there to serve you.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
 
@@ -37,7 +50,7 @@ class Limousineservice extends Component {
                                     <p>Grand Limousine is providing the best and luxury transport solutions, New York, California, Florida, and Texas. All our town car services are <a href="https://www.facebook.com/carservicehouston/" target="_blank" className="anchor" rel="noopener noreferrer"> available </a>at competitive rates. That is why, overall, you will find the price very affordable and even way cheaper, especially when you are traveling with a group of people.</p>
                                 </div>   
                                 <div className="right">
-                                    <img src={limousineimg} ></img>
+                                    <img src={limousineimg} alt="Limousine Car"></img>
                                 </div>
                             </div>
                                 <h4>Opt for advanced limousine services booking</h4>
@@ -70,7 +83,8 @@ class Limousineservice extends Component {
 
             </div>
             <Footer  />
-        </div>
+            </main>
+        </DocumentMeta>
         )
     }
 }

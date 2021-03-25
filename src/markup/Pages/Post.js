@@ -1,16 +1,28 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import Header from './../Layout/Header';
 import Footer from './../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
+import DocumentMeta from 'react-document-meta';
 
 
 
 class Post extends Component{
 	render(){
-		return(
-            <div className="page-wraper">
+        const meta = {
+            title: 'Posts',
+            description: "",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
 
@@ -30,7 +42,8 @@ class Post extends Component{
 
             </div>
             <Footer  />
-        </div>
+            </main>
+        </DocumentMeta>
 		)
 	}
 }

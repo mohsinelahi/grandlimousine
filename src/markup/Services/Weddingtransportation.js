@@ -5,14 +5,28 @@ import Footer from './../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
 import Quotebox from '../Element/Quotebox';
+import DocumentMeta from 'react-document-meta';
+
 
 var weddingimg = require ('./../../images/services/Grand-Limousine-Wedding.png');
 
 
 class Weddingtransportation extends Component {
     render() {
-        return(
-            <div className="page-wraper">
+        const meta = {
+            title: 'Wedding Transportation - Book Direct Since 2007',
+            description: "Wedding Transportation - Car Services for Weddings is a leading limousine service provider offering reliable wedding transportation in California, Texas.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
 
@@ -36,11 +50,11 @@ class Weddingtransportation extends Component {
                                     <h4>Wedding Transportation</h4>
                                     <p><strong>Wedding Transportation – </strong> <Link to={"/wedding-transportation/"} className={"anchor"} rel="noopener noreferrer"> Car Services for Weddings </Link> is a leading limousine service provider offering reliable wedding transportation in California, Texas, Illinois, New York, Florida, Georgia, and surroundings. We have a large selection of luxury vehicles to suit your transportation needs.</p>
                                     <p>We strive to uphold our reputation as one of the reliable wedding car service providers in the country. That’s why we provide the best in chauffeured transportation. We always keep our vehicles well-maintained to ensure every ride is safe and convenient.</p>
-                                    <p>Your wedding is an extraordinary event in your life. You want everything to be perfect on that day. At Grand Limousine, we <a href="https://www.augustacarservice.com/atlanta-car-service/" target="_blank" rel="noopener">understand</a> that! That’s why we have carefully designed our wedding transportation packages. Our team is <Link to={"/car-service-elp-el-paso-airport/"} className={"anchor"} rel="noopener noreferrer"> committed </Link> to making your wedding more special and memorable. So, forget the worries about wedding transportation and let <Link to={"/"} className={"anchor"} rel="noopener noreferrer"> Grand Limousine </Link> handle the matter so you can focus on your other tasks that matter.</p>
+                                    <p>Your wedding is an extraordinary event in your life. You want everything to be perfect on that day. At Grand Limousine, we <a href="https://www.augustacarservice.com/atlanta-car-service/" target="_blank" rel="noopener noreferrer">understand</a> that! That’s why we have carefully designed our wedding transportation packages. Our team is <Link to={"/car-service-elp-el-paso-airport/"} className={"anchor"} rel="noopener noreferrer"> committed </Link> to making your wedding more special and memorable. So, forget the worries about wedding transportation and let <Link to={"/"} className={"anchor"} rel="noopener noreferrer"> Grand Limousine </Link> handle the matter so you can focus on your other tasks that matter.</p>
                                     <p>We are ready to accommodate all your transportation needs. Our chauffeurs are highly trained and professionally dressed. You and your guests will never feel uncomfortable with them. The chauffeur will take care of all your transportation needs that you might have before and after your wedding ceremony. He will drive you to your destination safely. Also, we have trained our drivers to pamper our clients unobtrusively. You can <Link to={"/contact-us/"} className={"anchor"} rel="noopener noreferrer"> contact </Link >us at any time to know more about our services.</p>
                                 </div>   
                                 <div className="right">
-                                    <img src={weddingimg} ></img>
+                                    <img src={weddingimg} alt="Limousine Car Wedding"></img>
                                 </div>
                             </div>
                             <h4>Wedding Car Service for You and Your Guests</h4>
@@ -64,7 +78,8 @@ class Weddingtransportation extends Component {
 
             </div>
             <Footer  />
-        </div>
+            </main>
+        </DocumentMeta>
         )
     }
 }

@@ -5,13 +5,26 @@ import Footer from './../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
 import Quotebox from '../Element/Quotebox';
+import DocumentMeta from 'react-document-meta';
 
 var limousineimg = require ('./../../images/services/grand_limousine_service.png');
 
 class Corporatetransportation extends Component {
     render() {
-        return(
-            <div className="page-wraper">
+        const meta = {
+            title: 'Corporate Car Service – Luxury Car &amp; Party Bus',
+            description: "Corporate Car Service is a one-stop solution for all your corporate transportation needs.  We are committed to giving our clients memorable and comfortable.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
 
@@ -38,7 +51,7 @@ class Corporatetransportation extends Component {
                                     <p>As a business owner, you want to establish a reputable image and want to represent your company right. At Grand Limousine, we understand that! That’s why we offer the best in chauffeured transportation. We have a wide range of luxury vehicles to best suit your specific transportation requirements. You can book a limousine to impress your clients. Our vehicles have all the great facilities that will entertain your clients, business partners, and VIP guests. Contact us to know more about our town car service.</p>
                                 </div>   
                                 <div className="right">
-                                    <img src={limousineimg} ></img>
+                                    <img src={limousineimg} alt="Limousine Car"></img>
                                 </div>
                             </div>
                             <h4>Why use a Corporate Transportation Service?</h4>
@@ -62,7 +75,8 @@ class Corporatetransportation extends Component {
 
             </div>
             <Footer  />
-        </div>
+            </main>
+        </DocumentMeta>
         )
     }
 }

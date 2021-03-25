@@ -4,17 +4,27 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
-import Quotebox from '../Element/Quotebox';
 import Booknowtable from '../Element/Booknowtable';
-
-
+import DocumentMeta from 'react-document-meta';
 
 
 
 class Winetour extends Component {
     render() {
-        return (
-            <div className="page-wraper">
+        const meta = {
+            title: 'Wine Tour',
+            description: "Wine Tour - Enjoy a beautiful day trip to Georgia‘s best wineries. We’ll chauffeur you from Atlanta to your choice of wineries: Frog town, Wolf Mountain Vineyard.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
                 <InnerBanner />
@@ -43,7 +53,9 @@ class Winetour extends Component {
                     </div>
                 </section>
                 <Toplimousine /> </div>
-            <Footer /> </div>
+            <Footer />  
+            </main>
+        </DocumentMeta>
         )
     }
 }

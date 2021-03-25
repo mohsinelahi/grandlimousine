@@ -2,15 +2,29 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
-import Sanfranciscobanner from '../Element/SanfranciscoBanner';
 import Savannahheader from '../Element/Savannahbanner';
+import DocumentMeta from 'react-document-meta';
+import Havequestion from '../Element/Havequestion';
+
 
 var Savannahcarserviceimg = require('../../images/cities/savannah-car-service.jpg');
 
 class Savannah extends Component {
     render() {
-        return (
-            <div className="page-wraper">
+        const meta = {
+            title: 'Savannah, Georgia - Limousine Luxury Car & Party Bus',
+            description: "Savannah, Georgia - Grand Limousine Official Website is now the nation’s one of the fastest developing ground transportation service providers. We offer some of the most luxurious rides for regular, corporate, fun, occasions, and events.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
                 <Savannahheader />
@@ -33,14 +47,14 @@ class Savannah extends Component {
                                 <div className="col-md-7">
                                     <div className="left">
                                         <p>Savannah, Georgia – Savannah Limousine Official Website is now the nation’s one of the fastest developing ground transportation service providers. We offer some of the most luxurious rides for regular, corporate, fun, occasions, and events. Our customer support team is always ready to assist you, and we offer a vast and versatile range of cars. Our Limousine Service is a reliable and reputable transportation company to be on the INC 5000’ѕ list of fastest-growing private companies. You will appreciate our fleet of rides that are luxurious and affordable. These limousine services are available at various reasonable rates. Just choose one according to your budget, purpose, and the number of passengers. We are one of the award-winning limousine companies, and that is why you can entirely rely on us. Savannah Grand Limousine owns and operates multiple new luxury vehicles.</p>
-                                        <p>We have different vehicles featuring Sedans, Hybrids, 56 passengers, and Motor Coaches. Also, we offer SUVs, limousines, executive Vans, luxury minibusses for up to 39 passengers, and party buses from 12 to 25 passengers. We assure safe, smooth, and on-time solutions for <Link to={"https://www.facebook.com/carservicemacon/"} target={"_blank"} className="anchor"> transport </Link>.</p>
+                                        <p>We have different vehicles featuring Sedans, Hybrids, 56 passengers, and Motor Coaches. Also, we offer SUVs, limousines, executive Vans, luxury minibusses for up to 39 passengers, and party buses from 12 to 25 passengers. We assure safe, smooth, and on-time solutions for <Link to={"https://www.facebook.com/carservicemacon/"} target={"_blank"} className="anchor" rel="noopener noreferrer"> transport </Link>.</p>
                                
                                     </div>
                                 </div>
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Savannahcarserviceimg}></img>
+                                            <img src={Savannahcarserviceimg} alt="Savannah, Georgia"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
                                                 <a href="/contact-us">Contact Us</a>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
@@ -60,9 +74,9 @@ class Savannah extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/savannah-car-service/"}> Savannah Car Service </Link> </li>
-                                <li> <Link to={"/locations/savannah-limousine/"}> Savannah Limousine </Link> </li>
-                                <li> <Link to={"/locations/savannah-party-bus/"}> Savannah Party Bus </Link> </li>
+                                <li> <Link to={"/locations/savannah-car-service/"} rel="noopener noreferrer"> Savannah Car Service </Link> </li>
+                                <li> <Link to={"/locations/savannah-limousine/"} rel="noopener noreferrer"> Savannah Limousine </Link> </li>
+                                <li> <Link to={"/locations/savannah-party-bus/"} rel="noopener noreferrer"> Savannah Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most exotic places in Savannah. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support in Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion. Wherever you are traveling, we assure you of the utmost comfort and safety so you can enjoy the journey stress-freely. To ensure your safety, Savannah Grand Limousine offers only certificate holders, professional chauffeurs. We maintain our fleet meticulously.</p>
@@ -94,8 +108,8 @@ class Savannah extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />   
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
@@ -110,7 +124,9 @@ class Savannah extends Component {
                     </div>
                 </section>
                  </div>
-            <Footer /> </div>
+            <Footer /> 
+            </main>
+        </DocumentMeta>
         )
     }
 }

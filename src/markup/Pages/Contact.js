@@ -2,14 +2,28 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from './../Layout/Header';
 import Footer from './../Layout/Footer';
-import GoogleMaps from "simple-react-google-maps";
-import Contactus from './../Element/Contactus';
 import InnerBanner from '../Element/Innerbanner';
+import DocumentMeta from 'react-document-meta';
+import Toplimousine from '../Element/Toplimousine';
+
+
 
 class Contact extends Component{
 	render(){
-		return(
-			<div className="page-wraper">
+		const meta = {
+            title: 'Contact US | Limo Service Atlanta | Grand Limousine',
+            description: "GrandLimousine.com provides best Corporate Car Service in Atlanta. Book Your Ride Online: (404) 424-4499 ? info@grandlimousine.com",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
 			
 				<Header />
 				
@@ -66,37 +80,12 @@ class Contact extends Component{
 					</section>
 
 
-					<section className="section-full content-inner top-limousine-section">
-						<div className="container">
-							<div className="top-limousine-head text-center">
-								<h4>Our Top Limousine Service Locations</h4>
-								<p>Grand Limousine & Chauffeur Service Top Locations</p>
-								<ul>
-									<li><a href="#">Airport Transportation in Augusta, Georgia</a></li>
-									<li><a href="#">Airport Transportation in Houston, Texas</a></li>
-									<li><a href="#">Airport Transportation in Destin, Florida</a></li>
-									<li><a href="#">Airport Transportation in Los Angeles, California</a></li>
-									<li><a href="#">Airport Transportation in Jacksonville, Florida</a></li>
-									<li><a href="#">Airport Transportation in Macon, Georgia</a></li>
-									<li><a href="#">Airport Transportation in Orlando, Florida</a></li>
-									<li><a href="#">Airport Transportation in San Francisco, California</a></li>
-									<li><a href="#">Airport Transportation in NewYork</a></li>
-									<li><a href="#">Airport Transportation in Gray, Georgia</a></li>
-									<li><a href="#">Airport Transportation in Chicago, Illinois</a></li>
-									<li><a href="#">Airport Transportation in Columbus, Georgia</a></li>
-									<li><a href="#">Airport Transportation in Miami, Florida</a></li>
-									<li><a href="#">Airport Transportation in Atlanta, Georgia</a></li>
-									<li><a href="#">Airport Transportation in Savannah, Georgia</a></li>
-									<li><a href="#">Airport Transportation in Palm Beach, Florida</a></li>
-									<li><a href="#">Airport Transportation in Kentucky</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
+					<Toplimousine />
 				</div>		
 				
 				<Footer  />
-			</div>
+				</main>
+        </DocumentMeta>
 		)
 	}
 }

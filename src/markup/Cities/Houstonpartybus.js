@@ -23,7 +23,7 @@ class Houstonpartybus extends Component {
                         </div>
                     </div>
                 </section>
-
+                
 
 
                 <section className="section-full cities-sec-one">
@@ -52,7 +52,7 @@ class Houstonpartybus extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={tournamentimg}></img>
+                                            <img src={tournamentimg} alt="Houston Tournament"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
                                                 <a href="/contact-us">Contact Us</a>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
@@ -123,8 +123,8 @@ class Houstonpartybus extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>

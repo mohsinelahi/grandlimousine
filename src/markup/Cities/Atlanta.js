@@ -5,6 +5,7 @@ import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
 import Atlantabanner from '../Element/Atlantabanner';
 import Havequestion from '../Element/Havequestion';
+import DocumentMeta from 'react-document-meta';
 
 
 var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
@@ -12,8 +13,20 @@ var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
 
 class Atlanta extends Component {
     render() {
-        return (
-            <div className="page-wraper">
+        const meta = {
+            title: 'Atlanta, GA - Limousine Luxury Car & Party Bus',
+            description: "Atlanta, GA - Grand Limousine is now one of the nation’s fastest-growing Limousine and car service providers. ",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
                 <Atlantabanner />
@@ -44,9 +57,9 @@ class Atlanta extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={atlantaimg1}></img>
+                                            <img src={atlantaimg1} alt="Atlanta, GA"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer">Contact Us</Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -64,9 +77,9 @@ class Atlanta extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/atlanta-car-service/"}> Atlanta Car Service </Link> </li>
-                                <li> <Link to={"/locations/atlanta-limousine/"}> Atlanta Limousine </Link> </li>
-                                <li> <Link to={"/locations/atlanta-party-bus/"}> Atlanta Party Bus </Link> </li>
+                                <li> <Link to={"/locations/atlanta-car-service/"} rel="noopener noreferrer"> Atlanta Car Service </Link> </li>
+                                <li> <Link to={"/locations/atlanta-limousine/"} rel="noopener noreferrer"> Atlanta Limousine </Link> </li>
+                                <li> <Link to={"/locations/atlanta-party-bus/"} rel="noopener noreferrer"> Atlanta Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most exotic places in Atlanta. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support in Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion.</p>
@@ -84,7 +97,7 @@ class Atlanta extends Component {
                         
                             <p>With us, you will get shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have everything to meet your needs.</p>
                             <p>We offer our town car services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our services. It is a seamless transport solution that you can enjoy with our Grand Limousine. Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
-                            <p>Check out our entire website to unveil the secrets of why people in Atlanta and the <a href="https://www.augustacarservice.com/" target="_blank" className="anchor" rel="noopener">surrounding</a> area prefer us. Call us at <a href="tel:4044244499" target="_blank" className="anchor" rel="noopener"> (404) 424-4499 </a>  to contact us or if you have any <a href="https://www.grandlimousine.com/" target="_blank" className="anchor" rel="noopener">queries</a> about our car and limousine services.</p>                        
+                            <p>Check out our entire website to unveil the secrets of why people in Atlanta and the <a href="https://www.augustacarservice.com/" target="_blank" rel="noopener noreferrer">surrounding</a> area prefer us. Call us at <a href="tel:4044244499" target="_blank" className="anchor" rel="noopener"> (404) 424-4499 </a>  to contact us or if you have any <Link to={"/"} className="anchor" rel="noopener noreferrer"> queries </Link> about our car and limousine services.</p>                        
                         
                         </div>
                     </div>
@@ -135,7 +148,9 @@ class Atlanta extends Component {
                     </div>
                 </section>
                  </div>
-            <Footer /> </div>
+            <Footer /> 
+            </main>
+        </DocumentMeta>
         )
     }
 }

@@ -5,15 +5,26 @@ import Footer from '../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
 import Booknowtable from '../Element/Booknowtable';
-
-
+import DocumentMeta from 'react-document-meta';
 
 
 
 class Casinotrips extends Component {
     render() {
-        return (
-            <div className="page-wraper">
+        const meta = {
+            title: 'Casino Trips',
+            description: "Church Limo - Reserve a limo with Grand Limousine Transportation Provider, offering high-quality transportation, experience, and a proven record of service.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
                 <InnerBanner />
@@ -47,7 +58,9 @@ class Casinotrips extends Component {
                     </div>
                 </section>
                 <Toplimousine /> </div>
-            <Footer /> </div>
+            <Footer />  
+            </main>
+        </DocumentMeta>
         )
     }
 }

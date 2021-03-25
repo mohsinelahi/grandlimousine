@@ -5,15 +5,26 @@ import Footer from '../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
 import Booknowtable from '../Element/Booknowtable';
-
-
+import DocumentMeta from 'react-document-meta';
 
 
 
 class Transportationcoordinator extends Component {
     render() {
-        return (
-            <div className="page-wraper">
+        const meta = {
+            title: 'Transportation Coordinator',
+            description: "Transportation Coordinator - Whether you’re planning a wedding, a corporate event, a graduation party, or another special occasion, you’ll want to make sure.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
                 <InnerBanner />
@@ -42,7 +53,9 @@ class Transportationcoordinator extends Component {
                     </div>
                 </section>
                 <Toplimousine /> </div>
-            <Footer /> </div>
+            <Footer />  
+            </main>
+        </DocumentMeta>
         )
     }
 }

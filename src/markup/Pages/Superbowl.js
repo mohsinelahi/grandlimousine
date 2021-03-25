@@ -5,12 +5,25 @@ import Footer from './../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
 import Allegiantstadium from '../Element/Allegiantstadium';
+import DocumentMeta from 'react-document-meta';
 
 
 class Superbowl extends Component{
 	render(){
-		return(
-            <div className="page-wraper">
+        const meta = {
+            title: 'Super Bowl Car Service - Grand Limousine',
+            description: "Super Bowl Car Service Tampa - Grand Limousine Tampa FL to Raymond James Stadium NFL's Grand event in style. 2021 Super Bowl Tampa Limo Car.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
 
@@ -84,7 +97,9 @@ class Superbowl extends Component{
 
             </div>
             <Footer  />
-        </div>
+        </main>
+        </DocumentMeta>
+
 		)
 	}
 }

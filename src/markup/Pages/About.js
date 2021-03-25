@@ -4,15 +4,27 @@ import Header from './../Layout/Header';
 import Footer from './../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
+import DocumentMeta from 'react-document-meta';
 
-// var aboutimg3 = require('./../../images/services/Grand-Limousine-MKT.jpg');
 
 
 
 class About extends Component{
 	render(){
-		return(
-            <div className="page-wraper">
+        const meta = {
+            title: 'About Us',
+            description: "About Us Private Transportation - Are you looking for a reliable limousine near you? If yes, then we are here to help. Grand Limousine is one of the best company.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
 
@@ -53,7 +65,8 @@ class About extends Component{
 
             </div>
             <Footer  />
-        </div>
+            </main>
+        </DocumentMeta>
 		)
 	}
 }

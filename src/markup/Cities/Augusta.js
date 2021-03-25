@@ -4,6 +4,8 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
 import Augutsabanner from '../Element/Augustabanner';
+import DocumentMeta from 'react-document-meta';
+import Havequestion from '../Element/Havequestion';
 
 
 var augustaimg1 = require('../../images/cities/Ritz-Buckhead.jpg');
@@ -11,8 +13,20 @@ var augustaimg1 = require('../../images/cities/Ritz-Buckhead.jpg');
 
 class Augusta extends Component {
     render() {
-        return (
-            <div className="page-wraper">
+        const meta = {
+            title: 'Augusta, GA - Limousine Luxury Car & Party Bus',
+            description: "Augusta, GA - Grand Limousine is one of the fastest-growing car and limousine service providers in the industry. You will find our Limousine Service on the INC 5000ѕ list of the fastest-growing private companies.",
+            canonical: '',
+            meta: {
+              charset: 'utf-8',
+              name: {
+                keywords: 'react,meta,document,html,tags'
+              }
+            }
+          };
+    return(
+        <DocumentMeta {...meta}>
+            <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
                 <Augutsabanner />
@@ -37,14 +51,14 @@ class Augusta extends Component {
                                         <h4>Enjoy Premium Transportation Service in Augusta</h4>
                                     <p>Augusta, GA – Grand Limousine is one of the fastest-growing car and limousine service providers in the industry. You will find our Limousine Service on the INC 5000ѕ list of fastest-growing private companies. We are one of the leading town car service providers offering private vehicles and excellent customer support. We have prestigious awards. That is why choose Grand Limousine over any other car service provider in Augusta.</p>
                                     <p>We have a wide range of grand limousines, and we offer the best car services at the best prices. Not only premium quality transport but also provide pleasing customer support. Enjoy safe, smooth, and consistent transportation with Grand Limousine. Whether you are looking for a suitable ride for private shipping or group transport, we have a perfect solution for all your requirements.</p>
-                                    <p>If you think hiring our luxury cars will be heavy on the wallet, you are making a mistake. We apply no hidden charges, and all our limousine services are available at competitive rates. Our customer support team is open night and day. Therefore, if you have any queries about our car services, contact us at <a href="tel:4044244499"> (404) 424-4499</a>.</p>
+                                    <p>If you think hiring our luxury cars will be heavy on the wallet, you are making a mistake. We apply no hidden charges, and all our limousine services are available at competitive rates. Our customer support team is open night and day. Therefore, if you have any queries about our car services, contact us at <a href="tel:4044244499" className="anchor" rel="noopener noreferrer"> (404) 424-4499</a>.</p>
 
                                     </div>
                                 </div>
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={augustaimg1}></img>
+                                            <img src={augustaimg1} alt="Augusta, GA"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
                                                 <a href="/contact-us">Contact Us</a>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
@@ -64,9 +78,9 @@ class Augusta extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/augusta-car-service/"}> Augusta Car Service </Link> </li>
-                                <li> <Link to={"/locations/augusta-limousine/"}> Augusta Limousine </Link> </li>
-                                <li> <Link to={"/locations/augusta-party-bus/"}> Augusta Party Bus </Link> </li>
+                                <li> <Link to={"/locations/augusta-car-service/"} rel="noopener noreferrer"> Augusta Car Service </Link> </li>
+                                <li> <Link to={"/locations/augusta-limousine/"} rel="noopener noreferrer"> Augusta Limousine </Link> </li>
+                                <li> <Link to={"/locations/augusta-party-bus/"} rel="noopener noreferrer"> Augusta Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most exotic places in Augusta. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support in Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion. Wherever you are traveling, we assure you of the utmost comfort and safety so you can enjoy the journey stress-freely. To ensure your safety, Augustus Grand Limousine offers only certificate holders, professional chauffeurs. We maintain our fleet meticulously.</p>
@@ -110,8 +124,8 @@ class Augusta extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />    
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
@@ -126,7 +140,9 @@ class Augusta extends Component {
                     </div>
                 </section>
                  </div>
-            <Footer /> </div>
+            <Footer />  
+            </main>
+        </DocumentMeta>
         )
     }
 }
