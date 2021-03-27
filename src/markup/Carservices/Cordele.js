@@ -7,7 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Cordeletable from '../Element/Cordeletable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
 
 
 class Cordele extends Component {

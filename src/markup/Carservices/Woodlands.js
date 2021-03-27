@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Woodlandstable from '../Element/Woodlandstable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Woodlands extends Component {
     render() {

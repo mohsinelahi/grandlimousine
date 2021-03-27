@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Naplestable from '../Element/Naplestable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Naples extends Component {
     render() {

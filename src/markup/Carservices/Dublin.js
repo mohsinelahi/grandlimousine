@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Dublintable from '../Element/Dublintable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Dublin extends Component {
     render() {

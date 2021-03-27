@@ -24,10 +24,11 @@ class Footer extends Component{
 										</form>
 									</div>
 									<ul className="list-inline social-icon m-a0">
-										<li><a href="https://www.facebook.com/grandlimousiness" target="_blank" className="site-button facebook circle"><i className="fa fa-facebook"></i></a></li>
-										<li><a href="https://twitter.com/grandlimousin" target="_blank" className="site-button twitter circle"><i className="fa fa-twitter"></i></a></li>
-										<li><a href="https://www.instagram.com/grandlimousine/" target="_blank" className="site-button instagram circle"><i className="fa fa-instagram"></i></a></li>
-									
+										<li><a href="https://www.facebook.com/grandlimousiness" target="_blank" rel="noopener noreferrer" className="site-button facebook circle"><i className="fa fa-facebook"></i></a></li>
+										<li><a href="https://twitter.com/grandlimousin" target="_blank" rel="noopener noreferrer" className="site-button twitter circle"><i className="fa fa-twitter"></i></a></li>
+										<li><a href="https://www.instagram.com/grandlimousine/" target="_blank" rel="noopener noreferrer" className="site-button instagram circle"><i className="fa fa-instagram"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/grandlimousine/" target="_blank" rel="noopener noreferrer" className="site-button linkedin circle"><i className="fa fa-linkedin"></i></a></li>
+
 										
 									</ul>
 								</div>
@@ -43,7 +44,7 @@ class Footer extends Component{
 										<li><Link to={"/locations/"}>Top Cities</Link></li>
 										<li><Link to={"/posts/"}>Posts</Link></li>
 										<li><Link to={"/contact-us/"}>Contact Us</Link></li>
-										<li><a href="https://account.chauffeurbookingsoftware.com/account/login/?guid=123fd7f0-ff6c-4a9d-80fb-05c694c9ed03" target="_blank">My Account</a></li>
+										<li><a href="https://account.chauffeurbookingsoftware.com/account/login/?guid=123fd7f0-ff6c-4a9d-80fb-05c694c9ed03" target="_blank" rel="noopener noreferrer">My Account</a></li>
 									</ul>
 								</div>
 							</div>

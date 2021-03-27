@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Buckheadtable from '../Element/Buckheadtable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Buckhead extends Component {
     render() {

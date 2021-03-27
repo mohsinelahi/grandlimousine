@@ -44,8 +44,8 @@ class Superbowl extends Component{
                         <div className="row">
                             <div className="col-md-7">
                                 <div className="left">
-                                    <h4>Las Vegas Super Bowl Transportation</h4>
-                                    <p><span>T </span> <strong> he Super Bowl </strong> Car Service Las Vegas – Grand Limousine Las Vegas, NV to Allegiant Stadium NFL’s Grand event in style. 2022 Super Bowl Las Vegas Limo Car Service & Party Bus. NFL’s Football Transportation Professionals. We encourage you to book and plan earlier for this Super Bowl event. Maybe this is the very first Super Bowl that you don’t want to miss. A game will likely seize the spotlight and set it into remembering. It is an on-time for organizers hosting the Super Bowl <a href={"https://www.facebook.com/131499577506295/photos/a.162530297736556/503149197007996/?type=3&theater"} target={"_blank"} className={"anchor"} rel="noopener noreferrer"> event</a>.</p>
+                                    <h4>Los Angeles Super Bowl Transportation</h4>
+                                    <p><span>T </span> <strong> he Super Bowl </strong> Car Service Los Angeles – Grand Limousine Los Angeles, Los Angeles to SoFi Stadium NFL’s Grand event in style. 2022 Super Bowl Los Angeles Limo Car Service & Party Bus. NFL’s Football Transportation Professionals. We encourage you to book and plan earlier for this Super Bowl event. Maybe this is the very first Super Bowl that you don’t want to miss. A game will likely seize the spotlight and set it into remembering. It is an on-time for organizers hosting the Super Bowl <a href={"https://www.facebook.com/131499577506295/photos/a.162530297736556/503149197007996/?type=3&theater"} target={"_blank"} className={"anchor"} rel="noopener noreferrer"> event</a>.</p>
                                     <p>You might not have seen the Super Bowl venue, and that is why you might want to set out for a trip to explore it before it starts. It’s the place to be for the NFL Football Grand Finally of Year. The Super Bowl venue is a real melting pot that amalgamates people with different cultures and <Link to={"/locations/palm-beach/"} className={"anchor"} rel="noopener noreferrer"> backgrounds</Link>.</p>
                                     <p>If you want to attend the Super Bowl, start planning and get your Airport Limo right now. Book your Luxury Car for that day ahead of time with Grand Limo. The Super Bowl, Dealing with just any provider, won’t be a good idea.</p>
                                 </div>
@@ -62,10 +62,10 @@ class Superbowl extends Component{
 
                 <section className="sb-limousine-content heading pb-5">
                     <div className="container">
-                        <h4 className="text-center pb-4">Super Bowl Limousine Las Vegas </h4>
-                        <p>From Airport Limo to customer services,–we have designed our luxury cars and limousine service profile in a very flexible way for the NFL Super Bowl. You will get the diversity and affordability in our transport solutions and 100% collaboration in our customer support. We customize every service so we can take care of your specific requirement for limousine or Airport Car and the flexibility of your budget too.</p>
+                        <h4 className="text-center pb-4">Super Bowl Limousine Los Angeles </h4>
+                        <p>From Airport Limo to customer services, –we have designed our luxury cars and limousine service profile in a very flexible way for the NFL Super Bowl. You will get the diversity and affordability in our transport solutions and 100% collaboration in our customer support. We customize every service so we can take care of your specific requirement for limousine or Airport Car and the flexibility of your budget too.</p>
 
-<p>Allegiant Stadium Super Bowl Car Service support team is available if you have any queries about our services. Our highly cooperative team will always be there to assist you. That is why we are the most trusted and most excellent limousine service providers in the business.</p>
+<p>SoFi Stadium Super Bowl Car Service support team is available if you have any queries about our services. Our highly cooperative team will always be there to assist you. That is why we are the most trusted and most excellent limousine service providers in the business.</p>
 
 <p>Our consistent and reliable Super Bowl Car Service is readily available, and we take pride in providing our many satisfied customers. With the passing years, we never stop improving. Our comprehensive range of Bowl Limo services offers anything and everything. That is why finding suitable transport for attending the Super Bowl will be a pleasurable moment for you.</p>
 

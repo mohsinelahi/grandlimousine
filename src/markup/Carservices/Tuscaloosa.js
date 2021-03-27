@@ -7,9 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Tuscaloosatable from '../Element/Tuscaloosatable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
-
 class Tuscaloosa extends Component {
     render() {
         return (

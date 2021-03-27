@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Tomballtable from '../Element/Tomballtable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Tomball extends Component {
     render() {

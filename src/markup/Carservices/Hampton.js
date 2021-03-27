@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Hamptontable from '../Element/Hamptontable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Hampton extends Component {
     render() {

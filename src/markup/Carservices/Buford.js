@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Bufordatable from '../Element/Bufordtable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Buford extends Component {
     render() {

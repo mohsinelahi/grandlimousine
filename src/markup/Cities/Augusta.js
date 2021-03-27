@@ -60,8 +60,8 @@ class Augusta extends Component {
                                         <div className="allegiant-stadium text-center">
                                             <img src={augustaimg1} alt="Augusta, GA"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
-                                                <a href="tel:4044244499"> Call (404) 424-4499  </a>
+                                            <Link to={"/contact-us/"} className="anchor" rel="noopener noreferrer"> Contact Us </Link>
+                                            <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
                                     </div>
@@ -106,7 +106,36 @@ class Augusta extends Component {
                                     <h2 className="box-title">Our Car Services In Augusta Georgia</h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
-                                <Carservices />
+                                
+                                <div className="car-services">
+                                    <div className="row">
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4>Limousine Service</h4>
+                                            <p>With us, you can enjoy premium quality Limousine Services and exceptional Car Service in Augusta. We have a team of professional and responsible members and state-of-the-art technological facilities. Enjoy a complete range of Chauffeur car service & grand Limousine service with us. Our town car service facilities are available for both families and business people with busy working schedules.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4>Airport & Hotel Transfers</h4>
+                                            <p>Enjoy a reliable and affordable transfer with us to or from your hotel to any airport. Grand Car is the best choice for chauffeur transfer services accessible on the pocket. Our helpful team of experienced chauffeurs will smoothly drive you through daily traffic. We assure you that you will reach the airport on time and won’t miss the flight. We are on time, every time.</p>
+                                        </div>
+                                        <div className="col-md-4 border-bottom">
+                                            <h4>Corporate Transportation</h4>
+                                            <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Wedding</h4>
+                                            <p>With our wedding limousine, you can arrive at your wedding venue in style and grandeur. The limo will be a special treat for you, and your guest will be in the best mood on that big day. For your wedding day, you want everything in the best condition and considering that we serve you accordingly. We offer a wide range of limousines and do our best to make your dream come true.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Prom</h4>
+                                            <p>A prom day is something that every teenager wants to make special. And nothing is better than making a statement entry in a grand limousine. With us you will start <Link to={"/phoenix-car-service-phoenix-phx-airport/"} className="anchor" rel="noopener noreferrer"> enjoying </Link> the night even before the party begins. With us our limo or party bus, you will enjoy the ride like a prom king or queen.</p>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <h4>Bachelor / Bachelorette</h4>
+                                            <p>A bachelor party is the last celebration of a bachelor’s life, and you want to spend it with your friends. You want it to be a lifetime experience. Choose our party buses as this is the best means of <a href="https://www.chamberofcommerce.com/united-states/texas/houston/limousine-rentals/2011547891-grand-limousine" target="_blank" className="anchor" rel="noopener noreferrer"> transport </a> to travel around the different party spots no matter where you are. Houston Limo offers the most <Link to={"/locations/houston-car-service/"} className="anchor" rel="noopener noreferrer"> awesome </Link> party buses in your area.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

@@ -4,11 +4,9 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
-import Hiramtable from '../Element/Hiramtable';
 import Jonesborotable from '../Element/Jonesborotable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
 
 
 class Jonesboro extends Component {

@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Hiramtable from '../Element/Hiramtable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Hiram extends Component {
     render() {

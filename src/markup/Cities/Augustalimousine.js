@@ -4,6 +4,7 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Sanfranciscoservices from '../Element/Sanfranciscoservices';
 import Augutsabanner from '../Element/Augustabanner';
+import Havequestion from '../Element/Havequestion';
 
 var Augustalimoimg1 = require('../../images/cities/AUGUSTA-NATIONAL.jpg');
 
@@ -33,15 +34,15 @@ class Augustalimousine extends Component {
                                 <div className="col-md-7">
                                     <div className="left">
                                         <p>Augusta Limousine Augusta GA (AGS) – We provide a high-quality Limousine experience for Augusta, Evans, Aiken, Martinez, North Augusta, and its surrounding cities. Our versatile service has made us the best among our competitors who offer limo service in this area. We provide high-quality chauffeurs, large cars, and comfort.</p>
-                                        <p>With us, you will enjoy an unforgettable travel experience. If you want to get a comfortable journey, a town car service is appropriate for you. Our efficient customer service has made us a reputed company. You can keep faith in our service with ease. If you wish to take an extended vacation around Augusta, we can be your best bet. Along with beautiful and large cars, we provide excellent chauffeurs at budget-friendly <a href="https://grandt.wpmudev.host/the-masters-training/" target="_blank" className="anchor">options</a>.</p>
+                                        <p>With us, you will enjoy an unforgettable travel experience. If you want to get a comfortable journey, a town car service is appropriate for you. Our efficient customer service has made us a reputed company. You can keep faith in our service with ease. If you wish to take an extended vacation around Augusta, we can be your best bet. Along with beautiful and large cars, we provide excellent chauffeurs at budget-friendly <Link to={"/the-masters-training/"} className="anchor" rel="noopener noreferrer"> options</Link>.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Augustalimoimg1}></img>
+                                            <img src={Augustalimoimg1} alt="Augusta Traditions of the Masters Tournament"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} className="anchor" rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -67,13 +68,13 @@ class Augustalimousine extends Component {
                             <p>We strive to provide exceptional outstanding and affordable transportation to all. Augusta Limousine Private Transportation Service has, for any sort of occasion, our dedication to professionalism in every interaction, from the first mobile phone phone to our Workplace to the ultimate “Thanks” from our Associates. Augusta Limousine Private Transportation Service company actions an experienced, remarkably skilled chauffeurs present the needs of particular companies, in demanding accordance together with your directions. Vacation time is usually both enjoyable and pleasure with customized preparations In keeping up with your online business requests. Wedding Limousines from the basic to the extravagant, Grand delivers.</p>
                             
                             <h4>Limousine Service Augusta</h4>
-                            <p>Our city is the most beautiful and lively place.  Most Importantly. If you want to explore this place, you can hire our Luxury Limousine Service in Augusta. We offer excellent facilities for your specialty travel destination. Our car service is the best platform for tourists. Secondly, when you need a limousine service, we are here to help you. You will not have to bother about getting the direction to your destination if you hire us.</p>
+                            <p>Our city is the most beautiful and lively place.  Most Importantly. If you want to explore this place, you can hire our Luxury Limousine Service in Augusta. We offer excellent facilities for your specialty travel destination. Our car service is the best <Link to={"/locations/jacksonville-party-bus/"} className="anchor" rel="noopener noreferrer"> platform </Link> for tourists. Secondly, when you need a limousine service, we are here to help you. You will not have to bother about getting the direction to your destination if you hire us.</p>
 
                             <h4>North Augusta SC – Atlanta</h4>
                             <p>Hiring a car service in Augusta SC gives you more space. You can enjoy a trip with your family and friends without tension. We provide beautiful vehicles for all. Here you will get a budget-friendly option on each ride. We provide well-trained drivers with extensive training. You can remain sure they will offer you the best private transportation experience.</p>
 
                             <h4>The Masters After Hours</h4>
-                            <p>And Finally. Forget waiting in line to get into the hottest club from Evans Martinez or Aiken, visit our website and enter your name, destination, and time. We are here to serve you with the best quality transportation around town. So no more wait! Contact us and enjoy a comfortable ride.  In conclusion, we welcome consultations, inquiries, and <a href="https://www.facebook.com/carservicehouston/" target="_blank" className="anchor">fabulous </a> trips whenever and wherever you need us.</p>
+                            <p>And Finally. Forget waiting in line to get into the hottest club from Evans Martinez or Aiken, visit our website and enter your name, destination, and time. We are here to serve you with the best quality transportation around town. So no more wait! Contact us and enjoy a <Link to={"/arlington-airport-car-service/"} className="anchor" rel="noopener noreferrer"> comfortable </Link> ride.  In conclusion, we welcome consultations, inquiries, and <a href="https://www.facebook.com/carservicehouston/" target="_blank" className="anchor">fabulous </a> trips whenever and wherever you need us.</p>
 
                         </div>
                     </div>
@@ -92,11 +93,11 @@ class Augustalimousine extends Component {
                                     <div className="row">
                                         <div className="col-md-4 border-right border-bottom">
                                             <h4>AGS – ATL Limo</h4>
-                                            <p>Augusta Limousine Service has an exceptional Limousine Service. We employ the most <a href="https://grandt.wpmudev.host/exploring-sites-where-history-was-made-in-atlanta/" target="_blank" className="anchor"> professional </a> and motivated personnel, supported by the latest technological facilities.</p>
+                                            <p>Augusta Limousine Service has an exceptional Limousine Service. We employ the most <Link to={"/exploring-sites-where-history-was-made-in-atlanta/"} className="anchor" rel="noopener noreferrer"> professional </Link>  and motivated personnel, supported by the latest technological facilities.</p>
                                         </div>
                                         <div className="col-md-4 border-right border-bottom">
                                             <h4>Airport & Hotel Transfers</h4>
-                                            <p>Reliable and affordable transfers to or from your hotel to any airport. Augusta Limousine is your best choice for affordable chauffeur transfer services. Our experienced chauffeurs will drive you <a href="https://grandt.wpmudev.host/new-york-city-travel-tours/" target="_blank" className="anchor">through </a> the heavy daily traffic and make sure you arrive on time to board your flight.</p>
+                                            <p>Reliable and affordable transfers to or from your hotel to any airport. Augusta Limousine is your best choice for affordable chauffeur transfer services. Our experienced chauffeurs will drive you <Link to={"/new-york-city-travel-tours/"} className="anchor" rel="noopener noreferrer"> through </Link> the heavy daily traffic and make sure you arrive on time to board your flight.</p>
                                         </div>
                                         <div className="col-md-4 border-bottom">
                                             <h4>Corporate Transportation</h4>
@@ -104,7 +105,7 @@ class Augustalimousine extends Component {
                                         </div>
                                         <div className="col-md-4 border-right ">
                                             <h4> Wedding</h4>
-                                            <p>There is no more excellent way to arrive at your big day than in an Augusta Limousine. The drive to your wedding venue will, in <a href="https://grandt.wpmudev.host/no-more-mistakes-with-san-francisco-limousine-service/" target="_blank" className="anchor"> itself</a> , be a special treat and will give you in the best mood. For your wedding day, you deserve nothing short of the very best as your transportation service provider.</p>
+                                            <p>There is no more excellent way to arrive at your big day than in an Augusta Limousine. The drive to your wedding venue will, in <Link to={"/no-more-mistakes-with-san-francisco-limousine-service/"} className="anchor" rel="noopener noreferrer"> itself</Link> , be a special treat and will give you in the best mood. For your wedding day, you deserve nothing short of the very best as your transportation service provider.</p>
                                         </div>
                                         <div className="col-md-4 border-right ">
                                             <h4>Prom</h4>
@@ -134,8 +135,8 @@ class Augustalimousine extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>

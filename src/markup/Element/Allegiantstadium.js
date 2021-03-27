@@ -10,9 +10,9 @@ class Allegiantstadium extends Component{
 
          
                 <div className="allegiant-stadium text-center">
-                    <img src={allegiantstadiumimg1}></img>
+                    <img src={allegiantstadiumimg1} alt="SoFi Stadium"></img>
                     <div className="allegiant-stadium-btn custom-btn">
-                        <a href="/contact-us/">Contact Us</a>
+                        <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                         <a href="tel:4044244499"> Call (404) 424-4499  </a>
                     </div>
                 </div>

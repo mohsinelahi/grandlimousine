@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Alpharettatable from '../Element/Alpharettatable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Alpharetta extends Component {
     render() {

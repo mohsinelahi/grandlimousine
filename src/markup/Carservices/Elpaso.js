@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Elpasotable from '../Element/Elpasotable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Elpaso extends Component {
     render() {

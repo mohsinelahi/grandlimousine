@@ -4,6 +4,7 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Sanfranciscoservices from '../Element/Sanfranciscoservices';
 import Augutsabanner from '../Element/Augustabanner';
+import Havequestion from '../Element/Havequestion';
 
 var Augustapartybusimg1 = require('../../images/cities/atlanta-limousine.jpg');
 
@@ -41,9 +42,9 @@ class Augustapartybus extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Augustapartybusimg1}></img>
+                                            <img src={Augustapartybusimg1} alt="Augusta Party Bus Service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                            <Link to={"/contact-us/"} className="anchor" rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -113,7 +114,7 @@ class Augustapartybus extends Component {
 
                                 <div className="book-your-car text-center">
                                     <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5> </div>
+                                    <h5> Call now at <a href="4044244499" rel="noopener noreferrer"> (404) 424-4499 </a> to book your limousine! </h5> </div>
                             </div>
                         </div>
                     </div>
@@ -131,14 +132,14 @@ class Augustapartybus extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/E6fSUb7xiHAATRKaA">1002 Baker Ave, Augusta, GA 30904, Georgia, USA</a> </li>
-                                            <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
-                                            <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
+                                            <li>Address: <a href="https://goo.gl/maps/E6fSUb7xiHAATRKaA" rel="noopener noreferrer">1002 Baker Ave, Augusta, GA 30904, Georgia, USA</a> </li>
+                                            <li>Phone: <a href="tel:4044244499" rel="noopener noreferrer"> (404) 424-4499</a> </li>
+                                            <li>Corporate: <a href="tel:4044244499" rel="noopener noreferrer"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>
                                     </div>
                                 </div>

@@ -139,6 +139,19 @@ import Riveroaks from './markup/Carservices/Riveroaks';
 import Leaguecity from './markup/Carservices/Leaguecity';
 import Greaterheights from './markup/Carservices/Greaterheights';
 import Arlingtonairport from './markup/Carservices/Arlingtonairport';
+import Dallasfortworth from './markup/Carservices/Dallasfortworth';
+import Summertraveltips from './markup/Carservices/Summertraveltips';
+import Masterstournament from './markup/Pages/Masterstournament';
+import Atlantabachelorette from './markup/Pages/Atlantabachelorette';
+import Newyorkcitytravel from './markup/Pages/Newyorkcitytravel';
+import Sugarland from './markup/Carservices/Sugarland';
+import Houstontexansfootball from './markup/Services/HoustonTexansFootball';
+import RaymondJamesstadium from './markup/Pages/RaymondJamesstadium';
+import Fortmyers from './markup/Carservices/Fortmyers';
+import Dallasairport from './markup/Carservices/Dallasairport';
+import Johnscreek from './markup/Carservices/Johnscreek';
+import Birthdaylimo from './markup/Pages/Birthdaylimo';
+import Atlantafalconsfootball from './markup/Services/Atlantafalconsfootball';
 
 
 function App() {
@@ -146,12 +159,12 @@ function App() {
     <Router basename="/">
       <div className="App">
         <Switch>
-          <Route exact path='/' component={Homepage} />
+          <Route path='/' exact component={Homepage} />
           <Route path="/super-bowl/" component={Superbowl} />
           <Route path="/about-us/" component={About} />
           <Route path="/posts/" component={Post} /> 
           <Route path="/contact-us/" component={Contact} /> 
-          <Route exact path="/locations/" component={Locations} />
+          <Route path="/locations/" exact component={Locations} />
           <Route path="/limousine-service/" component={Limousineservice} />
           <Route path="/corporate-transportation" component={Corporatetransportation} />
           <Route path="/wedding-transportation/" component={Weddingtransportation} />
@@ -275,6 +288,24 @@ function App() {
           <Route path="/league-city-car-service-houston-iah-airport/" component={Leaguecity} />
           <Route path="/greater-heights-car-service-houston-iah/" component={Greaterheights} />
           <Route path="/arlington-airport-car-service/" component={Arlingtonairport} />
+          <Route path="/dallas-car-service-dallas-fort-worth-dfw/" component={Dallasfortworth} />
+          <Route path="/summer-travel-tips-usa/" component={Summertraveltips} />
+          <Route path="/the-masters-tournament/" component={Masterstournament} />
+          <Route path="/atlanta-bachelorette-party-limo/" component={Atlantabachelorette} />
+          <Route path="/new-york-city-travel-tours/" component={Newyorkcitytravel} />
+          <Route path="/sugar-land-car-service-houston-iah-airport/" component={Sugarland} />
+          <Route path="/houston-texans-football-limo-service/" component={Houstontexansfootball} />
+          <Route path="/raymond-james-stadium-limo-transportation/" component={RaymondJamesstadium} />
+          <Route path="/fort-myers-car-service-fort-myers-rsw/" component={Fortmyers} />
+          <Route path="/dallas-airport-car-service-dallas-grand-limousine-corporate-transportation/" component={Dallasairport} />
+          <Route path="/johns-creek-car-service-atlanta-atl/" component={Johnscreek} />
+          <Route path="/birthday-limo/" component={Birthdaylimo} />
+          <Route path="/atlanta-falcons-football-limo-service/" component={Atlantafalconsfootball} />
+
+
+
+
+
 
 
         </Switch>

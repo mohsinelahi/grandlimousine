@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Garlandtable from '../Element/Garlandtable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Garland extends Component {
     render() {

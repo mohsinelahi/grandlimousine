@@ -7,8 +7,6 @@ import Toplimousine from '../Element/Toplimousine';
 import Corpuschristitable from '../Element/Corpuschristitable';
 
 
-var atlantaimg1 = require('../../images/cities/atlanta_transportation.jpg');
-
 
 class Corpuschristi extends Component {
     render() {
