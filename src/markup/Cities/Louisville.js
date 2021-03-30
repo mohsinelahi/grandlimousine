@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
-import InnerBanner from '../Element/Innerbanner';
+import Louisvillebanner from '../Element/Louisvillebanner';
+import Havequestion from '../Element/Havequestion';
 
 
 var Louisvilleimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -15,7 +16,7 @@ class Louisville extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Louisvillebanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -43,9 +44,9 @@ class Louisville extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Louisvilleimg1}></img>
+                                            <img src={Louisvilleimg1} alt="Kentucky Car Service Louisville (SDF) Airport Limousine"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -119,12 +120,12 @@ class Louisville extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/XdpY8dghVTgnkigi9">1002 Baker Ave, Kentucky, KY 40203, Kentucky, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/XdpY8dghVTgnkigi9" rel="noopener noreferrer">1002 Baker Ave, Kentucky, KY 40203, Kentucky, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

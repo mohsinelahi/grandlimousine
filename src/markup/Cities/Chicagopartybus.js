@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
-import Carservices from '../Element/Carservices';
-import Augutsabanner from '../Element/Augustabanner';
+import Chicagobanner from '../Element/Chicagobanner';
+import Havequestion from '../Element/Havequestion';
 
 
 var chicagopartybusimg1 = require('../../images/cities/atlanta-limousine.jpg');
@@ -15,7 +15,7 @@ class Chicagopartybus extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <Augutsabanner />
+                <Chicagobanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -43,9 +43,9 @@ class Chicagopartybus extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={chicagopartybusimg1}></img>
+                                            <img src={chicagopartybusimg1} alt="Gray Car Service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                            <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -63,7 +63,7 @@ class Chicagopartybus extends Component {
                         <div className="container">
                         
                         <h4>Chicago Birthday Party Bus</h4>
-                        <p> <strong> Chicago Birthday Party Bus </strong>  would be the ideal ride for any event! Finding a fun bus in Chicago, IL, is an excellent way to enjoy yourself throughout your journey around the city and is very reasonable! <Link to={"https://www.augustacarservice.com/"} target={"_blank"}> Renting </Link> a limo bus is the most suitable option for you for parties and downtown bar hopping. In the limo bus, you may pre-party all you need. If you would like to lease a party bus in Chicago, Illinois, then you’ve come to the ideal location. A party bus appears the same as a regular bus from the exterior but is different inside. Grand Party Buses are the perfect means to bounce from 1 bar to another all evening long. You can!</p>
+                        <p> <strong> Chicago Birthday Party Bus </strong>  would be the ideal ride for any event! Finding a fun bus in Chicago, IL, is an excellent way to enjoy <Link to={"/locations/augusta-car-service/"} className="anchor" rel="noopener noreferrer"> yourself</Link>  throughout your journey around the city and is very reasonable! <a href="https://www.augustacarservice.com/" target="_blank" className="anchor" rel="noopener noreferrer"> Renting </a> a limo bus is the most suitable option for you for parties and downtown bar hopping. In the limo bus, you may pre-party all you need. If you would like to lease a party bus in Chicago, Illinois, then you’ve come to the ideal location. A party bus appears the same as a regular bus from the exterior but is different inside. Grand Party Buses are the perfect means to bounce from 1 bar to another all evening long. You can!</p>
                         <p>Party buses are available in many different sizes, ability capabilities, colors, and designs. Sometimes you need party bus rentals, and at times you demand a coach to get to a party. Our party buses are quite a club on wheels. The bus is an enjoyable and convenient method to experience all that Chicago has to give you. Our Chicago rent a party bus service is regarded as the best in town as it comes with the top gadgets and party accessories necessary to earn your party rocking.</p>
                         <p>When you call for costs, there are several things to keep in mind to generate the process as straightforward as possible. Our prices go by an hourly rate, so you will not have to pay for what you use. One last thing, they’re the cheapest. Our low prices make it possible that you get a good time without needing to devote a lot of money. Another terrific method to have a minimal cost is to divide the general cost between all the passengers! Affordable Transportation The trick is to decrease the price of transportation. When somebody isn’t properly accredited, you can lose your money.</p>
                         <p>Parking around Wrigley Field is rare because of its location in a residential area, building a charter bus rental a perfect alternative for a trip to Wrigley Field. When you are prepared to get the most suitable bus rental in Chicago for your next major event, it is essential to understand that a few helpful hints when screening several vendors. Grand Chicago Limo is among them. Additionally, a big and you’ll have your chauffeur, a person who’s trained and qualified to drive with such an automobile and is compensated to achieve that. And the best part of all is that our limo party bus prices are the best around.</p>
@@ -105,8 +105,8 @@ class Chicagopartybus extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>

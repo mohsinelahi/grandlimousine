@@ -5,6 +5,8 @@ import Footer from '../Layout/Footer';
 import Sanfranciscobanner from '../Element/SanfranciscoBanner';
 import Sanfranciscoservices from '../Element/Sanfranciscoservices';
 import Jacksonvilleheader from '../Element/Jacksonvillebanner';
+import Havequestion from '../Element/Havequestion';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
 
 var Jacksonvilleimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
 
@@ -44,9 +46,9 @@ class Jacksonville extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Jacksonvilleimg1}></img>
+                                            <img src={Jacksonvilleimg1} alt="car service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -64,9 +66,9 @@ class Jacksonville extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/Jacksonville-car-service/"}> Jacksonville Car Service </Link> </li>
-                                <li> <Link to={"/locations/Jacksonville-limousine/"}> Jacksonville Limousine </Link> </li>
-                                <li> <Link to={"/locations/Jacksonville-party-bus/"}> Jacksonville Party Bus </Link> </li>
+                                <li> <Link to={"/locations/Jacksonville-car-service/"} rel="noopener noreferrer"> Jacksonville Car Service </Link> </li>
+                                <li> <Link to={"/locations/Jacksonville-limousine/"} rel="noopener noreferrer"> Jacksonville Limousine </Link> </li>
+                                <li> <Link to={"/locations/Jacksonville-party-bus/"} rel="noopener noreferrer"> Jacksonville Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most exotic places in Jacksonville. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support in, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion.</p>
@@ -82,9 +84,9 @@ class Jacksonville extends Component {
                         
                             <h4>The all-inclusive solution for transportation in Jacksonville</h4>
 
-                            <p>With us, you will get limousine services for shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have everything to meet your needs.</p>
+                            <p>With us, you will get limousine services for shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have <a href="https://www.augustacarservice.com/augusta-limousine/" target="_blank" className="anchor" rel="noopener noreferrer"> everything </a> to meet your needs.</p>
                             <p>We offer our limousine and car services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our town car services. It is a seamless limousine service. Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
-                            <p>Check out our entire website to unveil the secrets of why people in Jacksonville and the surrounding area. Call us at (404) 424-4499 to contact us or if you have any queries about our car and limousine services.</p>
+                            <p>Check out our entire website to unveil the secrets of why people in Jacksonville and the surrounding area. Call us at <a href="tel:4044244499" className="anchor" rel="noopener noreferrer"> (404) 424-4499 </a> to contact us or if you have any queries about our car and limousine services.</p>
 
                         </div>
                     </div>
@@ -99,9 +101,7 @@ class Jacksonville extends Component {
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
                                 <Sanfranciscoservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5> </div>
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
@@ -118,12 +118,12 @@ class Jacksonville extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />    
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/nzHwRPit6FZSxaPB7">701 W Adams Street, Jacksonville, FL 32202, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/nzHwRPit6FZSxaPB7" rel="noopener noreferrer">701 W Adams Street, Jacksonville, FL 32202, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

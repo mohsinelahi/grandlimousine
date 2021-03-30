@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
-import InnerBanner from '../Element/Innerbanner';
+import Augutsabanner from '../Element/Augustabanner';
+import Havequestion from '../Element/Havequestion';
 
 
 var Grayimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -15,7 +16,7 @@ class Gray extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Augutsabanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -41,9 +42,9 @@ class Gray extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Grayimg1}></img>
+                                            <img src={Grayimg1} alt="car service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -61,8 +62,8 @@ class Gray extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/gray-car-service/"}> Gray Car Service </Link> </li>
-                                <li> <Link to={"/locations/gray-limousine/"}> Gray Limousine </Link> </li>
+                                <li> <Link to={"/locations/gray-car-service/"} rel="noopener noreferrer"> Gray Car Service </Link> </li>
+                                <li> <Link to={"/locations/gray-limousine/"} rel="noopener noreferrer"> Gray Limousine </Link> </li>
 
                             </ul>
                         
@@ -79,7 +80,7 @@ class Gray extends Component {
                             <h4>The all-inclusive solution for transportation in Gray</h4>
                             <p>With us, you will get shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have everything to meet your needs.</p>
                             <p>We offer our car and limousine services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our town car services. It is a seamless transport solution that you can enjoy with our Grand Limousine. Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
-                            <p>Check out our entire website to unveil the secrets why people in Gray and the surrounding area prefer dealing only with Grand Limousine.with Grand Limousine. Call us at (404) 424-4499 to contact us or if you have any queries about our services.</p>
+                            <p>Check out our entire website to unveil the secrets why people in Gray and the surrounding area prefer dealing only with Grand Limousine.with Grand Limousine. Call us at <a href="tel:4044244499" className="anchor" rel="noopener noreferrer"> (404) 424-4499 </a> to contact us or if you have any queries about our services.</p>
 
                </div>
                     </div>
@@ -90,8 +91,7 @@ class Gray extends Component {
                         <div className="container">
                             <div className="car-services">
                                 <div className="section-head text-black text-center">
-                                    <h2 className="box-title">Check out our Car Services in Gray
-</h2>
+                                    <h2 className="box-title">Check out our Car Services in Gray</h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
                                 <Carservices />
@@ -112,12 +112,12 @@ class Gray extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/7FkobaRW15z9NzTN7">110 Dolly St, Gray, GA 31032, Georgia, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/7FkobaRW15z9NzTN7" rel="noopener noreferrer">110 Dolly St, Gray, GA 31032, Georgia, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

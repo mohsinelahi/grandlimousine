@@ -14313,7 +14313,7 @@ a.custom-btn:hover {
 }
 
 .inner-banner {
-    min-height: 600px;
+    min-height: 550px;
     padding-top: 60px;
     display: flex;
     align-items: center;

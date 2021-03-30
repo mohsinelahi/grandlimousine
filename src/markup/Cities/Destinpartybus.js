@@ -4,6 +4,7 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
 import Destinbanner from '../Element/Destinbaner';
+import Havequestion from '../Element/Havequestion';
 
 
 var Destinimg1 = require('../../images/cities/atlanta-limousine.jpg');
@@ -40,9 +41,9 @@ class Destinpartybus extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Destinimg1}></img>
+                                            <img src={Destinimg1} alt="car service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -106,12 +107,12 @@ class Destinpartybus extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/6fSdgDphKbq3TZhn8">531 Juanita Ave, Destin, FL 32541, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/6fSdgDphKbq3TZhn8" rel="noopener noreferrer">531 Juanita Ave, Destin, FL 32541, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
-import InnerBanner from '../Element/Innerbanner';
+import Havequestion from '../Element/Havequestion';
+import Palmbeachbanner from '../Element/Palmbeachbanner';
 
 
 var Palmbeachimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -15,7 +16,7 @@ class Palmbeach extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Palmbeachbanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -44,9 +45,9 @@ class Palmbeach extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Palmbeachimg1}></img>
+                                            <img src={Palmbeachimg1} alt="San Francisco Grand Limousine"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -64,9 +65,9 @@ class Palmbeach extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/palm-beach-car-service/"}> Palm Beach Car Service </Link> </li>
-                                <li> <Link to={"/locations/palm-beach-limousine/"}> Palm Beach Limousine </Link> </li>
-                                <li> <Link to={"/locations/palm-beach-party-bus/"}> Palm Beach Party Bus </Link> </li>
+                                <li> <Link to={"/locations/palm-beach-car-service/"} rel="noopener noreferrer"> Palm Beach Car Service </Link> </li>
+                                <li> <Link to={"/locations/palm-beach-limousine/"} rel="noopener noreferrer"> Palm Beach Limousine </Link> </li>
+                                <li> <Link to={"/locations/palm-beach-party-bus/"} rel="noopener noreferrer"> Palm Beach Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most exotic places in Palm Beach. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support in Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion.</p>
@@ -81,7 +82,7 @@ class Palmbeach extends Component {
 
                             <h4>The all-inclusive solution for transportation in Palm Beach</h4>
                             <p>With us, you will get shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have everything to meet your needs.</p>
-                            <p>We offer our services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our town car services. It is a seamless transport solution that you can enjoy with our <a href="https://www.augustacarservice.com/" target={"_blank"} className={"anchor"}>Grand Limousine</a> . Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
+                            <p>We offer our services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our town car services. It is a seamless transport solution that you can enjoy with our <a href="https://www.augustacarservice.com/" target={"_blank"} className={"anchor"} rel="noopener noreferrer">Grand Limousine</a> . Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
                             <p>Check out our entire website to unveil the secrets why people in Palm Beach and the surrounding area prefer dealing only with Grand Limousine. Call us at (404) 424-4499 to contact us or if you have any queries about our car and limousine services.</p>
 
 
@@ -116,12 +117,12 @@ class Palmbeach extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/XSNMVSnwnQTrWC3h9">204 Royal Palm Way, Palm Beach, FL 33480, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/XSNMVSnwnQTrWC3h9" rel="noopener noreferrer">204 Royal Palm Way, Palm Beach, FL 33480, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

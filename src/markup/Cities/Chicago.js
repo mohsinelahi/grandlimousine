@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
-import Augutsabanner from '../Element/Augustabanner';
+import Havequestion from '../Element/Havequestion';
+import Chicagobanner from '../Element/Chicagobanner';
 
 
 var chicagoimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -15,7 +16,7 @@ class Chicago extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <Augutsabanner />
+                <Chicagobanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -36,7 +37,7 @@ class Chicago extends Component {
                                     <div className="left">
                                         <h4>Enjoy Premium Transportation Service in Augusta</h4>
                                         <p> <strong> Chicago Limousine Luxury Car & Party Bus – </strong> In Chicago, the demand for Limousine Service is increasing day by day. And Chicago Limousine is one of the nation’s fastest developing transportation service providers. Our advanced Limousine service is a reputed grand service provider in this locality. We will be on INC 5000’ѕ list of fastest-developing private companies. We offer the most diverse and fantastic range of luxury vehicles in the business of car services.</p>
-                                        <p>We offer Chicago’s very best chauffeurs. Even one of our chauffeurs had the prestigious award of ‘Chauffeur of the year.’ Also, we have been the “Best <a href="https://www.augustacarservice.com/" target="_blank">Transportation </a> Provider.” The event professionals throughout the industry voted for us. Chicago Limousine owns and operates several new rides. We have various types of cars, including Sedans and Hybrids, 56 passenger motor coaches, SUVs.</p>
+                                        <p>We offer Chicago’s very best chauffeurs. Even one of our chauffeurs had the prestigious award of ‘Chauffeur of the year.’ Also, we have been the “Best <a href="https://www.augustacarservice.com/" target="_blank" className="anchor" rel="noopener noreferrer">Transportation </a> Provider.” The event professionals throughout the industry voted for us. Chicago Limousine owns and operates several new rides. We have various types of cars, including Sedans and Hybrids, 56 passenger motor coaches, SUVs.</p>
                                         <p>Also, we have Limousines, luxury minibusses for up to 39 passengers, executive vans, and party busses for 12 to 25 passengers. One of the most experienced and talented management teams in the industry supervises Chicago Limousine to ensure you get the best car and limousine service in Chicago.</p>
 
                                     </div>
@@ -44,7 +45,7 @@ class Chicago extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={chicagoimg1}></img>
+                                            <img src={chicagoimg1} alt="car service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
                                                 <a href="/contact-us">Contact Us</a>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
@@ -64,9 +65,9 @@ class Chicago extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/chicago-car-service/"}> Chicago Car Service </Link> </li>
-                                <li> <Link to={"/locations/chicago-limousine/"}> Chicago Limousine </Link> </li>
-                                <li> <Link to={"/locations/chicago-party-bus/"}> Chicago Party Bus </Link> </li>
+                                <li> <Link to={"/locations/chicago-car-service/"} rel="noopener noreferrer" > Chicago Car Service </Link> </li>
+                                <li> <Link to={"/locations/chicago-limousine/"} rel="noopener noreferrer"> Chicago Limousine </Link> </li>
+                                <li> <Link to={"/locations/chicago-party-bus/"} rel="noopener noreferrer"> Chicago Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most beautiful places in Chicago. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support along with Wi-Fi, refreshment, and a travel guide. Our chauffeurs know years of experience, dedication, sincerity, and passion.</p>
@@ -114,8 +115,8 @@ class Chicago extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>

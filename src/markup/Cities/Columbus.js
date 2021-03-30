@@ -4,6 +4,8 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
 import InnerBanner from '../Element/Innerbanner';
+import Columbusbanner from '../Element/Columbusbanner';
+import Havequestion from '../Element/Havequestion';
 
 
 var Columbusimg1 = require('../../images/cities/columbus_georgia_limo.jpg');
@@ -15,7 +17,7 @@ class Columbus extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Columbusbanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -43,9 +45,9 @@ class Columbus extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Columbusimg1}></img>
+                                            <img src={Columbusimg1} alt="Columbus Limousine Luxury Car & Party Bus - Book Direct Since 2007"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"}  rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -63,7 +65,7 @@ class Columbus extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/columbus-car-service/"}> Columbu Car Service </Link> </li>
+                                <li> <Link to={"/locations/columbus-car-service/"} rel="noopener noreferrer"> Columbu Car Service </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most exotic places in Columbus. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support in Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion.</p>
@@ -79,7 +81,7 @@ class Columbus extends Component {
                             <h4>The all-inclusive solution for transportation in Columbus</h4>
                             <p>With us, you will get shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have everything to meet your needs.</p>
                             <p>We offer our services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our services. It is a seamless transport solution that you can enjoy with our Grand Limousine. Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
-                            <p> <a href="https://www.augustacarservice.com/augusta-limousine/" target={"_blank"} className={"anchor"}> Check </a>  out our entire website to unveil the secrets why people in Columbus and the <Link to={"/tips-for-fast-and-easy-departures-airport-car-service/"} target={"_blank"} className={"anchor"}> surrounding </Link> area prefer dealing only with Grand Limousine. Call us at <a href="tel:4044244499" className={"anchor"}> (404) 424-4499 </a> to contact us or if you have any queries about our services.</p>
+                            <p> <a href="https://www.augustacarservice.com/augusta-limousine/" target={"_blank"} className={"anchor"}> Check </a>  out our entire website to unveil the secrets why people in Columbus and the <Link to={"/tips-for-fast-and-easy-departures-airport-car-service/"} className={"anchor"}> surrounding </Link> area prefer dealing only with Grand Limousine. Call us at <a href="tel:4044244499" className={"anchor"}> (404) 424-4499 </a> to contact us or if you have any queries about our services.</p>
 
 
                </div>
@@ -94,7 +96,9 @@ class Columbus extends Component {
                                     <h2 className="box-title">Check out our Car Services in Columbus</h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
+                                
                                 <Carservices />
+
                             </div>
                         </div>
                     </div>
@@ -112,8 +116,8 @@ class Columbus extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>

@@ -4,6 +4,8 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
 import Destinbanner from '../Element/Destinbaner';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
+import Havequestion from '../Element/Havequestion';
 
 
 var Destinimg1 = require('../../images/cities/atlanta-limousine.jpg');
@@ -42,9 +44,9 @@ class Destincarservice extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Destinimg1}></img>
+                                            <img src={Destinimg1} alt="Gray Car Service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                            <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -98,11 +100,36 @@ class Destincarservice extends Component {
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
     
-                                <Carservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5>
+                                <div className="car-services">
+                                    <div className="row">
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4> Destin </h4>
+                                            <p>We offer premium Limousine Services in Destin. We employ the most professional and motivated personnel, supported by the latest technological facilities. We provide all forms of Chauffeur service & Luxury Limousine for both families and business people who need to move from one meeting to the next.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4>Destin Car Service Airport & Hotel Transfers</h4>
+                                            <p>We offer reliable and affordable travel to or from your hotel and to any airport. Car Service Destin is your best choice for affordable chauffeur transfer. Our experienced chauffeurs will drive you through the heavy daily traffic and make sure you arrive on time to board your flight.</p>
+                                        </div>
+                                        <div className="col-md-4 border-bottom">
+                                            <h4>Corporate Transportation</h4>
+                                            <p>We offer high-end transport solutions adapted to the constraints of your business needs. Car Service Destin, you will arrive at that business meeting or corporate gala in style and get the confidence to sign that multi-million dollar deal. Our corporate cars are of VIP standards and will provide you with the best means of transport to your next business engagement.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Wedding</h4>
+                                            <p>There is no more fabulous way to arrive at your big day than in a luxury Destin Car. The drive to your wedding venue will, in itself, be a special treat and will give you in the best mood as you say, “I do.” For your wedding day, you deserve nothing short of the very best as your transportation service provider. We have a wide selection of limousines to make your wedding day great.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Prom</h4>
+                                            <p>No day is more memorable in high school than your prom day. And what better way is it to make a statement than arriving in a posh limousine. You can enjoy the  Destin Car Service night even before you get to the venue. With Destin Private Car, you will well be on the path to prom king or <Link to={"/airport-car-service-austin/"} className="anchor" rel="noopener noreferrer"> queen</Link>.</p>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <h4>Bachelor / Bachelorette</h4>
+                                            <p>Have a big <Link to={"/arlington-airport-car-service/"} className="anchor" rel="noopener noreferrer"> celebration </Link>  with your friends before tying the knot should be an experience to remember for life. Car Service Destin, we make that possible by giving you the best way to travel around your <Link to={"/san-antonio-airport-car-service-san-antonio-grand-limousine-corporate-transportation/"} className="anchor" rel="noopener noreferrer"> different </Link>  party Destin offers the most <Link to={"/wedding-limo/"} className="anchor" rel="noopener noreferrer"> awesome </Link> units in your <Link to={"/locations/atlanta-car-service/"} className="anchor" rel="noopener noreferrer"> area</Link>.</p>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
@@ -120,8 +147,8 @@ class Destincarservice extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>

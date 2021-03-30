@@ -58,7 +58,7 @@ class Macon extends Component {
                                         <div className="allegiant-stadium text-center">
                                             <img src={maconimg1} alt="Macon, GA"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                            <Link to={"/contact-us"} rel="noopener noreferrer"> Contact Us </Link>
+                                                <Link to={"/contact-us"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -133,7 +133,7 @@ class Macon extends Component {
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/tk9HeS4fLBC7jLRk7">1002 Baker Ave, Macon, GA 30904, Georgia, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/tk9HeS4fLBC7jLRk7" rel="noopener noreferrer">1002 Baker Ave, Macon, GA 30904, Georgia, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

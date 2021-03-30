@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
-import Augutsabanner from '../Element/Augustabanner';
+import Chicagobanner from '../Element/Chicagobanner';
 
 
 var chicagocarserviceimg1 = require('../../images/cities/atlanta-limousine.jpg');
@@ -15,7 +15,7 @@ class Chicagolimousine extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <Augutsabanner />
+                <Chicagobanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -45,7 +45,7 @@ class Chicagolimousine extends Component {
                                         <div className="allegiant-stadium text-center">
                                             <img src={chicagocarserviceimg1}></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                            <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>

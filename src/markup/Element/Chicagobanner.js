@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Bookingform from './Bookingform';
 
-var innerbnr = require('./../../images/banner/gray_header.jpg');
+var innerbnr = require('./../../images/banner/chicago_transportation_header.jpg');
 
-class Graybanner extends Component{
+class Chicagobanner extends Component{
 	render(){
 		return(
 			<div className="inner-banner overlay-black-middle" style={{backgroundImage:"url("+ innerbnr + ")" }}>
@@ -27,4 +27,4 @@ class Graybanner extends Component{
 	}
 }
 
-export default Graybanner;
+export default Chicagobanner;

@@ -2,12 +2,10 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
-import Savannahgeorgiaservices from '../Element/Savannahservices';
 import Savannahheader from '../Element/Savannahbanner';
 import Toplimousine from '../Element/Toplimousine';
 import Nashvilletable from '../Element/Nashvilletable';
 
-var Dallasserviceimg1 = require('../../images/cities/atlanta-limousine.jpg');
 
 class Nashville extends Component {
     render() {

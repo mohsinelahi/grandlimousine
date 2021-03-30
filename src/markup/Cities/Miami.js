@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
-import InnerBanner from '../Element/Innerbanner';
 import DocumentMeta from 'react-document-meta';
 import Havequestion from '../Element/Havequestion';
+import Miamibanner from '../Element/Miamibanner';
 
 
 var chicagoimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -29,7 +29,7 @@ class Miami extends Component {
             <main className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Miamibanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -59,7 +59,7 @@ class Miami extends Component {
                                         <div className="allegiant-stadium text-center">
                                             <img src={chicagoimg1} alt="Miami, FL"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -133,7 +133,7 @@ class Miami extends Component {
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/kheqmApLCEujdrvSA">3225 NW 204th Terrace, Miami Gardens, FL 33056, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/kheqmApLCEujdrvSA" rel="noopener noreferrer">3225 NW 204th Terrace, Miami Gardens, FL 33056, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

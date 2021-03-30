@@ -152,6 +152,13 @@ import Dallasairport from './markup/Carservices/Dallasairport';
 import Johnscreek from './markup/Carservices/Johnscreek';
 import Birthdaylimo from './markup/Pages/Birthdaylimo';
 import Atlantafalconsfootball from './markup/Services/Atlantafalconsfootball';
+import Austinairport from './markup/Carservices/Austinairport';
+import Weddinglimo from './markup/Pages/Weddinglimo';
+import Brewerytours from './markup/Pages/Brewerytours';
+import Hiramcarserviceatlanta from './markup/Carservices/Hiramcarserviceatlanta';
+import Tallahassee from './markup/Carservices/Tallahassee';
+import Kennesaw from './markup/Carservices/Kennesaw';
+import Garlandairport from './markup/Carservices/Garlandairport';
 
 
 function App() {
@@ -301,7 +308,13 @@ function App() {
           <Route path="/johns-creek-car-service-atlanta-atl/" component={Johnscreek} />
           <Route path="/birthday-limo/" component={Birthdaylimo} />
           <Route path="/atlanta-falcons-football-limo-service/" component={Atlantafalconsfootball} />
-
+          <Route path="/airport-car-service-austin/" component={Austinairport} />
+          <Route path="/wedding-limo/" component={Weddinglimo} />
+          <Route path="/brewery-tours-atlanta/" component={Brewerytours} />
+          <Route path="/hiram-car-service-atlanta-atl-airport/" component={Hiramcarserviceatlanta} />
+          <Route path="/car-service-tallahassee-tlh/" component={Tallahassee} />
+          <Route path="/kennesaw-car-service-atlanta-atl/" component={Kennesaw} />
+          <Route path="/garland-airport-car-service-garland-grand-limousine-corporate-transportation/" component={Garlandairport} />
 
 
 

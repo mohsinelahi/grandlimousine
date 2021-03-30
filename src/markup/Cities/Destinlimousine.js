@@ -4,6 +4,7 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
 import Destinbanner from '../Element/Destinbaner';
+import Havequestion from '../Element/Havequestion';
 
 
 var Destinimg1 = require('../../images/cities/atlanta-limousine.jpg');
@@ -41,9 +42,9 @@ class Destinlimousine extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Destinimg1}></img>
+                                            <img src={Destinimg1} alt="Gray Car Service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -62,7 +63,7 @@ class Destinlimousine extends Component {
        
                         <p>Corporate meetings and clients also prefer Destin Limousine travel, as this vehicle offers privacy. We provide not only safe driving but also provide much-needed privacy for essential discussions. With our limousine service, you can travel to and from the workplace full of comfort. Our well-trained chauffeurs can assure you of giving a safe car service. We have achieved immense fame by providing the best limousine service on the Emerald Coast. Weddings are undoubtedly an essential occasion in one’s life, and you would want to do everything unique to have an extravagant and splendid wedding. If you’re going to travel to and from the wedding venue with style, nothing can be an ideal option other than hiring a limousine. Also, you can get our help to regard party bus and town car service.</p>
                         <p>Nowadays, most teenagers prefer to enjoy their prom evening by traveling in a limousine. We will fulfill your desire. So, contact us with no hesitation. You can enjoy our limousine service within your determined budget. Contacting us will be the right choice to get a classic limousine luxury at a nominal rate. You can now travel with the style of your special event or attend a corporate event. Even you can also hire a party bus at a reasonable price. Destin Limo will leave no stone unturned to make your special moment unforgettable. It is our responsibility to make you extremely satisfied. No matter the occasion, our prime concern is to make your day special with excellent town car service. There are plenty of limousines in Destin available to meet different needs. As our car service is affordable, you need not take any burden of your pocket. With our affordable limousines, you can enjoy your journey on the Emerald Coast with style. So, contact Destin Limousine and make your every celebration unforgettable. Our excellent party bus is also perfect for celebrating your occasion.</p>
-                        <p>Visit our reservation page to make your booking and enjoy the ultimate ride of your life! We, Destin Limousine, offer town car service in Destin – Crestview-Fort Walton Beach, FL Metropolitan Statistical Area. <a href="https://www.augustacarservice.com/" target={"_blank"} className={"anchor"}> According </a>  to the United States Census Bureau, these are metropolitan areas comprising the most beautiful beaches <Link to={"/garland-corporate-transportation/"} className={"anchor"}> globally </Link> . You can also hire a party bus from us.</p>
+                        <p>Visit our reservation page to make your booking and enjoy the ultimate ride of your life! We, Destin Limousine, offer town car service in Destin – Crestview-Fort Walton Beach, FL Metropolitan Statistical Area. <a href="https://www.augustacarservice.com/" target={"_blank"} className={"anchor"} rel="noopener noreferrer"> According </a>  to the United States Census Bureau, these are metropolitan areas comprising the most beautiful beaches  globally. You can also hire a party bus from us.</p>
 
                </div>
                     </div>
@@ -99,12 +100,12 @@ class Destinlimousine extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/6fSdgDphKbq3TZhn8">531 Juanita Ave, Destin, FL 32541, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/6fSdgDphKbq3TZhn8" rel="noopener noreferrer">531 Juanita Ave, Destin, FL 32541, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

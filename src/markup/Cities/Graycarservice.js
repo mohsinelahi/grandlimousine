@@ -4,6 +4,7 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
 import Graybanner from '../Element/Graybanner';
+import Havequestion from '../Element/Havequestion';
 
 
 var Grayimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -34,17 +35,17 @@ class Graycarservice extends Component {
                                 <div className="col-md-7">
                                     <div className="left">
                                     <p> <strong> Gray Car Service </strong>  Direct – It is preferable to understand the value of Car Service in Gray Ga.  Gray has been a trustworthy name in Middle Georgia since 2007.</p>
-                                    <p>In the past, most folks in Gray would have to call or hail a street taxi. The second choice would be to work with an agency to ensure that the transportation company is complying with regulations. Up to now, not one of the significant ride-sharing businesses has taken the plunge to offer the right <Link to={"/super-bowl/"} className={"anchor"}> luxury Car Service </Link>  in Gray.</p>
-                                    <p>The ideal best way to know about <Link to={"/locations/houston/"} className={"anchor"}> Grand </Link> <Link to={"/locations/houston-limousine/"} className={"anchor"}> Limousine </Link>  is to browse our site of the business. We offer daily Airport Shuttle to Atlanta and have excellent control and perfect perceptive on the simple need, of the people of Gray</p>
+                                    <p>In the past, most folks in Gray would have to call or hail a street taxi. The second choice would be to work with an agency to ensure that the transportation company is complying with regulations. Up to now, not one of the significant ride-sharing businesses has taken the plunge to offer the right <Link to={"/super-bowl/"} className={"anchor"} rel="noopener noreferrer"> luxury Car Service </Link>  in Gray.</p>
+                                    <p>The ideal best way to know about <Link to={"/locations/houston/"} className={"anchor"} rel="noopener noreferrer"> Grand </Link> <Link to={"/locations/houston-limousine/"} className={"anchor"} rel="noopener noreferrer"> Limousine </Link>  is to browse our site of the business. We offer daily Airport Shuttle to Atlanta and have excellent control and perfect perceptive on the simple need, of the people of Gray</p>
 
                                     </div>
                                 </div>
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Grayimg1}></img>
+                                            <img src={Grayimg1} alt="Gray Car Service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -62,8 +63,8 @@ class Graycarservice extends Component {
                         <div className="container">
        
                             <h4>Uber Gray</h4>
-                            <p>To utilize Uber, you have to first register for the service. Forgoing into the harbours, the <a href="https://www.augustacarservice.com/atlanta-car-service/" target={"_blank"} className={"anchor"}> services </a>  restricted to airports. Employing such a service provides multiple benefits.</p>
-                            <p>As Gray Car Service keeps growing, we have to scale to keep pace <Link to={"/car-service-tallahassee-tlh/"} className={"anchor"}> mainly </Link> writes. All three services provide a carpool choice to share rides (and costs) with different folks going the same way. Which service you should use will depend on an assortment of factors. Its principal function is an auto insurance policy comparator and marketplace. You will know about the different services provided by the organization and will also receive a notion about the professionalism of any given service provider. One of Grand Limousine‘s most crucial customer service skills of the best Town Car Service in Atlanta developed is the capacity to understand and effectively reply to the customer’s needs.</p>
+                            <p>To utilize Uber, you have to first register for the service. Forgoing into the harbours, the <a href="https://www.augustacarservice.com/atlanta-car-service/" target={"_blank"} className={"anchor"} rel="noopener noreferrer"> services </a>  restricted to airports. Employing such a service provides multiple benefits.</p>
+                            <p>As Gray Car Service keeps growing, we have to scale to keep pace <Link to={"/car-service-tallahassee-tlh/"} className={"anchor"} rel="noopener noreferrer"> mainly </Link> writes. All three services provide a carpool choice to share rides (and costs) with different folks going the same way. Which service you should use will depend on an assortment of factors. Its principal function is an auto insurance policy comparator and marketplace. You will know about the different services provided by the organization and will also receive a notion about the professionalism of any given service provider. One of Grand Limousine‘s most crucial customer service skills of the best Town Car Service in Atlanta developed is the capacity to understand and effectively reply to the customer’s needs.</p>
                             <p>Information regarding car faults and several customer service issues surround Uber. With many categories and sub-categories offering you the opportunity to come across the typical causes in addition to possible fixes. There you will receive all the information necessary to make an educated decision. You will have to enter your private information (name, email address, telephone number, and bank information, or PayPal account) and set up a password. There are many reasons to seek our professional services at Grand Limousine to offer you privacy to the Airport and timely Shuttle Service, as your very first selection.</p>
                             <p>You can always call Grand Limousine your car service or limousine service provider who’s famous for credibility and dependability in the marketplace. Grand Limousine service keeps growing; we scale to keep pace, especially during travel seasons. Place your order today and experience what others say is the best secret in the Luxury Car Service.</p>
 
@@ -104,12 +105,12 @@ class Graycarservice extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/7FkobaRW15z9NzTN7">110 Dolly St, Gray, GA 31032, Georgia, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/7FkobaRW15z9NzTN7" rel="noopener noreferrer">110 Dolly St, Gray, GA 31032, Georgia, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

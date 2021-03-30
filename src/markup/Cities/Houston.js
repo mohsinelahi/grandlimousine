@@ -58,7 +58,7 @@ class Houston extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Houstonimg} alt="Houston, TX"></img>
+                                            <img src={Houstonimg} alt="Houston NGR"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
                                                 <Link to={"/contact-us"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
@@ -112,7 +112,7 @@ class Houston extends Component {
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/Dkscp4jQCSftW54Y6">240 S Main St, Los Angeles, CA 90012, California, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/Dkscp4jQCSftW54Y6" rel="noopener noreferrer">240 S Main St, Los Angeles, CA 90012, California, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

@@ -4,6 +4,8 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Sanfranciscobanner from '../Element/SanfranciscoBanner';
 import Sanfranciscoservices from '../Element/Sanfranciscoservices';
+import Havequestion from '../Element/Havequestion';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
 
 var limochauffeurserviceimg = require('../../images/cities/limo_chauffeur_service.jpg');
 
@@ -42,9 +44,9 @@ class Sanfrancisco extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={limochauffeurserviceimg}></img>
+                                            <img src={limochauffeurserviceimg} alt="San Francisco Grand Limousine"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -62,9 +64,9 @@ class Sanfrancisco extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/san-francisco-car-service/"}> San Francisco Car Service </Link> </li>
-                                <li> <Link to={"/locations/san-francisco-limousine/"}> San Francisco Limousine </Link> </li>
-                                <li> <Link to={"/locations/san-francisco-party-bus/"}> San Francisco Party Bus </Link> </li>
+                                <li> <Link to={"/locations/san-francisco-car-service/"} rel="noopener noreferrer"> San Francisco Car Service </Link> </li>
+                                <li> <Link to={"/locations/san-francisco-limousine/"} rel="noopener noreferrer"> San Francisco Limousine </Link> </li>
+                                <li> <Link to={"/locations/san-francisco-party-bus/"} rel="noopener noreferrer"> San Francisco Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most beautiful places in Chicago. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support along with Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion.</p>
@@ -82,7 +84,7 @@ class Sanfrancisco extends Component {
                         
                             <p>With us, you will get shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have everything to meet your needs.</p>
                             <p>We offer our town car services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our services. It is a seamless transport solution that you can enjoy with our Grand Limousine. Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
-                            <p>Check out our entire website to unveil the secrets of why people in Atlanta and the <a href="https://www.augustacarservice.com/" target="_blank" rel="noopener">surrounding</a> area prefer us. Call us at (404) 424-4499 to contact us or if you have any <a href="https://www.grandlimousine.com/">queries</a> about our car and limousine services.</p>                        
+                            <p>Check out our entire website to unveil the secrets of why people in Atlanta and the <a href="https://www.augustacarservice.com/" target="_blank" rel="noopener noreferrer">surrounding</a> area prefer us. Call us at (404) 424-4499 to contact us or if you have any <a href="https://www.grandlimousine.com/" target="_blank" className="anchor" rel="noopener noreferrer">queries</a> about our car and limousine services.</p>                        
                         
                         </div>
                     </div>
@@ -97,9 +99,7 @@ class Sanfrancisco extends Component {
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
                                 <Sanfranciscoservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5> </div>
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
@@ -117,12 +117,12 @@ class Sanfrancisco extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/tbL6g8HjebQgCoQU9">23 Rausch St, San Francisco, CA 94103, California, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/tbL6g8HjebQgCoQU9" rel="noopener noreferrer">23 Rausch St, San Francisco, CA 94103, California, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

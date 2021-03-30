@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
-import InnerBanner from '../Element/Innerbanner';
+import Orlandobanner from '../Element/Orlandobanner';
+import Havequestion from '../Element/Havequestion';
 
 
 var Orlandoimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -15,7 +16,7 @@ class Orlando extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <InnerBanner />
+                <Orlandobanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -44,9 +45,9 @@ class Orlando extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Orlandoimg1}></img>
+                                            <img src={Orlandoimg1} alt="car service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -64,9 +65,9 @@ class Orlando extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/orlando-car-service/"}> Orlando Car Service </Link> </li>
-                                <li> <Link to={"/locations/orlando-limousine/"}> Orlando Limousine </Link> </li>
-                                <li> <Link to={"/locations/orlando-party-bus/"}> Orlando Party Bus </Link> </li>
+                                <li> <Link to={"/locations/orlando-car-service/"} rel="noopener noreferrer"> Orlando Car Service </Link> </li>
+                                <li> <Link to={"/locations/orlando-limousine/"} rel="noopener noreferrer"> Orlando Limousine </Link> </li>
+                                <li> <Link to={"/locations/orlando-party-bus/"} rel="noopener noreferrer"> Orlando Party Bus </Link> </li>
                             </ul>
                         
                             <p>Grand Limousine Orlando, FL, is one of the pioneering limousine service providers in this area. We have an exclusive range of cars, and we offer excellent customer support. Our Orange County Car Service is the best choice for exploring local tourist hotspots. Explore Walt Disney World Resort and the Universal Studios Resort with our exclusive car service.</p>
@@ -81,7 +82,7 @@ class Orlando extends Component {
                             <h4>The all-inclusive solution for transportation in Orlando</h4>
                             <p>With us, you will get shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have everything to meet your needs.</p>
                             <p>Grand Limousine Orlando offers services worldwide, and we are one of the trusted names in this business or town car service. We leave you no chance to find fault with our car and limousine services. It is a seamless transport solution that you can enjoy with our Grand Limousine. Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
-                            <p>Check out our entire website to unveil the secrets why people in Orlando and the surrounding area prefer dealing only with Grand Limousine. Call us at (404) 424-4499 to contact us or if you have any queries about our <a href="/locations/augusta-limousine/" target={"_blank"} className={"anchor"}> limousine </a>  and town car services.</p>
+                            <p>Check out our entire website to unveil the secrets why people in Orlando and the surrounding area prefer dealing only with Grand Limousine. Call us at (404) 424-4499 to contact us or if you have any queries about our <Link to={"/locations/augusta-limousine/"} className="anchor" rel="noopener noreferrer"> limousine </Link>  and town car services.</p>
 
                </div>
                     </div>
@@ -113,12 +114,12 @@ class Orlando extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/xRDgqDsikaMDoV5A8">142 E Jackson St, Orlando, FL 32801, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/xRDgqDsikaMDoV5A8" rel="noopener noreferrer">142 E Jackson St, Orlando, FL 32801, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

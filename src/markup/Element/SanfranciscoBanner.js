@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Bookingform from './Bookingform';
 
-var innerbnr= require('../../images/banner/new_york_header.jpg');
+var innerbnr= require('../../images/banner/san_francisco_header.jpg');
 
 class Newyorkbanner extends Component{
 	render(){
@@ -17,7 +17,7 @@ class Newyorkbanner extends Component{
 							<div className="bnr-content text-right">
 								<h2><a href="#"> BOOK YOUR RIDE INSTANTLY </a></h2>
 								<h6>TRAVEL IN COMFORT. ALWAYS ON TIME </h6>
-								<h3>Call <a href="tel:(404) 424-4499">(404) 424-4499</a></h3>
+								<h3>Call <a href="tel:4044244499">(404) 424-4499</a></h3>
 							</div>
 						</div>
 					</div>

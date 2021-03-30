@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Bookingform from './Bookingform';
 
-var innerbnr = require('./../../images/banner/gray_header.jpg');
+var innerbnr = require('./../../images/banner/Downtown-Garland.jpg');
 
-class Graybanner extends Component{
+class Garlandairportbanner extends Component{
 	render(){
 		return(
 			<div className="inner-banner overlay-black-middle" style={{backgroundImage:"url("+ innerbnr + ")" }}>
@@ -17,7 +17,7 @@ class Graybanner extends Component{
 							<div className="bnr-content text-right">
 								<h2><a href="#"> BOOK YOUR RIDE INSTANTLY </a></h2>
 								<h6>TRAVEL IN COMFORT. ALWAYS ON TIME </h6>
-								<h3>Call <a href="tel:(404) 424-4499">(404) 424-4499</a></h3>
+								<h3>Call <a href="tel:4044244499">(404) 424-4499</a></h3>
 							</div>
 						</div>
 					</div>
@@ -27,4 +27,4 @@ class Graybanner extends Component{
 	}
 }
 
-export default Graybanner;
+export default Garlandairportbanner;
