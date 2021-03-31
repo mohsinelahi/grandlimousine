@@ -4,6 +4,8 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Savannahgeorgiaservices from '../Element/Savannahservices';
 import Jacksonvilleheader from '../Element/Jacksonvillebanner';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
+import Havequestion from '../Element/Havequestion';
 
 var Jacksonvilleimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
 
@@ -40,9 +42,9 @@ class jacksonvillecarservice extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Jacksonvilleimg1}></img>
+                                            <img src={Jacksonvilleimg1} alt="Gray Car Service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                            <Link to={"/contact-us/"}  rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -61,7 +63,7 @@ class jacksonvillecarservice extends Component {
                                
                             <h4>Advantages Of Airport Car Service Near You</h4>
                             <p>Town Car Service in Jacksonville is one of the astonishing benefits, as it is very cost-effective. Besides low cost, the tailgate Car Service has some significant advantages that allow you to eat and drink with total satisfaction. With us, you won’t have to bother about any problems such as driving under the influence. Neither you nor your guests will have to worry about working at the night out or party.</p>
-                            <p>Jacksonville Car Service has many other facilities in Jacksonville, Houston, The Woodlands, Katy, Clear Lake, and Sugar Land. The amenities we offer are tailgating packages, including beer and champagne, which you can select as per your choice. We can provide hard liquor if you request and also a variety of soft drinks and ice-cold water. Again, we do not charge extra for the time that you spend inside the stadium.</p>
+                            <p>Jacksonville Car Service has many other facilities in Jacksonville, Houston, The Woodlands, Katy, Clear Lake, and Sugar Land. The amenities we offer are tailgating packages, including beer and champagne, which you can select as per your choice. We can provide hard liquor if you request and also a <a href="https://www.youtube.com/watch?v=bBdjQ82zqRI" target="_blank" className="anchor" rel="noopener noreferrer"> variety </a> of soft drinks and ice-cold water. Again, we do not charge extra for the time that you spend inside the stadium.</p>
                             <p>Our service package also includes another benefit you may not have ever thought of before. Besides airport transfer, wedding service, we also provide party bus, town car service. Using our party bus for pre-game tailgating is an excellent option for various groups, including former student associations, sports clubs, and gatherings of family and friends.</p>
                            
                             <h4>Have Safety, Comfort & Style With Airport Car Service</h4>
@@ -85,9 +87,7 @@ class jacksonvillecarservice extends Component {
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
                                 <Savannahgeorgiaservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5> </div>
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
@@ -105,12 +105,12 @@ class jacksonvillecarservice extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/nzHwRPit6FZSxaPB7">701 W Adams Street, Jacksonville, FL 32202, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/nzHwRPit6FZSxaPB7" rel="noopener noreferrer">701 W Adams Street, Jacksonville, FL 32202, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

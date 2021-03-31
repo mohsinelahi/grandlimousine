@@ -60,7 +60,7 @@ class Augusta extends Component {
                                         <div className="allegiant-stadium text-center">
                                             <img src={augustaimg1} alt="Augusta, GA"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                            <Link to={"/contact-us/"} className="anchor" rel="noopener noreferrer"> Contact Us </Link>
+                                            <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                             <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>

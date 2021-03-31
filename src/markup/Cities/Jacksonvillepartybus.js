@@ -5,6 +5,8 @@ import Footer from '../Layout/Footer';
 import Sanfranciscoservices from '../Element/Sanfranciscoservices';
 import Savannahgeorgiaservices from '../Element/Savannahservices';
 import Jacksonvilleheader from '../Element/Jacksonvillebanner';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
+import Havequestion from '../Element/Havequestion';
 
 var Jacksonvilleimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
 
@@ -41,9 +43,9 @@ class Jacksonvillepartybus extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Jacksonvilleimg1}></img>
+                                            <img src={Jacksonvilleimg1} alt="Gray Car Service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -64,7 +66,7 @@ class Jacksonvillepartybus extends Component {
                             <p>There are many advantages you can get by hiring our Party Bus. Firstly, Grand Limousine provides car service, including town car service, party bus, and more. We will lift you from a secluded area and will drop you off in your desired destination. Are you heading off to a concert in Savannah from surrounding metro Jacksonville? Don’t worry about it! We will pick you up and drop you to your destination safely. A party bus is one of our best in class custom-constructed bus transports.</p>
 
                             <h4>Singles Parties -birthday Parties—night On The Town</h4>
-                            <p>Secondly, with our Party Bus Service, you can make your birthday parties, unhitched singles parties, wearing occasions, corporate occasions, and others. A chauffeur driver in a $150k party bus will take you around for the scheduled time. Party Bus in Jacksonville is a top-rated and the best in class wedding transportation provider. In conclusion, we provide new Limousines, themed buses with highly trained chauffeurs, and a well-conditioned workforce.</p>
+                            <p>Secondly, with our Party Bus Service, you can make your birthday parties, unhitched singles parties, wearing occasions, corporate occasions, and others. A chauffeur driver in a $150k party bus will take you around for the scheduled time. Party Bus in Jacksonville is a top-rated and the best in class <Link to={"/wedding-transportation/"} className="anchor" rel="noopener noreferrer"> wedding transportation </Link> provider. In conclusion, we provide new Limousines, themed buses with highly trained chauffeurs, and a well-conditioned workforce.</p>
 
                             <h4 className="text-center">We, as ‘Jacksonville Party Bus’ company, also provide many other limousine services like airport transfer, wedding, and town car service.</h4>
 
@@ -82,9 +84,7 @@ class Jacksonvillepartybus extends Component {
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
                                 <Savannahgeorgiaservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5> </div>
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
@@ -102,12 +102,12 @@ class Jacksonvillepartybus extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/nzHwRPit6FZSxaPB7">701 W Adams Street, Jacksonville, FL 32202, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/nzHwRPit6FZSxaPB7" rel="noopener noreferrer">701 W Adams Street, Jacksonville, FL 32202, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

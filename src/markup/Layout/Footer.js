@@ -29,7 +29,6 @@ class Footer extends Component{
 										<li><a href="https://www.instagram.com/grandlimousine/" target="_blank" rel="noopener noreferrer" className="site-button instagram circle"><i className="fa fa-instagram"></i></a></li>
 										<li><a href="https://www.linkedin.com/in/grandlimousine/" target="_blank" rel="noopener noreferrer" className="site-button linkedin circle"><i className="fa fa-linkedin"></i></a></li>
 
-										
 									</ul>
 								</div>
 							</div>
@@ -37,13 +36,13 @@ class Footer extends Component{
 								<div className="widget border-0">
 									<h5 className="m-b30 text-white">Navigation</h5>
 									<ul className="list-2 list-line">
-										<li><Link to={"/"}>Grand Limousine</Link></li>
-										<li><Link to={"/super-bowl/"}>The Super Bowl</Link></li>
-										<li><Link to={"/about-us/"}>About Us</Link></li>
-										<li><Link to={""}>Services & Beauty</Link></li>
-										<li><Link to={"/locations/"}>Top Cities</Link></li>
-										<li><Link to={"/posts/"}>Posts</Link></li>
-										<li><Link to={"/contact-us/"}>Contact Us</Link></li>
+										<li><Link to={"/"} rel="noopener noreferrer">Grand Limousine</Link></li>
+										<li><Link to={"/super-bowl/"} rel="noopener noreferrer">The Super Bowl</Link></li>
+										<li><Link to={"/about-us/"} rel="noopener noreferrer">About Us</Link></li>
+										<li><Link to={""} rel="noopener noreferrer">Services & Beauty</Link></li>
+										<li><Link to={"/locations/"} rel="noopener noreferrer">Top Cities</Link></li>
+										<li><Link to={"/posts/"} rel="noopener noreferrer">Posts</Link></li>
+										<li><Link to={"/contact-us/"} rel="noopener noreferrer">Contact Us</Link></li>
 										<li><a href="https://account.chauffeurbookingsoftware.com/account/login/?guid=123fd7f0-ff6c-4a9d-80fb-05c694c9ed03" target="_blank" rel="noopener noreferrer">My Account</a></li>
 									</ul>
 								</div>

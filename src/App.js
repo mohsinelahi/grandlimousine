@@ -159,6 +159,7 @@ import Hiramcarserviceatlanta from './markup/Carservices/Hiramcarserviceatlanta'
 import Tallahassee from './markup/Carservices/Tallahassee';
 import Kennesaw from './markup/Carservices/Kennesaw';
 import Garlandairport from './markup/Carservices/Garlandairport';
+import Carservicepage from './markup/Services/Carservicepage';
 
 
 function App() {
@@ -315,6 +316,7 @@ function App() {
           <Route path="/car-service-tallahassee-tlh/" component={Tallahassee} />
           <Route path="/kennesaw-car-service-atlanta-atl/" component={Kennesaw} />
           <Route path="/garland-airport-car-service-garland-grand-limousine-corporate-transportation/" component={Garlandairport} />
+          <Route path="/car-service/" component={Carservicepage} />
 
 
 
