@@ -160,6 +160,14 @@ import Tallahassee from './markup/Carservices/Tallahassee';
 import Kennesaw from './markup/Carservices/Kennesaw';
 import Garlandairport from './markup/Carservices/Garlandairport';
 import Carservicepage from './markup/Services/Carservicepage';
+import McDonough from './markup/Carservices/McDonough';
+import Peachtreecity from './markup/Carservices/Peachtreecity';
+import Tampa from './markup/Carservices/Tampa';
+import Tampabay from './markup/Carservices/Tampabay';
+import Lawrenceville from './markup/Carservices/Lawrenceville';
+import Cumming from './markup/Carservices/Cumming';
+import Seaisland from './markup/Carservices/Seaisland';
+import Grapevine from './markup/Carservices/Grapevine';
 
 
 function App() {
@@ -317,8 +325,14 @@ function App() {
           <Route path="/kennesaw-car-service-atlanta-atl/" component={Kennesaw} />
           <Route path="/garland-airport-car-service-garland-grand-limousine-corporate-transportation/" component={Garlandairport} />
           <Route path="/car-service/" component={Carservicepage} />
-
-
+          <Route path="/mcdonough-car-service-atlanta-atl/" component={McDonough} />
+          <Route path="/peachtree-city-car-service-atlanta-atl/" component={Peachtreecity} />
+          <Route path="/tampa-car-service-tampa-tpa-airport/" component={Tampa} />
+          <Route path="/tampa-bay-buccaneers-football-limo-service/" component={Tampabay} />
+          <Route path="/lawrenceville-car-service-atlanta-atl/" component={Lawrenceville} />
+          <Route path="/cumming-car-service/" component={Cumming} />
+          <Route path="/sea-island-car-service-jacksonville-jax/" component={Seaisland} />
+          <Route path="/grapevine-car-service-dallas-fort-worth-dfw/" component={Grapevine} />
 
 
 

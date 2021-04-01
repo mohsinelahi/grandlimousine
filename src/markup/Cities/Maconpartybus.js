@@ -2,10 +2,8 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
-import InnerBanner from '../Element/Innerbanner';
-import Carservices from '../Element/Carservices';
-import Savannahheader from '../Element/Savannahbanner';
 import Havequestion from '../Element/Havequestion';
+import Atlantabanner from '../Element/Atlantabanner';
 
 
 var maconpartybusimg1 = require('../../images/cities/Grand-Limousine-Car-Service.jpg');
@@ -17,7 +15,7 @@ class Maconpartybus extends Component {
             <div className="page-wraper">
             <Header />
             <div className="page-content bg-white">
-                <Savannahheader />
+                <Atlantabanner />
                 <section className="section-full section-top">
                     <div className="container">
                         <div className="section-head inner-section-head text-black text-center">
@@ -45,7 +43,7 @@ class Maconpartybus extends Component {
                                         <div className="allegiant-stadium text-center">
                                             <img src={maconpartybusimg1} alt="Macon Party"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                            <Link to={"/contact-us/"} className="anchor" rel="noopener noreferrer"> Contact Us </Link>
+                                            <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>

@@ -150,7 +150,16 @@ export default (
           <Route path="/hiram-car-service-atlanta-atl-airport/"  />
           <Route path="/car-service-tallahassee-tlh/" />
           <Route path="/kennesaw-car-service-atlanta-atl/" />
-
+          <Route path="/garland-airport-car-service-garland-grand-limousine-corporate-transportation/" />
+          <Route path="/car-service/"/>
+          <Route path="/mcdonough-car-service-atlanta-atl/"/>
+          <Route path="/peachtree-city-car-service-atlanta-atl/" />
+          <Route path="/tampa-car-service-tampa-tpa-airport/"  />
+          <Route path="/tampa-bay-buccaneers-football-limo-service/"  />
+          <Route path="/lawrenceville-car-service-atlanta-atl/"  />
+          <Route path="/cumming-car-service/"  />
+          <Route path="/sea-island-car-service-jacksonville-jax/" />
+          <Route path="/grapevine-car-service-dallas-fort-worth-dfw/" />
 
 
     </Route>
