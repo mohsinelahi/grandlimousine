@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
-import Carservices from '../Element/Carservices';
 import Havequestion from '../Element/Havequestion';
 import Palmbeachbanner from '../Element/Palmbeachbanner';
 
@@ -83,7 +82,7 @@ class Palmbeach extends Component {
                             <h4>The all-inclusive solution for transportation in Palm Beach</h4>
                             <p>With us, you will get shared airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all transport needs. From sedans to motor coaches–we have everything to meet your needs.</p>
                             <p>We offer our services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our town car services. It is a seamless transport solution that you can enjoy with our <a href="https://www.augustacarservice.com/" target={"_blank"} className={"anchor"} rel="noopener noreferrer">Grand Limousine</a> . Just one phone call and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
-                            <p>Check out our entire website to unveil the secrets why people in Palm Beach and the surrounding area prefer dealing only with Grand Limousine. Call us at (404) 424-4499 to contact us or if you have any queries about our car and limousine services.</p>
+                            <p>Check out our entire website to unveil the secrets why people in Palm Beach and the surrounding area prefer dealing only with Grand Limousine. Call us at <a href="tel:4044244499" className="anchor" rel="noopener noreferrer"> (404) 424-4499 </a> to contact us or if you have any queries about our car and limousine services.</p>
 
 
 
@@ -99,7 +98,36 @@ class Palmbeach extends Component {
                                     <h2 className="box-title">Check out our Car Services in Palm Beach</h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
-                                <Carservices />
+                                
+                                <div className="car-services">
+                                    <div className="row">
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4> Limousine Service</h4>
+                                            <p>With us, you can enjoy premium quality Airport Limousine and exceptional premium Airport Car Service. We have a team of professional and responsible members and state-of-the-art technological facilities. Enjoy a complete range of Chauffeurs & Luxury Limousine with us. Our transport facilities are available for both families and business people with busy working schedules.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4>Airport & Hotel Transfers</h4>
+                                            <p>Enjoy a reliable and affordable transfer with us to or from your hotel to any airport. Grand Car is the best choice for chauffeur transfer services accessible on the pocket. Our helpful team of experienced chauffeurs will smoothly drive you through daily traffic. We assure you that you will reach the airport on time and won’t miss the flight. We are on time, every time.</p>
+                                        </div>
+                                        <div className="col-md-4 border-bottom">
+                                            <h4>Corporate Transportation</h4>
+                                            <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Wedding</h4>
+                                            <p>With our wedding limousine, you can arrive at your wedding venue in style and grandeur. The limo will be a special treat for you, and your guest will be in the best mood on that big day. For your wedding day, you want everything in the best condition and considering that we serve you accordingly. We offer a wide range of limousines and do our best to make your dream come true.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Prom</h4>
+                                            <p>A prom day is something that every teenager wants to make special. And nothing is better than making a statement entry in a grand limousine. With Grand Limousine, you will start enjoying the night even before the party begins. With your limo or party bus, you will enjoy the ride like a prom king or queen.</p>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <h4>Bachelor / Bachelorette</h4>
+                                            <p>A bachelor party means a grand celebration in a bachelor’s life, and you want to spend it with your friends. You want it to be a lifetime experience. Choose our party buses as this is the best means of transport to travel around the different party spots no matter where you are. Grand Limousine offers the most awesome party buses in your area.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

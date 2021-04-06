@@ -82,6 +82,7 @@ export default (
           <Route path="/locations/destin-party-bus/"  />
           <Route path="/locations/columbus/"  />
           <Route path="/locations/columbus-car-service/" />
+          <Route path="/locations/columbus-limousine/" />
           <Route path="/locations/gray/"  />
           <Route path="/locations/gray-car-service/"  />
           <Route path="/locations/gray-limousine/"  />
@@ -92,6 +93,7 @@ export default (
           <Route path="/auburn-car-service/"  />
           <Route path="/buford-car-service/" />
           <Route path="/Austin-car-service/"  />
+          <Route path="/austin-car-service-dallas-fort-worth-dfw-airport-limousine/" />
           <Route path="/buckhead-car-service-atlanta-atl-airport/"  />
           <Route path="/cordele-car-service-atlanta-atl-airport/"  />
           <Route path="/corpus-christi-car-service/"/>
@@ -102,6 +104,7 @@ export default (
           <Route path="/garland-car-service-dallas-fort-worth-dfw/" />
           <Route path="/Hiram-car-service/" />
           <Route path="/jonesboro-car-service-atlanta-atl-airport-limousine/"/>
+          <Route path="/jonesboro-car-service-atlanta-atl/" />
           <Route path="/marietta-car-service-atlanta-atl-airport/" />
           <Route path="/naples-car-service-southwest-rsw/" />
           <Route path="/the-woodlands-car-service/"/>
@@ -127,7 +130,9 @@ export default (
           <Route path="/greater-houston/"  />
           <Route path="/404/"/>
           <Route path="/galveston-car-service-houston-iah-airport/" />
+          <Route path="/galveston-car-service-houston-iah/" />
           <Route path="/river-oaks-car-service-houston-iah-airport/"  />
+          <Route path="/river-oaks-car-service-houston-iah-airport-limousine/"  />
           <Route path="/league-city-car-service-houston-iah-airport/"  />
           <Route path="/greater-heights-car-service-houston-iah/" />
           <Route path="/arlington-airport-car-service/" />
@@ -137,9 +142,11 @@ export default (
           <Route path="/atlanta-bachelorette-party-limo/" />
           <Route path="/new-york-city-travel-tours/" />
           <Route path="/sugar-land-car-service-houston-iah-airport/" />
+          <Route path="/sugar-land-car-service-houston-iah-airport-limousine/" />
           <Route path="/houston-texans-football-limo-service/" />
           <Route path="/raymond-james-stadium-limo-transportation/"  />
           <Route path="/fort-myers-car-service-fort-myers-rsw/"  />
+          <Route path="/fort-myers-car-service-fort-myers-rsw-airport-limousine/" />
           <Route path="/dallas-airport-car-service-dallas-grand-limousine-corporate-transportation/"  />
           <Route path="/johns-creek-car-service-atlanta-atl/" />
           <Route path="/birthday-limo/" />
@@ -160,6 +167,21 @@ export default (
           <Route path="/cumming-car-service/"  />
           <Route path="/sea-island-car-service-jacksonville-jax/" />
           <Route path="/grapevine-car-service-dallas-fort-worth-dfw/" />
+          <Route path="/exploring-sites-where-history-was-made-in-atlanta/"  />
+          <Route path="/houston-sedan-transportation/" />
+          <Route path="/covid-19-whats-next/" />
+          <Route path="/atlanta-events/" />
+          <Route path="/piney-point-village-car-service-houston-hou/"  />
+          <Route path="/piney-point-village-car-service-houston-hou-airport-limousine/" />
+          <Route path="/cypress-car-service-houston-iah-airport/"  />
+          <Route path="/prairie-view-car-service-houston-iah/"  />
+          <Route path="/duluth-car-service-atlanta-atl-airport/" />
+          <Route path="/atlanta-affiliate-transportation/" />
+          <Route path="/katy-car-service-houston-iah-airport/" />
+          <Route path="/katy-car-service-houston-iah-airport-limousine/"  />
+          <Route path="/houston-convention-transportation/"  />
+          <Route path="/houston-airport-transportation/" />
+          <Route path="/duluth-car-service-atlanta-atl-airport-limousine/"  />
 
 
     </Route>

@@ -44,7 +44,7 @@ import Sanfrancisco from './markup/Cities/Sanfrancisco';
 import Sanfranciscocarservices from './markup/Cities/Sanfranciscocarservice';
 import Sanfranciscolimousine from './markup/Cities/Sanfranciscolimousine';
 import Sanfranciscopartybus from './markup/Cities/Sanfranciscopartybus';
-import Newyork from './markup/Element/Newyork';
+import Newyork from './markup/Cities/Newyork';
 import Newyorkcarservice from './markup/Cities/Newyorkcarservice';
 import Newyorklimousine from './markup/Cities/Newyorklimousine';
 import Newyorkpartybus from './markup/Cities/Newyorkpartybus';
@@ -90,6 +90,7 @@ import Destinlimousine from './markup/Cities/Destinlimousine';
 import Destinpartybus from './markup/Cities/Destinpartybus';
 import Columbus from './markup/Cities/Columbus';
 import Columbuscarservice from './markup/Cities/Columbuscarservice';
+import Columbuslimousine from './markup/Cities/Columbuslimousine';
 import Gray from './markup/Cities/Gray';
 import Graycarservice from './markup/Cities/Graycarservice';
 import Graylimousine from './markup/Cities/Graylimousine';
@@ -168,6 +169,21 @@ import Lawrenceville from './markup/Carservices/Lawrenceville';
 import Cumming from './markup/Carservices/Cumming';
 import Seaisland from './markup/Carservices/Seaisland';
 import Grapevine from './markup/Carservices/Grapevine';
+import Exploringatlanta from './markup/Carservices/Exploringatlanta';
+import Houstonsedantransportation from './markup/Carservices/Houstonsedantransportation';
+import Covid19 from './markup/Pages/Covid19';
+import Atlantaevents from './markup/Pages/Atlantaevents';
+import Pineypointvillage from './markup/Carservices/Pineypointvillage';
+import Cypress from './markup/Carservices/Cypress';
+import Prairieview from './markup/Carservices/Prairieview';
+import Duluth from './markup/Carservices/Duluth';
+import Atlantaaffiliatetransportation from './markup/Carservices/Atlantaaffiliatetransportation';
+import Katy from './markup/Carservices/Katy';
+import Houstonconventiontransportation from './markup/Carservices/Houstonconventiontransportation';
+import Houstonairporttransportation from './markup/Carservices/Houstonairporttransportation';
+import Atlantabeercarnival from './markup/Carservices/Atlantabeercarnival';
+import Atlantamotorcoaches from './markup/Carservices/Atlantamotorcoaches.js';
+import Houstonfbotransportation from './markup/Carservices/Houstonfbotransportation';
 
 
 function App() {
@@ -246,7 +262,7 @@ function App() {
           <Route path="/locations/orlando-limousine/" component={Orlandolimousine} />
           <Route path="/locations/orlando-party-bus/" component={Orlandopartybus} />
           <Route path="/locations/palm-beach/" component={Palmbeach} />
-          <Route path="/locations/palm-beach/" component={Palmbeachcarservice} />
+          <Route path="/locations/palm-beach-car-service/" component={Palmbeachcarservice} />
           <Route path="/locations/palm-beach-limousine/" component={Palmbeachlimousine} />
           <Route path="/locations/palm-beach-party-bus/" component={Palmbeachpartybus} />
           <Route path="/locations/destin/" component={Destin} />
@@ -255,6 +271,7 @@ function App() {
           <Route path="/locations/destin-party-bus/" component={Destinpartybus} />
           <Route path="/locations/columbus/" component={Columbus} />
           <Route path="/locations/columbus-car-service/" component={Columbuscarservice} />
+          <Route path="/locations/columbus-limousine/" component={Columbuslimousine} />
           <Route path="/locations/gray/" component={Gray} />
           <Route path="/locations/gray-car-service/" component={Graycarservice} />
           <Route path="/locations/gray-limousine/" component={Graylimousine} />
@@ -265,6 +282,7 @@ function App() {
           <Route path="/auburn-car-service/" component={Auburn} />
           <Route path="/buford-car-service/" component={Buford} />
           <Route path="/Austin-car-service/" component={Austin} />
+          <Route path="/austin-car-service-dallas-fort-worth-dfw-airport-limousine/" component={Austin} />
           <Route path="/buckhead-car-service-atlanta-atl-airport/" component={Buckhead} />
           <Route path="/cordele-car-service-atlanta-atl-airport/" component={Cordele} />
           <Route path="/corpus-christi-car-service/" component={Corpuschristi} />
@@ -275,6 +293,7 @@ function App() {
           <Route path="/garland-car-service-dallas-fort-worth-dfw/" component={Garland} />
           <Route path="/Hiram-car-service/" component={Hiram} />
           <Route path="/jonesboro-car-service-atlanta-atl-airport-limousine/" component={Jonesboro} />
+          <Route path="/jonesboro-car-service-atlanta-atl/" component={Jonesboro} />
           <Route path="/marietta-car-service-atlanta-atl-airport/" component={Marietta} />
           <Route path="/naples-car-service-southwest-rsw/" component={Naples} />
           <Route path="/the-woodlands-car-service/" component={Woodlands} />
@@ -300,7 +319,9 @@ function App() {
           <Route path="/greater-houston/" component={Greaterhouston} />
           <Route path="/404/" component={Notfound} />
           <Route path="/galveston-car-service-houston-iah-airport/" component={Galveston} />
+          <Route path="/galveston-car-service-houston-iah/" component={Galveston} />
           <Route path="/river-oaks-car-service-houston-iah-airport/" component={Riveroaks} />
+          <Route path="/river-oaks-car-service-houston-iah-airport-limousine/" component={Riveroaks} />
           <Route path="/league-city-car-service-houston-iah-airport/" component={Leaguecity} />
           <Route path="/greater-heights-car-service-houston-iah/" component={Greaterheights} />
           <Route path="/arlington-airport-car-service/" component={Arlingtonairport} />
@@ -310,9 +331,11 @@ function App() {
           <Route path="/atlanta-bachelorette-party-limo/" component={Atlantabachelorette} />
           <Route path="/new-york-city-travel-tours/" component={Newyorkcitytravel} />
           <Route path="/sugar-land-car-service-houston-iah-airport/" component={Sugarland} />
+          <Route path="/sugar-land-car-service-houston-iah-airport-limousine/" component={Sugarland} />
           <Route path="/houston-texans-football-limo-service/" component={Houstontexansfootball} />
           <Route path="/raymond-james-stadium-limo-transportation/" component={RaymondJamesstadium} />
           <Route path="/fort-myers-car-service-fort-myers-rsw/" component={Fortmyers} />
+          <Route path="/fort-myers-car-service-fort-myers-rsw-airport-limousine/" component={Fortmyers} />
           <Route path="/dallas-airport-car-service-dallas-grand-limousine-corporate-transportation/" component={Dallasairport} />
           <Route path="/johns-creek-car-service-atlanta-atl/" component={Johnscreek} />
           <Route path="/birthday-limo/" component={Birthdaylimo} />
@@ -325,6 +348,7 @@ function App() {
           <Route path="/kennesaw-car-service-atlanta-atl/" component={Kennesaw} />
           <Route path="/garland-airport-car-service-garland-grand-limousine-corporate-transportation/" component={Garlandairport} />
           <Route path="/car-service/" component={Carservicepage} />
+          <Route path="/vocabulary/car/" component={Carservicepage} />
           <Route path="/mcdonough-car-service-atlanta-atl/" component={McDonough} />
           <Route path="/peachtree-city-car-service-atlanta-atl/" component={Peachtreecity} />
           <Route path="/tampa-car-service-tampa-tpa-airport/" component={Tampa} />
@@ -333,7 +357,24 @@ function App() {
           <Route path="/cumming-car-service/" component={Cumming} />
           <Route path="/sea-island-car-service-jacksonville-jax/" component={Seaisland} />
           <Route path="/grapevine-car-service-dallas-fort-worth-dfw/" component={Grapevine} />
-
+          <Route path="/exploring-sites-where-history-was-made-in-atlanta/" component={Exploringatlanta} />
+          <Route path="/houston-sedan-transportation/" component={Houstonsedantransportation} />
+          <Route path="/covid-19-whats-next/" component={Covid19} />
+          <Route path="/atlanta-events/" component={Atlantaevents} />
+          <Route path="/piney-point-village-car-service-houston-hou/" component={Pineypointvillage} />
+          <Route path="/piney-point-village-car-service-houston-hou-airport-limousine/" component={Pineypointvillage} />
+          <Route path="/cypress-car-service-houston-iah-airport/" component={Cypress} />
+          <Route path="/prairie-view-car-service-houston-iah/" component={Prairieview} />
+          <Route path="/duluth-car-service-atlanta-atl-airport/" component={Duluth} />
+          <Route path="/atlanta-affiliate-transportation/" component={Atlantaaffiliatetransportation} />
+          <Route path="/katy-car-service-houston-iah-airport/" component={Katy} />
+          <Route path="/katy-car-service-houston-iah-airport-limousine/" component={Katy} />
+          <Route path="/houston-convention-transportation/" component={Houstonconventiontransportation} />
+          <Route path="/houston-airport-transportation/" component={Houstonairporttransportation} />
+          <Route path="/duluth-car-service-atlanta-atl-airport-limousine/" component={Duluth} />
+          <Route path="/atlanta-beer-carnival/" component={Atlantabeercarnival} />
+          <Route path="/atlanta-motor-coaches/" component={Atlantamotorcoaches} />
+          <Route path="/houston-fbo-transportation/" component={Houstonfbotransportation} />
 
 
 

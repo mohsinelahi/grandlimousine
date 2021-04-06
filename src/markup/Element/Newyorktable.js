@@ -19,10 +19,10 @@ class Newyorktable extends Component {
                     <table>
                             <tbody>
                                 <tr>
-                                    <td valign="bottom"> <img loading="lazy" title="To/From" src={tofrom}></img> </td>
-                                    <td valign="bottom"> <img loading="lazy" title="Sedans" src={sedans}></img> </td>
-                                    <td valign="bottom"> <img loading="lazy" title="Suvs" src={suvs}></img> </td>
-                                    <td valign="bottom"> <img loading="lazy" title="Vans" src={vans}></img> </td>
+                                    <td valign="bottom"> <img loading="lazy" title="To/From" alt="JFK Airport -Grand Limousine" src={tofrom}></img> </td>
+                                    <td valign="bottom"> <img loading="lazy" title="Sedans" alt="landing car" src={sedans}></img> </td>
+                                    <td valign="bottom"> <img loading="lazy" title="Suvs" alt="landing car towncar" src={suvs}></img> </td>
+                                    <td valign="bottom"> <img loading="lazy" title="Vans" alt="landing car escalade2" src={vans}></img> </td>
                                 </tr>
                                 <tr style={{backgroundColor: '#3e3e3e', color: '#fff'}}>
                                     <td> <strong>TO/FROM</strong> </td>
@@ -35,16 +35,16 @@ class Newyorktable extends Component {
                                 </tr>
                                 <tr>
                                     <td>New York City	</td>
-                                    <td> <strong>$79/Per Hour</strong> </td>
-                                    <td> <strong>$104/Per Hour</strong> </td>
-                                    <td> <strong>$259/Per Hour</strong> </td>
+                                    <td> <strong>$79</strong> </td>
+                                    <td> <strong>$104</strong> </td>
+                                    <td> <strong>$259</strong> </td>
                                 </tr>
                                 <tr>
-                                    <td valign="middle"> <img loading="lazy" title="Luxury/Space" src={landingcarlimo}></img> </td>
+                                    <td valign="middle"> <img loading="lazy" title="Luxury/Space" alt="landing car limo" src={landingcarlimo}></img> </td>
                                     <td colspan="3" valign="middle"> <strong>NEED MORE LUXURY/SPACE? CALL NOW</strong> </td>
                                 </tr>
                                 <tr style={{backgroundColor: '#3e3e3e'}}>
-                                    <td colspan="4"> <img loading="lazy" class="alignnone" title="Book Now" src={landingphonebottom}></img> </td>
+                                    <td colspan="4"> <img loading="lazy" alt="landing phone bottom 1" className="alignnone" title="Book Now" src={landingphonebottom}></img> </td>
                                 </tr>
                             </tbody>
                         </table>

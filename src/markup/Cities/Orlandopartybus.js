@@ -4,6 +4,8 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
 import Orlandobanner from '../Element/Orlandobanner';
+import Havequestion from '../Element/Havequestion';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
 
 
 var Orlandimg1 = require('../../images/cities/atlanta-limousine.jpg');
@@ -44,9 +46,9 @@ class Orlandopartybus extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Orlandimg1}></img>
+                                            <img src={Orlandimg1} alt="car service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -115,11 +117,36 @@ class Orlandopartybus extends Component {
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
                         
-                                <Carservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5>
+                                <div className="car-services">
+                                    <div className="row">
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4> Limousine Service </h4>
+                                            <p>We offer premium Limousine Services and exceptional Car Service near you. Grand Limousine has employed the most professional and motivated personnel supported by the latest technological facilities. We provide all forms of Chauffeur service & Luxury Limousine, as well as a driver only service, for both families and business people who need to move from one meeting to the next.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4>Airport & Hotel Transfers</h4>
+                                            <p>We offer reliable and affordable transfers to or from your hotel to any airport. Grand Limousine is your best choice for affordable. chauffeur transfer services. Our experienced chauffeurs will drive you through the heavy daily traffic and make sure you arrive on time to board your flight. With Grand Limousine, you will be on time every time!</p>
+                                        </div>
+                                        <div className="col-md-4 border-bottom">
+                                            <h4>Corporate Transportation</h4>
+                                            <p>We offer high-end transport solutions adapted to the constraints of your business <Link to={"/locations/savannah-limousine/"} className="anchor" rel="noopener noreferrer"> needs</Link>. With Grand Limousine, you will arrive at that business meeting or corporate gala in style and get the confidence to sign that multi-million dollar deal. Our corporate cars are of VIP standards and will provide you with the best means of transport to your next business engagement.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Wedding</h4>
+                                            <p>There is no more excellent way to arrive at your big day than in a grand limousine. The drive to your wedding venue will, in itself, be a special treat and will give you in the best mood as you say, “I do.” For your wedding day, you deserve nothing short of the very best as your transportation service provider. We have a wide selection of limousines to make your wedding day great.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Prom</h4>
+                                            <p>No day is more <Link to={"/houston-texans-football-limo-service/"} className="anchor" rel="noopener noreferrer"> memorable </Link> in high school than your prom day. And what <Link to={"/atlanta-falcons-football-limo-service/"} className="anchor" rel="noopener noreferrer"> better </Link> way is it to make a statement than <Link to={"/locations/atlanta-limousine/"} className="anchor" rel="noopener noreferrer">arriving</Link> in a posh limousine. With our car service, you will begin enjoying the night even before you get to the <Link to={"/locations/jacksonville-car-service/"} className="anchor" rel="noopener noreferrer">venue</Link>. With your limo or party bus, you will well be on the path to prom king or <Link to={"/locations/augusta-car-service/"} className="anchor" rel="noopener noreferrer">queen</Link>.</p>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <h4>Bachelor / Bachelorette</h4>
+                                            <p>Your last celebration with your friends before tying the knot should be an experience to remember for life. With our party buses, we make that <Link to={"/locations/miami-party-bus/"} className="anchor" rel="noopener noreferrer"> possible </Link> by giving you the best way to travel around your different party spots no matter <Link to={"/dallas-airport-car-service-dallas-grand-limousine-corporate-transportation/"} className="anchor" rel="noopener noreferrer"> where </Link> you are. Grand Limousine offers the most awesome party buses in your area.</p>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
@@ -137,12 +164,12 @@ class Orlandopartybus extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/jZmYG2YbbYTXzx9JA">142 E Jackson St, Orlando, FL 32801, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/jZmYG2YbbYTXzx9JA" rel="noopener noreferrer">142 E Jackson St, Orlando, FL 32801, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

@@ -27,7 +27,7 @@ class Arlingtonairport extends Component {
                     <div className="services-content heading">
                         <div className="container">
 
-                            <p><strong> Arlington Airport Car Service </strong> To Dallas provided by <Link to={"/super-bowl/"} className="anchor" rel="noopener noreferrer"> </Link>Grand Limousine of Arlington, Texas has a proven record of excellence as a leading provider of taxi, limo and car service in the Arlington, Texas area. We take great pride in offering the award-winning level of transportation service we have become known for at flat rates that are even lower than our metered taxi rates.</p>
+                            <p><strong> Arlington Airport Car Service </strong> To Dallas provided by <Link to={"/super-bowl/"} className="anchor" rel="noopener noreferrer"> Grand Limousine </Link> of Arlington, Texas has a proven record of excellence as a leading provider of taxi, limo and car service in the Arlington, Texas area. We take great pride in offering the award-winning level of transportation service we have become known for at flat rates that are even lower than our metered taxi rates.</p>
                            <p>Arlington Airport Car Service is your quality transportation service provider of choice for the Texas area. Whether you are in Central Texas for business or pleasure, you’ll probably need ground transportation at some time. Why not let us help you travel in style? And don’t forget to check out our Specials.</p>
 
                             <h4>Arlington Airport Car Service</h4>

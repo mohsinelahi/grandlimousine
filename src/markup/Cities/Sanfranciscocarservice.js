@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Sanfranciscobanner from '../Element/SanfranciscoBanner';
-import Sanfranciscoservices from '../Element/Sanfranciscoservices';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
+import Havequestion from '../Element/Havequestion';
 
 var limochauffeurserviceimg = require('../../images/cities/limo_chauffeur_service.jpg');
 
@@ -40,9 +41,9 @@ class Sanfranciscocarservices extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={limochauffeurserviceimg}></img>
+                                            <img src={limochauffeurserviceimg} alt="Car Service San Francisco"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -61,10 +62,10 @@ class Sanfranciscocarservices extends Component {
        
                             <h4>Affordable and Reliable Airport Car Service San Francisco</h4>
                         
-                            <p>Our team at San Francisco Car Service is ready to meet your corporate transportation needs. You can hire our Reliable Airport Car Service San Francisco to make a great impression while treating your business partners and clients. One of our chauffeurs will meet your clients at the airport and take them to the meeting or hotel quickly and safely.</p>
+                            <p>Our team at San Francisco Car Service is ready to meet your <Link to={"/corporate-transportation/"} className="anchor" rel="noopener noreferrer"> corporate transportation </Link> needs. You can hire our Reliable Airport Car Service San Francisco to make a great impression while treating your business partners and clients. One of our chauffeurs will meet your clients at the airport and take them to the meeting or hotel quickly and safely.</p>
                             <p>As a business owner or executive, you want to arrive at your business meetings and conferences in style. At Grand Limousine, we understand that!</p>
-                            <p>You can book a limousine or party bus to see the various sites in San Francisco. The top places include Golden Gate Bridge, Alcatraz, Fisherman’s Wharf, etc.</p>
-                            <p>You can quickly book your limousine service with our convenient online booking system. We have tried to make the booking process as easy as possible. If you still find it difficult to book your ride, feel free to <Link to={"/contact-us"}> contact us</Link>. We will get back to you as soon as possible.</p>
+                            <p>You can book a <Link to={"/locations/san-francisco-limousine/"} className="anchor" rel="noopener noreferrer">limousine </Link> or <Link to={"/locations/san-francisco-party-bus/"} className="anchor" rel="noopener noreferrer"> party bus </Link> to see the various sites in San Francisco. The top places include Golden Gate Bridge, Alcatraz, Fisherman’s Wharf, etc.</p>
+                            <p>You can quickly book your <Link to={"/limousine-service/"} className="anchor" rel="noopener noreferrer"> limousine service </Link> with our convenient online booking system. We have tried to make the booking process as easy as possible. If you still find it difficult to book your ride, feel free to <Link to={"/contact-us"}> contact us</Link>. We will get back to you as soon as possible.</p>
                         
                             <h4>Top Advantages of booking a Reliable Airport Car Service San Francisco</h4>
 
@@ -84,12 +85,12 @@ class Sanfranciscocarservices extends Component {
                             </ul>
                         
                             <p>Our chauffeurs are entirely knowledgeable about the local area. The chauffeur will take you to the airport on time without you having to worry about anything. He will help you with your luggage as well. You need to do one thing – Sit back and relax!</p>
-                            <p>If you hire a town car service in San Francisco, you can enjoy great amenities when traveling. Every vehicle in our fleet equipped with entertainment systems, comfortable leather seats, plenty of legroom, etc. For more details, you can <Link to={"/contact-us"}>contact us </Link>.</p>
+                            <p>If you hire a town car service in San Francisco, you can enjoy great amenities when traveling. Every vehicle in our fleet equipped with entertainment systems, comfortable leather seats, plenty of legroom, etc. For more details, you can <Link to={"/contact-us/"} className="anchor" rel="noopener noreferrer">contact us </Link>.</p>
 
                             <h4>Book a Luxury Vehicle for Your Wedding</h4>    
-                            <p>With a wide choice of vehicles, Grand Limousine can serve all your wedding transportation needs. We offer the wedding limousine service at the most competitive price. We know every wedding is different. Dedicated to customizing our limousine service to fit the unique needs of our clients. Our luxury vehicles will make your entry grand.</p> 
+                            <p>With a wide choice of vehicles, Grand Limousine can serve all your wedding transportation needs. We offer the <Link to={"/wedding-transportation/"} className="anchor" rel="noopener noreferrer">wedding limousine service </Link> at the most competitive price. We know every wedding is different. Dedicated to customizing our limousine service to fit the unique needs of our clients. Our luxury vehicles will make your entry grand.</p> 
                             <p>You can book a party bus for other occasions, including prom, bachelor party, etc. Other cities we serve include Los Angeles, Houston, Chicago, New York, etc. Want to know more about our San Francisco car service? Get in touch with us!  </p>                   
-                            <p>Since 2007, we have been on the top in the realm of limousine service. Grand Limousine takes pride in our advanced customer service, car service, and our record of reliability. We are your best choice for private transportation. With our commitment to our clients, we promise to offer an excellent administration you can trust. In San Francisco, we are renowned for our straightforward, smooth services accessible at competitive rates. Call us at (404) 424-4499 if you have any queries about our town car services.</p>
+                            <p>Since 2007, we have been on the top in the realm of <Link to={"/limousine-service/"} className="anchor" rel="noopener noreferrer">limousine service</Link>. Grand Limousine takes pride in our advanced customer service, car service, and our record of reliability. We are your best choice for private transportation. With our commitment to our clients, we promise to offer an excellent administration you can trust. In San Francisco, we are renowned for our straightforward, smooth services accessible at competitive rates. Call us at <a href="tel:4044244499" className="anchor" rel="noopener noreferrer">(404) 424-4499</a> if you have any queries about our town car services.</p>
                             <strong>Our one-of-a-kind Car Service is available in allocations, including:</strong>
                                 <h4 className="text-center">
                                 The Bay Area–Atlanta–Miami–Houston–NYC–Tampa- Orlando–Gray–Columbus–Macon–Savannah–Jacksonville–Valdosta–Destin–Fort Walton Beach–Augusta–Lansing.
@@ -106,10 +107,25 @@ class Sanfranciscocarservices extends Component {
                                     <h2 className="box-title"> Check out our Car Services in San Francisco California </h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
-                                <Sanfranciscoservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5> </div>
+                                <div className="car-services">
+                                <div className="row">
+                                    <div className="col-md-4 border-right border-bottom">
+                                        <h4> San Francisco Limousine </h4>
+                                        <p>The journey from the airport starts at the terminal, where the timely chauffeur uses designated pick up zones and assists with your luggage to your intended residence. For the new tourists and guests who have no relatives or friends to pick them up, these services include a meet and greet option for your arrival. Flying can be hectic, but everything is different from such transport services at your disposal.</p>
+                                    </div>
+                                    <div className="col-md-4 border-right border-bottom">
+                                        <h4>Airport & Hotel Transfers</h4>
+                                        <p>The service wing provides transportation to the following airports:</p>
+                                        <ul>
+                                            <li>San Francisco International Airport (SFO)</li>
+                                            <li>Oakland International Airport (OAK)</li>
+                                            <li>Norman Y. Mineta San José International Airport (SJC)</li>
+                                        </ul>
+                                        <p> More than just the necessary transportation, there are tours to the Franciscan vineyard for grape-tasting, which is quite more delightful than wine tasting and other exquisite sights.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
@@ -127,12 +143,12 @@ class Sanfranciscocarservices extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/tbL6g8HjebQgCoQU9">23 Rausch St, San Francisco, CA 94103, California, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/tbL6g8HjebQgCoQU9" rel="noopener noreferrer">23 Rausch St, San Francisco, CA 94103, California, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

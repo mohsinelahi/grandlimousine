@@ -30,7 +30,7 @@ class Brewerytours extends Component {
                         <div className="container">
 
                         <p>Grand limousine offers the ultimate Atlanta brewery tours! We specialize in taking couples and small groups to some of Atlanta’s best beer crafters. Come and enjoy a day or evening visiting local Atlanta breweries while riding in one of our luxury limousines or Party Buses.</p>
-                        <p>Our Atlanta brewery tours are customized to give you that unique Atlanta beer tour experience that you and your friends will be talking about for a long time. We can create a particular Atlanta beer tour travel itinerary that stops at all your favorite breweries and locations. Get your best friends and family together to experience the best beer in Atlanta! Call 404-424-4499 to book your Atlanta brewery tour today!</p>
+                        <p>Our Atlanta brewery tours are customized to give you that unique Atlanta beer tour experience that you and your friends will be talking about for a long time. We can create a particular Atlanta beer tour travel itinerary that stops at all your favorite breweries and locations. Get your best friends and family together to experience the best beer in Atlanta! Call <a href="tel:4044244499" className="anchor" rel="noopener noreferrer">404-424-4499</a> to book your Atlanta brewery tour today!</p>
 
                             <Weddinglimotable />
 

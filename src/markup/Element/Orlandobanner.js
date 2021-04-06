@@ -15,9 +15,9 @@ class Orlandobanner extends Component{
 						</div>
 						<div className="col-md-6">
 							<div className="bnr-content text-right">
-								<h2><a href="#"> BOOK YOUR RIDE INSTANTLY </a></h2>
+								<h2><Link to={"/contact-us/"} rel="noopener noreferrer"> BOOK YOUR RIDE INSTANTLY </Link></h2>
 								<h6>TRAVEL IN COMFORT. ALWAYS ON TIME </h6>
-								<h3>Call <a href="tel:(404) 424-4499">(404) 424-4499</a></h3>
+								<h3>Call <a href="tel:4044244499" rel="noopener noreferrer">(404) 424-4499</a></h3>
 							</div>
 						</div>
 					</div>

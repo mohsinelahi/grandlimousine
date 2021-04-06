@@ -46,8 +46,9 @@ class Savannah extends Component {
                             <div className="row">
                                 <div className="col-md-7">
                                     <div className="left">
+                                        <h4>Grand Limousine Savannah</h4>
                                         <p>Savannah, Georgia – Savannah Limousine Official Website is now the nation’s one of the fastest developing ground transportation service providers. We offer some of the most luxurious rides for regular, corporate, fun, occasions, and events. Our customer support team is always ready to assist you, and we offer a vast and versatile range of cars. Our Limousine Service is a reliable and reputable transportation company to be on the INC 5000’ѕ list of fastest-growing private companies. You will appreciate our fleet of rides that are luxurious and affordable. These limousine services are available at various reasonable rates. Just choose one according to your budget, purpose, and the number of passengers. We are one of the award-winning limousine companies, and that is why you can entirely rely on us. Savannah Grand Limousine owns and operates multiple new luxury vehicles.</p>
-                                        <p>We have different vehicles featuring Sedans, Hybrids, 56 passengers, and Motor Coaches. Also, we offer SUVs, limousines, executive Vans, luxury minibusses for up to 39 passengers, and party buses from 12 to 25 passengers. We assure safe, smooth, and on-time solutions for <Link to={"https://www.facebook.com/carservicemacon/"} target={"_blank"} className="anchor" rel="noopener noreferrer"> transport </Link>.</p>
+                                        <p>We have different vehicles featuring Sedans, Hybrids, 56 passengers, and Motor Coaches. Also, we offer SUVs, limousines, executive Vans, luxury minibusses for up to 39 passengers, and party buses from 12 to 25 passengers. We assure safe, smooth, and on-time solutions for <a href="https://www.facebook.com/carservicemacon/" target={"_blank"} className="anchor" rel="noopener noreferrer"> transport </a>.</p>
                                
                                     </div>
                                 </div>
@@ -56,7 +57,7 @@ class Savannah extends Component {
                                         <div className="allegiant-stadium text-center">
                                             <img src={Savannahcarserviceimg} alt="Savannah, Georgia"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -113,7 +114,7 @@ class Savannah extends Component {
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/o5twKf5Hk8BnD3HG9">34 Habersham St, Savannah, GA 31211, Georgia, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/o5twKf5Hk8BnD3HG9" rel="noopener noreferrer">34 Habersham St, Savannah, GA 31211, Georgia, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

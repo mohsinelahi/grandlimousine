@@ -14341,6 +14341,18 @@ a.custom-btn:hover {
 .inner-banner .bnr-content h6 {
     margin-bottom: 15px;
 }
+.inner-banner .bnr-content h2 a {
+    font-size: 38px;
+}
+.inner-banner .bnr-content h2 a,
+.inner-banner .bnr-content h3 a, 
+.inner-banner .bnr-content h3 {
+    font-weight: 600;
+}
+.inner-banner .bnr-content h3 {
+    font-size: 40px;
+    margin: 40px 0 0 0;
+}
 
 .section-top {
     margin-top: 60px;

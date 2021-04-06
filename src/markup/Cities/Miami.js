@@ -110,7 +110,36 @@ class Miami extends Component {
                                     <h2 className="box-title">Check out Grand Car Services in Miami</h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
-                                <Carservices />
+                                
+                                <div className="car-services">
+                                    <div className="row">
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4> Grand Service</h4>
+                                            <p>With Grand, you can enjoy premium quality Limousine Services and exceptional Car Service in Miami. We have a team of professional and responsible members and state-of-the-art technological facilities. Enjoy a complete range of Chauffeur car service & grand Limousine service with us. Our town car service facilities are available for both families and business people with busy working schedules.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4>Airport & Hotel Transfers</h4>
+                                            <p>Enjoy a reliable and affordable transfer with us to or from your hotel to any airport. Grand Limousine is the best choice for chauffeur car services accessible in the pocket. Our helpful team of experienced chauffeurs will smoothly drive you through daily traffic. We assure you that you will reach the airport on time and won’t miss the flight. We are on time, every time.</p>
+                                        </div>
+                                        <div className="col-md-4 border-bottom">
+                                            <h4>Corporate Transportation</h4>
+                                            <p>We offer high-end car and limousine services that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million-dollar contract. All of our grand corporate cars are of high quality, and we provide you with exclusive limousine services for your business deals.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Wedding</h4>
+                                            <p>Our Grand Limousine offers the best means of wedding transport. With our wedding limousine services, you can arrive at your wedding venue in style and grandeur. You want everything in the best condition for your wedding day and considering that, we serve you accordingly. We offer a wide range of limousines and do our best to make your dream come true.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Prom</h4>
+                                            <p>A prom day is something that every teenager wants to make special. And nothing is better than making a statement entry in a grand limousine. With Grand Limousine, you will start enjoying the night even before the party begins. With your limo or party bus, you will enjoy the ride like a prom king or queen.</p>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <h4>Bachelor / Bachelorette</h4>
+                                            <p>A bachelor party means a grand celebration in a bachelor’s life, and you want to spend it with your friends. You want it to be a lifetime experience. Choose our party buses as this is the best means of transport to travel around the different party spots no matter where you are. Grand Limousine offers the most awesome party buses in your area.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

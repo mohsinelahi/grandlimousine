@@ -4,6 +4,8 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Sanfranciscoservices from '../Element/Sanfranciscoservices';
 import Newyorkbanner from '../Element/SanfranciscoBanner';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
+import Havequestion from '../Element/Havequestion';
 
 var limochauffeurserviceimg = require('../../images/cities/limo_chauffeur_service.jpg');
 
@@ -41,9 +43,9 @@ class Newyork extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={limochauffeurserviceimg}></img>
+                                            <img src={limochauffeurserviceimg} alt="car service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -61,9 +63,9 @@ class Newyork extends Component {
                         <div className="container">
        
                             <ul className="atlanta-serivces">
-                                <li> <Link to={"/locations/new-york-car-service/"}> New York Car Service </Link> </li>
-                                <li> <Link to={"/locations/new-york-limousine/"}> New York Limousine </Link> </li>
-                                <li> <Link to={"/locations/new-york-party-bus/"}> New York Party Bus </Link> </li>
+                                <li> <Link to={"/locations/new-york-car-service/"} rel="noopener noreferrer"> New York Car Service </Link> </li>
+                                <li> <Link to={"/locations/new-york-limousine/"} rel="noopener noreferrer"> New York Limousine </Link> </li>
+                                <li> <Link to={"/locations/new-york-party-bus/"} rel="noopener noreferrer"> New York Party Bus </Link> </li>
                             </ul>
                         
                             <p>With us, you can explore some of the most exotic places in New York. Enjoy the sights and take pleasure with our insider’s tours of the tourist attractions. We accompany your group on special events and offer you the best support in Wi-Fi, refreshment, and a travel guide. Our chauffeurs know, years of experience, dedication, sincerity, and passion.</p>
@@ -86,10 +88,10 @@ class Newyork extends Component {
                             <h4>Experienced Chauffers in New York</h4>
                             <p>To ensure you get a premium quality car and limousine service, one of the most experienced and talented management teams, leads the New York limousine. Our reputation, development, and expansion allow us to get the attention of high management proficiency in the business.</p>
                             <p>Our chauffeurs take pride in offering the best transport and customer support. Our highly proficient management crew has introduced an innovative trend of limousine service in New York. We aim at providing extraordinary and grand car service every time, every day, whenever you go for a trip. That is why our Grand Limousine is the best choice for transport in New York.</p>
-                            <p>No one in the business can beat the competitive rate and premium quality service we provide. Check out why service providers throughout New York and in the surrounding area of the country prefer choosing us over anyone else for their transport.</p>
+                            <p>No one in the business can beat the competitive rate and premium quality service we provide. Check out why service providers throughout New York and in the surrounding area of the country prefer choosing us over anyone else for their <Link to={"/locations/houston-car-service/"} className="anchor" rel="noopener noreferrer"> transport</Link>.</p>
 
                             <h4>The all-inclusive solution for transportation in New York</h4>
-                            <p>With us, you will get shared grand limousine services for airport transfers, transport for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all limousines and car service needs. From sedans to motor coaches–we have everything to meet your needs.</p>
+                            <p>With us, you will get shared grand limousine services for airport transfers, <a href="https://www.facebook.com/grandhoustontx/" target="_blank" className="anchor" rel="noopener noreferrer"> transport </a> for a private trip, group travel, corporate outings, weddings, night-out, and various other facilities. We offer a one-stop solution for all limousines and car service needs. From sedans to motor coaches–we have everything to meet your needs.</p>
                             <p>We offer our town car services worldwide, and we are one of the trusted names in this business. We leave you no chance to find fault with our services. It is a seamless grand car service that you can enjoy with our Grand Limousine. Just one phone call, and that is all. On the ground of transportation, we solve your problems with a finger click!</p>
                             <p>Check out our entire website to unveil the secrets why people in New York and the surrounding area prefer dealing only with Grand Limousine. Call us at (404) 424-4499 to contact us or if you have any queries about our car and limousine services.</p>
 
@@ -105,10 +107,37 @@ class Newyork extends Component {
                                     <h2 className="box-title"> Check out Grand Car Services in New York </h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
-                                <Sanfranciscoservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5> </div>
+
+                                <div className="car-services">
+                                    <div className="row">
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4> Grand New York</h4>
+                                            <p>With us, you can enjoy premium quality Limousine Services and exceptional Car Service in New York. We have a team of professional and responsible members and state-of-the-art technological facilities. Enjoy a complete range of Chauffeur car service & grand Limousine service with us. Our town car service facilities are available for both families and business people with busy working schedules.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4>Grand Hotel and Airport Transfers</h4>
+                                            <p>Enjoy a reliable and affordable transfer with us to or from your hotel to any airport. Grand Limousine is the best choice for chauffeur car services accessible in the pocket. Our helpful team of experienced chauffeurs will smoothly drive you through daily traffic. We assure you that you will reach the airport on time and won’t miss the flight. We are on time, every time.</p>
+                                        </div>
+                                        <div className="col-md-4 border-bottom">
+                                            <h4>Corporate Transportation</h4>
+                                            <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Wedding</h4>
+                                            <p>Our Grand Limousine offers the best means of wedding transport. With our wedding limousine services, you can arrive at your wedding venue in style and grandeur. For your wedding day, you want everything in the best condition and considering that we serve you accordingly. We offer a wide range of <Link to={"/locations/new-york-party-bus/"} className="anchor" rel="noopener noreferrer"> limousines </Link> and do our best to make your dream come true.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Prom</h4>
+                                            <p>A prom day is something that every teenager wants to make special. And nothing is better than making a statement entry in a grand limousine. With Grand Limousine, you will start enjoying the night even before the party begins. With your limo or party bus, you will enjoy the ride like a prom king or queen.</p>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <h4>Bachelor / Bachelorette</h4>
+                                            <p>A bachelor party means a grand celebration in a bachelor’s life, and you want to spend it with your friends. You want it to be a lifetime experience. Choose our party buses as this is the best means of transport to travel around the different party spots no matter where you are. Grand Limousine offers the most awesome party buses in your area.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
@@ -126,12 +155,12 @@ class Newyork extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/9uubc7FoP6nw9JN28">38 E 37th St, New York, NY 10016, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/9uubc7FoP6nw9JN28" rel="noopener noreferrer">38 E 37th St, New York, NY 10016, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

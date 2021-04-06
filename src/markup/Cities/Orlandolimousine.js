@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
-import Carservices from '../Element/Carservices';
 import Orlandobanner from '../Element/Orlandobanner';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
+import Havequestion from '../Element/Havequestion';
 
 
 var Orlandimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -52,9 +53,9 @@ class Orlandolimousine extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Orlandimg1}></img>
+                                            <img src={Orlandimg1} alt="Orlando limousine and private chauffeur service"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -88,9 +89,7 @@ class Orlandolimousine extends Component {
                             <p>You can contact us to book for your wedding. We offer several packages so that you can choose one as per your requirement. All our facilities are available at reasonable rates. We offer customized transportation as per the theme of your wedding party. You will enjoy a great audio system and comfortable seating that we arrange for up to 20 passengers.</p>
                             <p>With us, you can arrive at your destination in high style. That is why contact us for airport limousine, town car service, party bus, airport transport, etc. Whether you want to pre-book your transport or you want to go for a last-minute booking, you can contact us. We offer the reassurance of consistent traffic at the best prices.</p>
                                         
-               
-               
-               
+
                </div>
                     </div>
                 </section>
@@ -103,18 +102,42 @@ class Orlandolimousine extends Component {
                                     <h2 className="box-title">Car Services In Orlando Florida</h2>
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
-                        
-                                <Carservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5>
+
+                                <div className="car-services">
+                                    <div className="row">
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4> Limousine & Luxury Car </h4>
+                                            <p>With us, you can enjoy premium quality Airport Limousine and exceptional premium Airport Car Service. We have a team of professional and responsible members and state-of-the-art technological facilities. Enjoy a complete range of Chauffeurs & Luxury Limousine with us. Our transport facilities are available for both families and business people with busy <Link to={"/summer-travel-tips-usa/"} className="anchor" rel="noopener noreferrer"> working </Link> schedules.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right border-bottom">
+                                            <h4>Airport & Hotel Transfers</h4>
+                                            <p>Enjoy a reliable and affordable transfer with us to or from your hotel to any airport. Grand Car is the best choice for chauffeur transfer services accessible on the <Link to={"/wedding-limo/"} className="anchor" rel="noopener noreferrer"> pocket</Link>. Our helpful team of experienced chauffeurs will smoothly drive you through daily traffic. We assure you that you will reach the airport on time and won’t miss the flight. We are on time, every time.</p>
+                                        </div>
+                                        <div className="col-md-4 border-bottom">
+                                            <h4>Corporate Transportation</h4>
+                                            <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Wedding</h4>
+                                            <p>With our wedding limousine, you can arrive at your wedding venue in style and grandeur. For <Link to={"/locations/gray-car-service/"} className="anchor" rel="noopener noreferrer"> your </Link> wedding day, you want <Link to={"/locations/jacksonville-party-bus/"} className="anchor" rel="noopener noreferrer"> everything </Link> in the best <Link to={"/locations/columbus-limousine/"} className="anchor" rel="noopener noreferrer"> condition </Link> and considering that we serve you accordingly. We offer a wide range of limousines and do our best to make your dream come true.</p>
+                                        </div>
+                                        <div className="col-md-4 border-right ">
+                                            <h4>Prom</h4>
+                                            <p>A prom day is something that every teenager wants to be unique. And nothing is better than making a <Link to={"/summer-travel-tips-usa/"} className="anchor" rel="noopener noreferrer"> statement </Link> entry in a luxury or luxury car. You can start enjoying the night even before the party begins. With Orlando Car Service, Limo or Party Bus, you will enjoy the ride like a prom king or queen.</p>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <h4>Bachelor / Bachelorette</h4>
+                                            <p>A bachelor party is the last celebration of a bachelor’s life, and you want to spend it with your friends. You want it to be a <Link to={"/locations/atlanta-party-bus/"} className="anchor" rel="noopener noreferrer"> lifetime </Link> experience. Choose our party buses as this is the best means of transport to travel around the different party spots no matter <Link to={"/locations/columbus-car-service/"} className="anchor" rel="noopener noreferrer"> where </Link> you are. Houston Limo offers the most extraordinary party buses in your <Link to={"/locations/houston-car-service/"} className="anchor" rel="noopener noreferrer">area</Link>.</p>
+                                        </div>
+                                    </div>
                                 </div>
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
                 </section>
 
-                
+
                 <section className="section-full cities-sec-four">
                     <div className="cities-content heading">
                         <div className="container">
@@ -126,12 +149,12 @@ class Orlandolimousine extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />    
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/jZmYG2YbbYTXzx9JA">142 E Jackson St, Orlando, FL 32801, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/jZmYG2YbbYTXzx9JA" rel="noopener noreferrer">142 E Jackson St, Orlando, FL 32801, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>

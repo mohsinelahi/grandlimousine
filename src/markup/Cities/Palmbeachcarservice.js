@@ -4,6 +4,8 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import Carservices from '../Element/Carservices';
 import Orlandobanner from '../Element/Orlandobanner';
+import Bookyourlimousine from '../Element/Bookyourlimousine';
+import Havequestion from '../Element/Havequestion';
 
 
 var Palmbeachimg1 = require('../../images/cities/limo_chauffeur_service.jpg');
@@ -42,9 +44,9 @@ class Palmbeachcarservice extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={Palmbeachimg1}></img>
+                                            <img src={Palmbeachimg1} alt="Palm Beach Car Service Palm Beach (PBI) Airport Limousine"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
-                                                <a href="/contact-us">Contact Us</a>
+                                                <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>
                                             </div>
                                         </div>
@@ -62,11 +64,11 @@ class Palmbeachcarservice extends Component {
                         <div className="container">
        
                             <h4>Why use Palm Beach Car Service?</h4>
-                            <p>When you need to reach a business meeting or the airport on time, using Palm Beach <Link to={"/limousine-service/"} className={"anchor"}> Car Service  </Link> takes a huge load off your mind. It is no doubt the best alternative to public transportation. You don’t need to worry about being stuck in traffic anymore. Our experienced and professional chauffeur will take you to your destination in Palm Beach on time.</p>
+                            <p>When you need to reach a business meeting or the airport on time, using Palm Beach <Link to={"/limousine-service/"} className={"anchor"} rel="noopener noreferrer"> Car Service  </Link> takes a huge load off your mind. It is no doubt the best alternative to public transportation. You don’t need to worry about being stuck in traffic anymore. Our experienced and professional chauffeur will take you to your destination in Palm Beach on time.</p>
                             <p>Palm Beach limousine service aims to make your experience truly unique. Our amenities will make your ride unforgettable. The facilities include large and comfortable seating arrangements, sound systems, armrests, ample legroom, leather interior, reading lights, and more.</p>
-                            <p>You can book our limousine service to make your wedding special. Luxury vehicles like stretch limousines, sedans, etc., make for great wedding pictures. You can use the Palm Beach town car service to transport a wedding party. We will take care of the needs of your wedding guests. We have been providing <Link to={"/wedding-transportation/"} className={"anchor"}> wedding Palm Beach Car Service </Link> in Palm Beach for several years. So, if you are looking for the most reliable <Link to={"/wedding-transportation/"} className={"anchor"}> wedding transportation </Link> service provider in the city, you can count on us.</p>
+                            <p>You can book our limousine service to make your wedding special. Luxury vehicles like stretch limousines, sedans, etc., make for great wedding pictures. You can use the Palm Beach town car service to transport a wedding party. We will take care of the needs of your wedding guests. We have been providing <Link to={"/wedding-transportation/"} className={"anchor"} rel="noopener noreferrer"> wedding Palm Beach Car Service </Link> in Palm Beach for several years. So, if you are looking for the most reliable <Link to={"/wedding-transportation/"} className={"anchor"} rel="noopener noreferrer"> wedding transportation </Link> service provider in the city, you can count on us.</p>
                             <p>You can book our party bus to get around the city and see the top attractions, including Henry Morrison Flagler Museum, Worth Avenue, Lake Trail, Paramount Theater Building, Phipps Ocean Park, etc. You can book a party bus for a night out, prom, bachelor party, etc. as well. Our party bus has all the great amenities and can comfortably accommodate you and your group.</p>
-                            <p>We offer a wide array of transportation options to suit any occasion and budget. Our fleet vehicles <Link to={"https://grandlimousinedotblog.wordpress.com/2017/08/11/news/"} target={"_blank"} className={"anchor"}> include </Link> SUV, town car, party bus, sedan, <Link to={"/locations/palm-beach-limousine//"} className={"anchor"}> limousines </Link>, etc.</p>
+                            <p>We offer a wide array of transportation options to suit any occasion and budget. Our fleet vehicles <a href="https://grandlimousinedotblog.wordpress.com/2017/08/11/news/" target={"_blank"} className={"anchor"} rel="noopener noreferrer"> include </a> SUV, town car, party bus, sedan, <Link to={"/locations/palm-beach-limousine//"} className={"anchor"} rel="noopener noreferrer"> limousines </Link>, etc.</p>
 
                </div>
                     </div>
@@ -81,11 +83,7 @@ class Palmbeachcarservice extends Component {
                                     <div className="dlab-separator bg-primary"></div>
                                 </div>
                         
-                                <Carservices />
-                                <div className="book-your-car text-center">
-                                    <p>We offer high-end solutions for transport that we have designed to suit your business needs. You can rely on our strong business ethics. With us, you will arrive at your business meeting or corporate event in style. Also, you will get the confidence to sign that million dollar contract. All of our corporate cars are of high quality, and we provide you with an exclusive means of transport to your business deals.</p>
-                                    <h5> Call now at <a href="4044244499"> (404) 424-4499 </a> to book your limousine! </h5>
-                                </div>
+                                <Bookyourlimousine />
                             </div>
                         </div>
                     </div>
@@ -103,12 +101,12 @@ class Palmbeachcarservice extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 text-center">
-                                        <h5>Have Questions?</h5>
-                                        <p>We are here to <a href="#" className="anchor"> help</a>.</p> <a href="/contact-us/" className="custom-btn">Contact Us</a> </div>
+                                        <Havequestion />    
+                                    </div>
                                     <div className="col-md-6 text-center">
                                         <h5>Local Team</h5>
                                         <ul>
-                                            <li>Address: <a href="https://goo.gl/maps/XSNMVSnwnQTrWC3h9">204 Royal Palm Way, Palm Beach, FL 33480, Florida, USA</a> </li>
+                                            <li>Address: <a href="https://goo.gl/maps/XSNMVSnwnQTrWC3h9" rel="noopener noreferrer">204 Royal Palm Way, Palm Beach, FL 33480, Florida, USA</a> </li>
                                             <li>Phone: <a href="tel:4044244499"> (404) 424-4499</a> </li>
                                             <li>Corporate: <a href="tel:4044244499"> (404) 424-4499</a> EXT. 4</li>
                                         </ul>
