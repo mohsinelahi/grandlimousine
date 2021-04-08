@@ -107,6 +107,7 @@ export default (
           <Route path="/jonesboro-car-service-atlanta-atl/" />
           <Route path="/marietta-car-service-atlanta-atl-airport/" />
           <Route path="/naples-car-service-southwest-rsw/" />
+          <Route path="/naples/" />
           <Route path="/the-woodlands-car-service/"/>
           <Route path="/tomball-car-service/"  />
           <Route path="/tuscaloosa-car-service-birmingham-bhm/"  />
@@ -188,6 +189,21 @@ export default (
           <Route path="/houston-courier-services/"  />
           <Route path="/houston-limo-tours/"/>
           <Route path="/orlando-international-airport/"  />
+          <Route path="/atlanta-thanksgiving-transportation/" />
+          <Route path="/atlanta-airport-fbo-transportation/" />
+          <Route path="/atlanta-fbo-transportation/" />
+          <Route path="/buckhead/" />
+          <Route path="/houston-cruise-port-transportation/" />
+          <Route path="/valdosta-car-service-atlanta-atl-airport-limousine/" />
+          <Route path="/miami-dolphins-football-limo/"  />
+          <Route path="/the-pga-masters-tournament-augusta/"/>
+          <Route path="/milledgeville-car-service-atlanta-atl/"  />
+          <Route path="/milledgeville-car-service/"  />
+          <Route path="/privacy-policy/"  />
+          <Route path="/terms-and-conditions/" />
+          <Route path="/busservice/" />
+          <Route path="/mount-pleasant-municipal-airport-michigan/" />
+          <Route path="/what-to-know-before-choosing-a-passenger-private-transportation-service/" />
 
 
 

@@ -187,6 +187,19 @@ import Houstonfbotransportation from './markup/Carservices/Houstonfbotransportat
 import Houstoncourier from './markup/Carservices/Houstoncourier';
 import Houstonlimotours from './markup/Carservices/Houstonlimotours';
 import Orlandointernationalairport from './markup/Carservices/Orlandointernationalairport';
+import Atlantathanksgiving from './markup/Carservices/Atlantathanksgiving';
+import Atlantafbotransportation from './markup/Carservices/Atlantafbotransportation';
+import Buckheadpage from './markup/Pages/Buckheadpage';
+import Houstoncruiseport from './markup/Carservices/Houstoncruiseport';
+import Valdostaatl from './markup/Carservices/ValdostaATL';
+import Miamidolphinsfootball from './markup/Carservices/Miamidolphinsfootball';
+import Pgamasters from './markup/Carservices/PGAMasters';
+import Milledgeville from './markup/Carservices/Milledgeville';
+import Privacypolicy from './markup/Pages/Privacypolicy';
+import Termsandconditions from './markup/Pages/Termsandconditions';
+import Busservice from './markup/Services/Busservice';
+import Mountpleasant from './markup/Services/MountPleasant';
+import Whattoknow from './markup/Carservices/Whattoknow';
 
 
 function App() {
@@ -299,6 +312,7 @@ function App() {
           <Route path="/jonesboro-car-service-atlanta-atl/" component={Jonesboro} />
           <Route path="/marietta-car-service-atlanta-atl-airport/" component={Marietta} />
           <Route path="/naples-car-service-southwest-rsw/" component={Naples} />
+          <Route path="/naples/" component={Naples} />
           <Route path="/the-woodlands-car-service/" component={Woodlands} />
           <Route path="/tomball-car-service/" component={Tomball} />
           <Route path="/tuscaloosa-car-service-birmingham-bhm/" component={Tuscaloosa} />
@@ -381,7 +395,21 @@ function App() {
           <Route path="/houston-courier-services/" component={Houstoncourier} />
           <Route path="/houston-limo-tours/" component={Houstonlimotours} />
           <Route path="/orlando-international-airport/" component={Orlandointernationalairport} />
-
+          <Route path="/atlanta-thanksgiving-transportation/" component={Atlantathanksgiving} />
+          <Route path="/atlanta-airport-fbo-transportation/" component={Atlantafbotransportation} />
+          <Route path="/atlanta-fbo-transportation/" component={Atlantafbotransportation} />
+          <Route path="/buckhead/" component={Buckheadpage} />
+          <Route path="/houston-cruise-port-transportation/" component={Houstoncruiseport} />
+          <Route path="/valdosta-car-service-atlanta-atl-airport-limousine/" component={Valdostaatl} />
+          <Route path="/miami-dolphins-football-limo/" component={Miamidolphinsfootball} />
+          <Route path="/the-pga-masters-tournament-augusta/" component={Pgamasters} />
+          <Route path="/milledgeville-car-service-atlanta-atl/" component={Milledgeville} />
+          <Route path="/milledgeville-car-service/" component={Milledgeville} />
+          <Route path="/privacy-policy/" component={Privacypolicy} />
+          <Route path="/terms-and-conditions/" component={Termsandconditions} />
+          <Route path="/busservice/" component={Busservice} />
+          <Route path="/mount-pleasant-municipal-airport-michigan/" component={Mountpleasant} />
+          <Route path="/what-to-know-before-choosing-a-passenger-private-transportation-service/" component={Whattoknow} />
 
 
         </Switch>
