@@ -200,6 +200,15 @@ import Termsandconditions from './markup/Pages/Termsandconditions';
 import Busservice from './markup/Services/Busservice';
 import Mountpleasant from './markup/Services/MountPleasant';
 import Whattoknow from './markup/Carservices/Whattoknow';
+import Luxuryvehicle from './markup/Services/Luxuryvehicle';
+import Digitalimage from './markup/Services/Digitalimage';
+import Greatwood from './markup/Carservices/Greatwood';
+import Cincoranch from './markup/Carservices/Cincoranch';
+import Petersburg from './markup/Carservices/Petersburg';
+import Sugarloaf from './markup/Carservices/Sugarloaf';
+import Sandysprings from './markup/Carservices/Sandysprings';
+import Portcanaveral from './markup/Carservices/Portcanaveral';
+import Sanjose from './markup/Services/Sanjose';
 
 
 function App() {
@@ -410,6 +419,18 @@ function App() {
           <Route path="/busservice/" component={Busservice} />
           <Route path="/mount-pleasant-municipal-airport-michigan/" component={Mountpleasant} />
           <Route path="/what-to-know-before-choosing-a-passenger-private-transportation-service/" component={Whattoknow} />
+          <Route path="/luxury-vehicle/" component={Luxuryvehicle} />
+          <Route path="/digital-image/" component={Digitalimage} />
+          <Route path="/greatwood-car-service-houston-hou-airport/" component={Greatwood} />
+          <Route path="/cinco-ranch-car-service-houston-hou-airport/" component={Cincoranch} />
+          <Route path="/st-petersburg-car-service-orlando-mco/" component={Petersburg} />
+          <Route path="/sugar-loaf-car-service-atlanta-atl-airport/" component={Sugarloaf} />
+          <Route path="/sandy-springs-car-service-atlanta-atl/" component={Sandysprings} />
+          <Route path="/port-canaveral-limousine/" component={Portcanaveral} />
+          <Route path="/san-jose-international-airport/" component={Sanjose} />
+
+
+
 
 
         </Switch>
