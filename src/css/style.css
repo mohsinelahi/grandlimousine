@@ -127,7 +127,7 @@ body {
     margin: 0;
     overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+    font-smooth: antialiased;
 }
 a {
     color: #606269;
@@ -1541,7 +1541,7 @@ dl dd {
 /*effect 9*/
 
 .dlab-img-overlay9:before,
-.dlab-img-overlay9:after {} .dlab-img-overlay9:after {
+.dlab-img-overlay9:after, .dlab-img-overlay9:after {
     left: auto;
     right: 0;
     top: auto;
@@ -1719,7 +1719,7 @@ dl dd {
     position: relative;
     overflow: hidden;
     display: block;
-	vertical-align: middle;
+	/* vertical-align: middle; */
 }
 .dlab-img-effect img {
     display: block;
@@ -2212,6 +2212,7 @@ input[type=checkbox] + label:after {
     color: #fff;
     content: "\f00c";
     font-family: FontAwesome;
+    font-display: fallback;
     font-size: 0px;
     -webkit-font-smoothing: antialiased;
     left: 6px;
@@ -2311,6 +2312,7 @@ input[type=radio]:checked + label:before {
     content: "\f006";
     display: inline-block;
     font-family: FontAwesome;
+    font-display: fallback;
     font-size: 20px;
     -webkit-font-smoothing: antialiased;
     height: 14px;
@@ -2500,6 +2502,7 @@ blockquote p {
 blockquote:before {
     content: '\f10d';
     font-family: "FontAwesome";
+    font-display: fallback;
     color: #EFBB20;
     font-size: 35px;
     position: absolute;
@@ -3028,6 +3031,7 @@ blockquote:before {
     -o-transition: all 0.15s linear;
 	font-weight: 500;
 	font-family: "Montserrat",sans-serif;
+    
 }
 .header-nav .nav > li .sub-menu li:hover > a {
     background-color: var(--bg-color);
@@ -3186,6 +3190,7 @@ blockquote:before {
     content: "\f078";
     display: block;
     font-family: "FontAwesome";
+    font-display: fallback;
     right: 4px;
     position: absolute;
     top: 50%;
@@ -3195,7 +3200,7 @@ blockquote:before {
 }
 /* Header Center */
 .site-header.center .header-nav .nav {
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     width: 35%;
 }
@@ -4173,9 +4178,7 @@ blockquote:before {
 	color:#fff;
 	opacity:0.8;
 }
-.next-element i{
-	
-}
+
 .dlab-bnr-inr .breadcrumb-row ul li:after,
 .dlab-bnr-inr .breadcrumb-row ul li:last-child{
 	color:#fff;
@@ -4394,6 +4397,7 @@ blockquote:before {
     margin: 5px 7px;
     background: #d6d6d6;
     display: block;
+    backface-visibility: visible;
     -webkit-backface-visibility: visible;
     -webkit-transition: opacity 200ms ease;
     -moz-transition: opacity 200ms ease;
@@ -4409,9 +4413,7 @@ blockquote:before {
     background: #869791
 }
 /* owl dots style */
-.owl-theme.dots-style-1 .owl-dots .owl-dot {
-	
-}
+
 .owl-theme.dots-style-1 .owl-dots .owl-dot span,
 .owl-theme.dots-style-2 .owl-dots .owl-dot span {
 	background: rgba(0,0,0,0.2);
@@ -4975,7 +4977,7 @@ blockquote:before {
 	list-style:none;
 }
 .share-btn ul li{
-	display:inline-block;
+	/* display:inline-block; */
 	margin-left: -40px;
 	float: left;
 	transition:all 0.5s;
@@ -5083,6 +5085,7 @@ blockquote:before {
 .nav-links .nav-next a:after {
     content: "\f105";
     font-family: "FontAwesome";
+    font-display: fallback;
     vertical-align: middle;
     margin-left: 2px;
     color: #333;
@@ -5356,6 +5359,7 @@ ol.comment-list li.comment .comment-meta a {
 ol.comment-list li.comment .comment-meta:before,
 ol.comment-list li.comment .reply a:before {
     font-family: "FontAwesome";
+    font-display: fallback;
     font-size: 15px;
     vertical-align: top;
 }
@@ -5459,6 +5463,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .comments-area p:before {
     font-family: "themify";
+    font-display: fallback;
     display: inline-block;
     position: absolute;
     left: 15px;
@@ -6083,7 +6088,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	}
 }
 .widget_gallery li {
-    display: inline-block;
+    /* display: inline-block; */
     width: 33.33%;
 	float:left;
 	transition:all 0.5s;
@@ -6146,6 +6151,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .news-box:before {
 	font-family:themify;
+    font-display: fallback;
 	content:"\e75a";
 	font-size: 50px;
     font-weight: 700;
@@ -6419,6 +6425,7 @@ a,
 
 /* Bootstrap button */
 .btn {
+    user-select: none;
     -moz-user-select: none;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 4px;
@@ -7981,6 +7988,7 @@ a,
 .list-heart li:before,
 .list-star li:before {
     font-family: "themify";
+    font-display: fallback;
     position: absolute;
     left: 0;
     top: 5px;
@@ -8011,6 +8019,7 @@ ul[class*="list-"]{
 .list-checked li:before {
     content: "\e64d";
 	font-family: 'themify';
+    font-display: fallback;
 	font-size: 15px;
 }
 .list-icon-box li:before {
@@ -8430,6 +8439,7 @@ ul[class*="list-"]{
 }
 .acod-head a:after {
     font-family:"themify";
+    font-display: fallback;
     content: "\e622";
     float: right;
     color: #EFBB20;
@@ -8447,6 +8457,7 @@ ul[class*="list-"]{
     content: "\e61a";
 	font-size:16px;
 	font-family: "themify";
+    font-display: fallback;
 }
 .acod-body {
     border-left: 1px solid #ebedf2;
@@ -9397,6 +9408,7 @@ ul[class*="list-"]{
 	bottom: -10px;
     color: #000000;
     font-family: "themify";
+    font-display: fallback;
     font-size: 80px;
     opacity: 0.1;
     position: absolute;
@@ -10811,9 +10823,7 @@ ul[class*="list-"]{
 
 
 /* pagination color */
-.pagination-bx.primary{
-	
-}
+
 .pagination-bx.primary .pagination > li > a, 
 .pagination-bx.primary .pagination > li > span{
 	background-color:#1abc9c;
@@ -11266,7 +11276,7 @@ footer.footer-white .footer-bottom a {
 }
 /*= Section Content Part =*/
 
-.section-content {} @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .section-full {
         background-attachment: scroll !important;
     }
@@ -11623,6 +11633,7 @@ ol.commentlist li .star-rating {
 	transition:all 0.5s;
 	transition:all 0.5s;
 	-webkit-transition:all 0.5s;
+    transform: translate(0px, -50%);
     -moz-transform: translate(0px, -50%);
     -moz-transform: translate(0px, -50%);
     -o-transform: translate(0px, -50%);
@@ -11898,9 +11909,7 @@ ol.commentlist li .star-rating {
 		width:100%;
 		display:block;
 	}	
-	.team-mamber-img, .team-info-box{
-		
-	}
+
 }
 
 /*---------------------------------------------------------------
@@ -12791,9 +12800,7 @@ ol.commentlist li .star-rating {
 .shop-categories .acod-content{
 	margin:15px 0 15px;
 }
-.shop-categories .collapsed{
-	
-}
+
 .shop-categories .acod-head a.collapsed:after,
 .shop-categories .acod-head a:after{
 	font-family: open sans;
@@ -12994,9 +13001,7 @@ ol.commentlist li .star-rating {
     padding: 10px 15px;
 	opacity:0.8;
 }
-.site-filters .filter-curs li {
-	
-}
+
 .site-filters .filter-curs li.active a{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1ebbf0+8,39dfaa+100 */
 	background: #1ebbf0; /* Old browsers */
@@ -13051,9 +13056,7 @@ ol.commentlist li .star-rating {
     padding: 9px 30px;
     text-transform: uppercase;
 }
-.buy-now a:hover{
-	
-}
+
 .trigger-logo{
 	border-right: 1px solid rgba(0, 0, 0, 0.1);
     height: 50px;
@@ -13091,6 +13094,7 @@ ol.commentlist li .star-rating {
 }
 .trigger-down  .bootstrap-select.btn-group .dropdown-toggle .caret:after{
 	font-family: "themify";
+    font-display: fallback;
 	content:"\e64b";
 	font-size: 15px;
     font-weight: 100;
@@ -13379,9 +13383,7 @@ ol.commentlist li .star-rating {
 }
 
 /* Plugine box */
-.plugine-box{
-	
-}
+
 /* 	Hover Effects 
 	> Box Shadow Hover
 
@@ -13781,9 +13783,7 @@ ol.commentlist li .star-rating {
 	}
 }
 
-.listing-filters ul{
-	
-}
+
 .listing-filters ul li{
 	margin:0;
 	border:0;
@@ -13858,9 +13858,7 @@ ol.commentlist li .star-rating {
 .listing-filters.text-white ul li a span{
 	color:#fff;
 }
-.listing-bx.style-2 .listing-info{
-	
-}
+
 .listing-bx.style-2 .title{
 	font-family:Roboto;
 }
@@ -13957,10 +13955,7 @@ ol.commentlist li .star-rating {
 .slide-filter-bx{
 	display:flex;
 }
-.filter-style2-area,
-.location-carousel-bx{
-	
-}
+
 .filter-style2-area{
     flex: 0 0 530px;
     max-width: 530px;
@@ -14798,7 +14793,10 @@ ul.atlanta-serivces li:not(:last-child):before {
     pointer-events: none;
 }
 
-
+/* .featured-bx .featured-media img {
+    width: 100%;
+    height: 340px;
+} */
 
 
 

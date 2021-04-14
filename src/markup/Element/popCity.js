@@ -43,7 +43,7 @@ class popCity extends Component{
 					
 						<div className="featured-bx m-b30">
 							<div className="featured-media">
-								<Link to={item.Link}> <img src={item.image} alt={item.alt}/> </Link>
+								<Link to={item.Link}> <img src={item.image} alt={item.alt} width={"100%"} height={"340px"}/> </Link>
 								
 							</div>	
 							<div className="featured-info">

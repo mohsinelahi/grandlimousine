@@ -224,6 +224,7 @@ import Oceandrive from './markup/Services/Oceandrive';
 import Planning from './markup/Services/Planning';
 import Richmondhill from './markup/Carservices/Richmondhill';
 import Airporttransfers from './markup/Services/Airporttransfers';
+import Atlantacustomers from './markup/Carservices/Atlantacustomers';
 
 
 function App() {
@@ -459,6 +460,7 @@ function App() {
           <Route path="/planning/" component={Planning} />
           <Route path="/richmond-hill-car-service-jacksonville-jax/" component={Richmondhill} />
           <Route path="/airport-transfer/" component={Airporttransfers} />
+          <Route path="/the-car-service-atlanta-that-wins-customers/" component={Atlantacustomers} />
 
 
 

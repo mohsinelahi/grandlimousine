@@ -24,15 +24,10 @@
     -->
     <title>Grand Limousine</title>
 
-  <!-- <link rel="stylesheet" href="./src/css/plugins.css">
-  <link rel="stylesheet" href="./src/css/style.css">
-  <link rel="stylesheet" href="./src/css/skin/skin-1.css"> -->
+  
   <link rel="stylesheet" href="%PUBLIC_URL%/slick/slick.min.css">
   <link rel="stylesheet" href="%PUBLIC_URL%/slick/slick-theme.min.css">
-  <!-- <link rel="stylesheet" type="text/css" charset="UTF-8"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" /> -->
+
 
  <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5P942W4');</script>
@@ -58,10 +53,15 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     
-    <!--Adjust IFrame height based on events --> 
-    <!-- <script> window.addEventListener('message', function(e) {   var messagePrefix = 'frame height: ';   var messageScrollPrefix = 'scroll into view: '; if (e.data.startsWith(messagePrefix))   {     var scrollHeight = e.data.substring(messagePrefix.length);     scrollHeight = parseInt(scrollHeight);     var el = document.getElementById('booking-frame');     var currentHeight = el.style.height;     if (currentHeight.endsWith('px'))       currentHeight = currentHeight.substring(0, currentHeight.length - 2);     if (currentHeight !== scrollHeight)       el.style.height = scrollHeight + 'px';   }  if (e.data.startsWith(messageScrollPrefix)) { scrollElement('#booking-frame'); } }, false); document.getElementById('booking-frame').focus(); function scrollElement(jQuerySelector, pixelsFromTop, continueWith) {   if (!pixelsFromTop) pixelsFromTop = 0;   var navbar = $('header'); var navbarHeight = navbar.length === 0 ? 0 : navbar.height();  var element = $(jQuerySelector);   if (element.length === 0) return;   var domElement = element[0];   if (this.isScrolledIntoView(domElement)) return;   var offset = $(jQuerySelector).offset();   $('body,html').animate({ scrollTop: offset.top - pixelsFromTop - navbarHeight, scrollLeft: offset.left }, 500, continueWith); } function isScrolledIntoView(elem) {   var docViewTop = $(window).scrollTop();   var docViewBottom = docViewTop + $(window).height();   var elemTop = $(elem).offset().top;   var elemBottom = elemTop + $(elem).height();   return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)); } </script> -->
-    <!-- <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous'></script>
-    <script> window.addEventListener('message', function(e) { var messagePrefix = 'frame height: '; var messageScrollPrefix = 'scroll into view: ';if (e.data.startsWith(messagePrefix)) { var scrollHeight = e.data.substring(messagePrefix.length); scrollHeight = parseInt(scrollHeight); var el = document.getElementById('booking-frame'); var currentHeight = el.style.height; if (currentHeight.endsWith('px')) currentHeight = currentHeight.substring(0, currentHeight.length - 2); if (currentHeight !== scrollHeight) el.style.height = scrollHeight + 'px'; }if (e.data.startsWith(messageScrollPrefix)) { scrollElement('#booking-frame'); } }, false); document.getElementById('booking-frame').focus(); function scrollElement(jQuerySelector, pixelsFromTop, continueWith) { if (!pixelsFromTop) pixelsFromTop = 0; var navbar = $('header'); var navbarHeight = navbar.length === 0 ? 0 : navbar.height();  var element = $(jQuerySelector); if (element.length === 0) return; var domElement = element[0]; if (this.isScrolledIntoView(domElement)) return; var offset = $(jQuerySelector).offset(); $('body,html').animate({ scrollTop: offset.top - pixelsFromTop - navbarHeight, scrollLeft: offset.left }, 500, continueWith); } function isScrolledIntoView(elem) { var docViewTop = $(window).scrollTop(); var docViewBottom = docViewTop + $(window).height(); var elemTop = $(elem).offset().top; var elemBottom = elemTop + $(elem).height(); return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)); } </script> -->
-  </body>
 
+
+<!-- <script>
+  window.onload = function(){
+  setTimeout(function(){
+    document.getElementById('booking-frame').src = 'https://account.chauffeurbookingsoftware.com/book/1/123fd7f0-ff6c-4a9d-80fb-05c694c9ed03';
+  },5000);
+  };
+</script> -->
+
+  </body>
 </html>

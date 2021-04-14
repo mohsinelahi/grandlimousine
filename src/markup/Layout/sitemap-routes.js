@@ -227,8 +227,9 @@ export default (
           <Route path="/christmas-party-limo-car-service/"  />
           <Route path="/ocean-drive-south-beach/" />
           <Route path="/planning/" />
-          <Route path="/richmond-hill-car-service-jacksonville-jax/"  />
+          <Route path="/richmond-hill-car-service-jacksonville-jax/" />
           <Route path="/airport-transfer/"  />
+          <Route path="/the-car-service-atlanta-that-wins-customers/" />
 
 
 
