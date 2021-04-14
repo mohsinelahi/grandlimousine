@@ -6,8 +6,6 @@ import Savannahheader from '../Element/Savannahbanner';
 import Toplimousine from '../Element/Toplimousine';
 import Phoenixtable from '../Element/Phoenixtable';
 
-var Dallasserviceimg1 = require('../../images/cities/atlanta-limousine.jpg');
-
 class Phoenix extends Component {
     render() {
         return (

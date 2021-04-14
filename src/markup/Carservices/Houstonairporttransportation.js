@@ -4,7 +4,6 @@ import Header from '../Layout/Header';
 import Footer from '../Layout/Footer';
 import InnerBanner from '../Element/Innerbanner';
 import Toplimousine from '../Element/Toplimousine';
-import Katytable from '../Element/Katytable';
 import Cypresstable from '../Element/Cypresstable';
 
 

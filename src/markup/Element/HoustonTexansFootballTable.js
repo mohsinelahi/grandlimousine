@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 
 
 var houstonairportimg = require ('./../../images/cities/Houstonairport.jpg');
@@ -18,19 +17,19 @@ class Houstontexansfootballtable extends Component {
             <section className="section-full booknowtable">
                     <table>
                             <tbody>
-                                <tr>
-                                    <td valign="bottom"> <img loading="lazy" title="To/From" src={houstonairportimg}></img> </td>
-                                    <td valign="bottom"> <img loading="lazy" title="Sedans" src={sedans}></img> </td>
-                                    <td valign="bottom"> <img loading="lazy" title="Suvs" src={suvs}></img> </td>
-                                    <td valign="bottom"> <img loading="lazy" title="Vans" src={vans}></img> </td>
+                            <tr>
+                                    <td valign="bottom"> <img loading="lazy" title="To/From" alt="JFK Airport -Grand Limousine" src={houstonairportimg}></img> </td>
+                                    <td valign="bottom"> <img loading="lazy" title="Sedans" alt="landing car" src={sedans}></img> </td>
+                                    <td valign="bottom"> <img loading="lazy" title="Suvs" alt="landing car towncar" src={suvs}></img> </td>
+                                    <td valign="bottom"> <img loading="lazy" title="Vans" alt="landing car escalade2" src={vans}></img> </td>
                                 </tr>
                                 <tr style={{backgroundColor: '#3e3e3e', color: '#fff'}}>
                                     <td> <strong>TO/FROM</strong> </td>
-                                    <td> <img loading="lazy" title="Sedans" src={titlesedans}></img> 
+                                    <td> <img loading="lazy" title="Sedans" alt="Sedans" src={titlesedans}></img> 
                                     </td>
-                                    <td> <img loading="lazy" title="Suvs" src={titlesuvs}></img> 
+                                    <td> <img loading="lazy" title="Suvs" alt="Suvs" src={titlesuvs}></img> 
                                     </td>
-                                    <td> <img loading="lazy" title="Vans" src={titlevans}></img> 
+                                    <td> <img loading="lazy" title="Vans" alt="Vans" src={titlevans}></img> 
                                     </td>
                                 </tr>
                                 <tr>
@@ -40,11 +39,11 @@ class Houstontexansfootballtable extends Component {
                                     <td> <strong>$150/Per Hour</strong> </td>
                                 </tr>
                                 <tr>
-                                    <td valign="middle"> <img loading="lazy" title="Luxury/Space" src={landingcarlimo}></img> </td>
-                                    <td colspan="3" valign="middle"> <strong>BLACK CAR SERVICE IN HOUSTON</strong> </td>
+                                    <td valign="middle"> <img loading="lazy" title="Luxury/Space" alt="landing car limo" src={landingcarlimo}></img> </td>
+                                    <td colspan="3" valign="middle"> <strong>NEED MORE LUXURY/SPACE? CALL NOW</strong> </td>
                                 </tr>
                                 <tr style={{backgroundColor: '#3e3e3e'}}>
-                                    <td colspan="4"> <img loading="lazy" class="alignnone" title="Book Now" src={landingphonebottom}></img> </td>
+                                    <td colspan="4"> <img loading="lazy" alt="landing phone bottom 1" class="alignnone" title="Book Now" src={landingphonebottom}></img> </td>
                                 </tr>
                             </tbody>
                         </table>

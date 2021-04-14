@@ -58,15 +58,6 @@ class Header extends Component{
 									<li className="down"><Link to={"#"}>Services <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
 											<li><Link to={"/car-service/"} rel="noopener noreferrer" >Car Service <span className="tag-new">New</span></Link></li>
-											{/* <li><Link to={"/mcdonough-car-service-atlanta-atl/"} rel="noopener noreferrer" >McDonough Car Service <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/peachtree-city-car-service-atlanta-atl/"} rel="noopener noreferrer" >Peachtree City Car Service <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/tampa-car-service-tampa-tpa-airport/"} rel="noopener noreferrer" > Tampa,FL Limousine <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/tampa-bay-buccaneers-football-limo-service/"} rel="noopener noreferrer" > Tampa Bay Buccaneers <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/lawrenceville-car-service-atlanta-atl/"} rel="noopener noreferrer" > Lawrenceville Car Service <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/cumming-car-service/"} rel="noopener noreferrer" > Cumming Car Service <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/sea-island-car-service-jacksonville-jax/"} rel="noopener noreferrer" > Sea Island Car Service <span className="tag-new">New</span></Link></li>
-											<li><Link to={"/grapevine-car-service-dallas-fort-worth-dfw/"} rel="noopener noreferrer" > Grapevine Car Service <span className="tag-new">New</span></Link></li> */}
-
 											<li><Link to={"/limousine-service/"} rel="noopener noreferrer">Limousine Service</Link></li>
 											<li><Link to={"/corporate-transportation/"} rel="noopener noreferrer">Corporate Transportation</Link></li>
 											<li><Link to={"/wedding-transportation/"} rel="noopener noreferrer">Wedding Limousine Service<span className="tag-new">New</span></Link></li>

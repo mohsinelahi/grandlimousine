@@ -43,7 +43,7 @@ class Chicagolimousine extends Component {
                                 <div className="col-md-5">
                                     <div className="right">
                                         <div className="allegiant-stadium text-center">
-                                            <img src={chicagocarserviceimg1}></img>
+                                            <img src={chicagocarserviceimg1} alt="Chicago"></img>
                                             <div className="allegiant-stadium-btn custom-btn">
                                             <Link to={"/contact-us/"} rel="noopener noreferrer"> Contact Us </Link>
                                                 <a href="tel:4044244499"> Call (404) 424-4499  </a>

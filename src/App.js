@@ -8,13 +8,11 @@ import './css/templete-backup.css';
 import './css/skin/skin-1.css';
 
 
-import Markup from './markup/Markup';
 import Homepage from './markup/Pages/Homepage';
 import Post from './markup/Pages/Post';
 import About from './markup/Pages/About';
 import Superbowl from './markup/Pages/Superbowl';
 import Contact from './markup/Pages/Contact';
-import Topcities from './markup/Pages/Topcities';
 import Limousineservice from './markup/Services/Limousineservice';
 import Corporatetransportation from './markup/Services/Corporatetransportation';
 import Weddingtransportation from './markup/Services/Weddingtransportation';
